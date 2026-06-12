@@ -1,0 +1,19 @@
+# API tokens - never commit
+api_token.txt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+
+# Local environment files
+.env
+*.local

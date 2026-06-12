@@ -591,7 +591,7 @@
   <!-- FOOTER: data freshness indicator -->
   <div class="footer">
     <span class="refresh-dot"></span>
-    Data last refreshed: <strong>June 12, 2026 · 08:19 UTC</strong>
+    Data last refreshed: <strong>__BUILD_TIMESTAMP__</strong>
     &nbsp;·&nbsp; 50,000 Monte Carlo simulations &nbsp;·&nbsp; 4 rating engines
   </div>
 
@@ -611,7 +611,7 @@
      1. Static hosting (Cloudflare, GitHub Pages): same-folder JSON file
      2. Shopify theme asset: data URL injected via {{ 'wc2026_data.json' | asset_url }}
    ==================================================================== */
-let DATA = null /* loaded asynchronously - see initData() below */;
+let DATA = /*__DATA_PLACEHOLDER__*/;
 const DATA_URL = window.WC2026_DATA_URL || "wc2026_data.json";
 
 /* ====================================================================
