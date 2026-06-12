@@ -11,6 +11,11 @@ on:
 permissions:
   contents: write             # so the job can commit and push updates
 
+env:
+  # Opt into Node.js 24 for actions. Node.js 20 deprecated on the
+  # runner from June 16, 2026.
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
