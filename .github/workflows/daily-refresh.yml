@@ -27,6 +27,12 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
       - name: Write API token
         run: echo "${{ secrets.FOOTBALL_DATA_TOKEN }}" > api_token.txt
