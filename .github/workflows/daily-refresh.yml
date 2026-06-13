@@ -5,8 +5,11 @@ name: Daily dashboard refresh
 # Actions tab.
 on:
   schedule:
-    - cron: '0 6 * * *'      # 06:00 UTC daily
-  workflow_dispatch: {}      # allow manual runs
+    # Run every 3 hours. GitHub Actions scheduled workflows can be delayed
+    # by 1-2 hours during peak load, so multiple slots per day gives us a
+    # tighter freshness window regardless of which ones actually fire.
+    - cron: '0 */3 * * *'    # 00, 03, 06, 09, 12, 15, 18, 21 UTC
+  workflow_dispatch: {}      # also allow manual triggers
 
 permissions:
   contents: write             # so the job can commit and push updates
@@ -48,6 +51,8 @@ jobs:
           python3 engine_matches.py
           python3 reorder_to_fifa.py
           python3 compute_ranks.py
+          python3 compute_standings.py
+          python3 fetch_scorers.py
           python3 build_live_dashboard.py
 
       - name: Copy dashboard to root (index.html)
@@ -58,7 +63,7 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add dashboard_live.html index.html wc2026_data.json \
-                  simulation_output/ live_results.csv
+                  simulation_output/ live_results.csv squads.csv
           if git diff --staged --quiet; then
             echo "No changes - skipping commit."
           else

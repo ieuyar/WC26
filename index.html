@@ -563,6 +563,26 @@
     </div>
 
     <div class="section">
+      <div class="section-title" id="p3-standings-title">GROUP STANDINGS</div>
+      <div class="section-divider"></div>
+      <table class="squad-table" style="margin-bottom: 20px;">
+        <thead><tr>
+          <th class="center" style="width:48px;">#</th>
+          <th>TEAM</th>
+          <th class="center">P</th>
+          <th class="center">W</th>
+          <th class="center">D</th>
+          <th class="center">L</th>
+          <th class="center">GF</th>
+          <th class="center">GA</th>
+          <th class="center">GD</th>
+          <th class="center">PTS</th>
+        </tr></thead>
+        <tbody id="p3-standings-rows"></tbody>
+      </table>
+    </div>
+
+    <div class="section">
       <div class="section-title">SQUAD ROSTER</div>
       <div class="section-divider"></div>
       <table class="squad-table">
@@ -606,7 +626,7 @@
   <!-- FOOTER: data freshness indicator -->
   <div class="footer">
     <span class="refresh-dot"></span>
-    Data last refreshed: <strong>June 12, 2026 · 21:49 UTC</strong>
+    Data last refreshed: <strong>June 13, 2026 · 09:55 UTC</strong>
     &nbsp;·&nbsp; 50,000 Monte Carlo simulations &nbsp;·&nbsp; 4 rating engines
   </div>
 
@@ -829,6 +849,35 @@ function renderPage3() {
   document.getElementById("p3-mvp-sub").textContent =
     fmtEur(mvp.market_value_eur) + " · " + mvp.club;
 
+  // Live group standings
+  const standingsTitle = document.getElementById("p3-standings-title");
+  if (standingsTitle) standingsTitle.textContent = `GROUP ${sim.group} STANDINGS`;
+  const standingsRows = (DATA.group_standings || [])
+    .filter(s => s.group === sim.group)
+    .sort((a, b) => a.rank - b.rank);
+  const sBody = document.getElementById("p3-standings-rows");
+  if (sBody) {
+    sBody.innerHTML = standingsRows.map(s => {
+      const sel = s.team === team ? "v-gold" : "";
+      const gdSign = s.goal_diff > 0 ? "+" + s.goal_diff
+                    : (s.goal_diff < 0 ? s.goal_diff : "0");
+      return `
+        <tr>
+          <td class="center" style="font-weight:700;">${s.rank}</td>
+          <td class="${sel}" style="font-weight:${s.team === team ? 700 : 500};">${s.team}</td>
+          <td class="center">${s.played}</td>
+          <td class="center">${s.wins}</td>
+          <td class="center">${s.draws}</td>
+          <td class="center">${s.losses}</td>
+          <td class="center">${s.goals_for}</td>
+          <td class="center">${s.goals_against}</td>
+          <td class="center">${gdSign}</td>
+          <td class="center" style="font-weight:700;color:var(--gold);">${s.points}</td>
+        </tr>
+      `;
+    }).join("");
+  }
+
   // Squad table
   const maxVal = sortedByVal[0].market_value_eur;
   const tbody = document.getElementById("p3-squad-rows");
@@ -869,13 +918,20 @@ function initGroupSlicer() {
 }
 
 function formatMatchDate(iso) {
-  // "2026-06-13" -> "Sat 13 Jun"
+  // Renders the FIFA-published match date in the viewer's own timezone.
+  // FIFA publishes the schedule with venue-local dates (US/CAN/MEX time).
+  // We anchor at venue-evening kickoff (approx 20:00 UTC-5) so that a
+  // late-evening US match still shows the right calendar day for an EU
+  // viewer where it actually plays in the early morning.
   if (!iso) return "";
-  const dt = new Date(iso + "T12:00:00Z");
-  const day = dt.toLocaleString("en-GB", { weekday: "short", timeZone: "UTC" });
-  const dom = dt.getUTCDate();
-  const mon = dt.toLocaleString("en-GB", { month: "short", timeZone: "UTC" });
-  return `${day} ${dom} ${mon}`;
+  const dt = new Date(iso + "T20:00:00-05:00"); // ~kickoff in venue time
+  const tz = Intl.DateTimeFormat().resolvedOptions().timeZone || "UTC";
+  return new Intl.DateTimeFormat("en-GB", {
+    weekday: "short",
+    day: "2-digit",
+    month: "short",
+    timeZone: tz,
+  }).format(dt);
 }
 
 function renderPage4() {
