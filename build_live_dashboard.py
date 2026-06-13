@@ -117,6 +117,25 @@ def build_data():
         for r in _read(os.path.join(SO, "engine_match_predictions.csv"))
     ]
 
+    # 48 rows - live group standings (one row per team, sorted within group)
+    standings_path = os.path.join(SO, "group_standings.csv")
+    if os.path.exists(standings_path):
+        out["group_standings"] = [
+            {
+                "group": r["group"], "rank": int(r["rank"]),
+                "team": r["team"],
+                "played": int(r["played"]), "wins": int(r["wins"]),
+                "draws": int(r["draws"]), "losses": int(r["losses"]),
+                "goals_for": int(r["goals_for"]),
+                "goals_against": int(r["goals_against"]),
+                "goal_diff": int(r["goal_diff"]),
+                "points": int(r["points"]),
+            }
+            for r in _read(standings_path)
+        ]
+    else:
+        out["group_standings"] = []
+
     # 48 rows - model vs market
     out["model_vs_market"] = [
         {
