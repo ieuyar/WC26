@@ -5,8 +5,8 @@ A,3,Czechia,1,0,0,1,1,2,-1,0
 A,4,South Africa,1,0,0,1,0,2,-2,0
 B,1,Bosnia and Herzegovina,1,0,1,0,1,1,0,1
 B,2,Canada,1,0,1,0,1,1,0,1
-B,3,Qatar,0,0,0,0,0,0,0,0
-B,4,Switzerland,0,0,0,0,0,0,0,0
+B,3,Qatar,1,0,1,0,1,1,0,1
+B,4,Switzerland,1,0,1,0,1,1,0,1
 C,1,Brazil,0,0,0,0,0,0,0,0
 C,2,Haiti,0,0,0,0,0,0,0,0
 C,3,Morocco,0,0,0,0,0,0,0,0
