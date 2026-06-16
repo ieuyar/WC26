@@ -1,193 +1,193 @@
 engine,team,group,p_qualify,p_win_group,p_reach_qf,p_win_title,rank_win_title,rank_qualify,rank_reach_qf,rank_win_group
-Model,Mexico,A,99.8,81.09,33.22,1.12,10,3,9,3
-Model,South Africa,A,4.88,0.02,0.03,0.0,27,44,42,47
-Model,South Korea,A,97.78,16.78,7.58,0.0,27,12,23,21
-Model,Czechia,A,62.31,2.11,6.08,0.0,27,32,25,34
-Model,Canada,B,95.39,45.24,25.02,0.23,19,18,14,13
-Model,Bosnia and Herzegovina,B,78.2,7.3,1.56,0.0,27,28,34,29
-Model,Qatar,B,10.14,0.25,0.01,0.0,27,41,43,41
-Model,Switzerland,B,92.52,47.21,26.73,0.27,18,20,12,12
-Model,Brazil,C,99.1,61.1,48.06,3.52,6,7,5,9
-Model,Morocco,C,94.71,29.14,13.53,0.04,23,19,22,16
-Model,Haiti,C,1.84,0.05,0.0,0.0,27,46,44,45
-Model,Scotland,C,73.42,9.71,4.15,0.0,27,30,27,26
-Model,United States,D,96.76,61.63,22.97,0.07,21,15,16,8
-Model,Paraguay,D,32.26,2.71,3.05,0.03,24,36,29,32
-Model,Australia,D,85.24,24.14,6.47,0.0,27,24,24,17
-Model,Turkey,D,67.04,11.52,14.68,0.34,15,31,20,25
-Model,Germany,E,99.94,82.17,27.66,1.25,9,1,11,2
-Model,Curacao,E,0.39,0.0,0.0,0.0,27,48,44,48
-Model,Cote d'Ivoire,E,98.53,15.15,2.84,0.0,27,9,31,23
-Model,Ecuador,E,87.64,2.68,22.21,0.59,12,23,17,33
-Model,Netherlands,F,98.49,52.93,39.29,1.59,8,10,7,11
-Model,Japan,F,96.66,38.06,23.21,0.32,17,16,15,15
-Model,Sweden,F,90.62,8.92,2.55,0.0,27,21,32,27
-Model,Tunisia,F,1.24,0.09,0.0,0.0,27,47,44,43
-Model,Belgium,G,98.11,66.35,37.76,0.45,14,11,8,7
-Model,Egypt,G,81.67,14.78,2.53,0.0,27,25,33,24
-Model,Iran,G,77.9,17.84,3.89,0.02,25,29,28,20
-Model,New Zealand,G,12.88,1.03,0.04,0.0,27,40,41,36
-Model,Spain,H,99.5,77.41,72.22,37.17,1,5,1,4
-Model,Cape Verde,H,43.9,0.75,0.24,0.0,27,34,37,38
-Model,Saudi Arabia,H,15.98,0.45,0.11,0.0,27,39,39,40
-Model,Uruguay,H,97.26,21.39,14.38,0.34,15,14,21,19
-Model,France,I,99.47,75.34,70.88,15.99,3,6,2,5
-Model,Senegal,I,78.25,8.75,15.47,0.19,20,27,18,28
-Model,Iraq,I,2.41,0.04,0.0,0.0,27,45,44,46
-Model,Norway,I,88.6,15.87,26.42,0.61,11,22,13,22
-Model,Argentina,J,99.85,89.89,68.41,21.96,2,2,3,1
-Model,Algeria,J,62.04,3.05,2.99,0.01,26,33,30,31
-Model,Austria,J,81.48,6.96,5.7,0.05,22,26,26,30
-Model,Jordan,J,9.1,0.1,0.07,0.0,27,42,40,42
-Model,Portugal,K,98.71,58.31,46.11,3.69,5,8,6,10
-Model,DR Congo,K,18.25,0.61,0.15,0.0,27,38,38,39
-Model,Uzbekistan,K,26.68,0.9,0.32,0.0,27,37,36,37
-Model,Colombia,K,97.29,40.18,32.3,1.78,7,13,10,14
-Model,England,L,99.69,75.27,52.82,7.84,4,4,4,6
-Model,Croatia,L,96.46,23.5,15.44,0.53,13,17,19,18
-Model,Ghana,L,6.94,0.07,0.0,0.0,27,43,44,44
-Model,Panama,L,42.68,1.16,0.85,0.0,27,35,35,35
-Elo,Mexico,A,99.91,81.3,41.42,2.88,8,2,6,2
-Elo,South Africa,A,6.64,0.03,0.06,0.0,32,43,43,47
-Elo,South Korea,A,96.6,16.81,10.3,0.04,26,12,24,22
-Elo,Czechia,A,56.99,1.86,6.52,0.01,30,32,26,37
-Elo,Canada,B,95.23,48.04,28.25,0.55,16,16,11,12
-Elo,Bosnia and Herzegovina,B,71.19,7.38,1.63,0.0,32,30,34,30
-Elo,Qatar,B,15.71,0.69,0.06,0.0,32,42,43,41
-Elo,Switzerland,B,90.64,43.89,27.21,0.47,19,20,12,14
-Elo,Brazil,C,98.05,58.29,42.91,3.29,6,7,5,7
-Elo,Morocco,C,91.78,26.68,12.64,0.13,21,19,22,19
-Elo,Haiti,C,2.87,0.09,0.02,0.0,32,46,46,45
-Elo,Scotland,C,79.02,14.94,6.46,0.01,30,26,27,24
-Elo,United States,D,95.68,54.17,21.65,0.13,21,15,17,9
-Elo,Paraguay,D,33.37,3.25,3.92,0.09,23,37,29,33
-Elo,Australia,D,88.73,32.24,11.31,0.04,26,22,23,16
-Elo,Turkey,D,61.46,10.34,14.07,0.48,18,31,21,26
-Elo,Germany,E,99.95,79.87,26.15,1.08,10,1,15,3
-Elo,Curacao,E,0.87,0.03,0.0,0.0,32,48,48,47
-Elo,Cote d'Ivoire,E,97.32,16.37,2.71,0.0,32,9,32,23
-Elo,Ecuador,E,87.63,3.73,25.26,0.91,11,23,16,31
-Elo,Netherlands,F,97.74,49.08,36.0,1.92,9,8,9,11
-Elo,Japan,F,96.28,40.78,26.64,0.83,13,13,13,15
-Elo,Sweden,F,90.17,9.84,2.67,0.0,32,21,33,28
-Elo,Tunisia,F,2.17,0.3,0.04,0.0,32,47,45,43
-Elo,Belgium,G,95.95,54.59,31.39,0.58,15,14,10,8
-Elo,Egypt,G,75.67,14.65,3.1,0.02,28,27,30,25
-Elo,Iran,G,83.65,28.69,9.16,0.05,25,25,25,17
-Elo,New Zealand,G,16.01,2.07,0.23,0.0,32,41,41,35
-Elo,Spain,H,99.18,74.37,68.9,35.29,1,4,1,4
-Elo,Cape Verde,H,43.98,1.14,0.5,0.0,32,35,38,38
-Elo,Saudi Arabia,H,18.8,0.82,0.28,0.0,32,39,40,39
-Elo,Uruguay,H,94.86,23.67,16.01,0.55,16,17,19,20
-Elo,France,I,98.71,71.66,66.43,13.54,3,6,2,5
-Elo,Senegal,I,73.99,10.29,15.81,0.26,20,29,20,27
-Elo,Iraq,I,6.37,0.12,0.12,0.0,32,44,42,44
-Elo,Norway,I,85.89,17.93,26.28,0.84,12,24,14,21
-Elo,Argentina,J,99.65,88.5,65.57,22.72,2,3,3,1
-Elo,Algeria,J,50.75,3.02,2.85,0.02,28,34,31,34
-Elo,Austria,J,74.66,7.68,6.36,0.08,24,28,28,29
-Elo,Jordan,J,23.59,0.8,0.58,0.0,32,38,37,40
-Elo,Portugal,K,97.07,49.45,38.42,3.69,5,10,7,10
-Elo,DR Congo,K,18.66,0.64,0.32,0.0,32,40,39,42
-Elo,Uzbekistan,K,34.26,1.87,0.87,0.0,32,36,36,36
-Elo,Colombia,K,96.73,48.04,36.05,3.01,7,11,8,12
-Elo,England,L,99.12,68.31,43.39,5.75,4,5,4,6
-Elo,Croatia,L,94.86,28.2,17.91,0.74,14,17,18,18
-Elo,Ghana,L,4.79,0.08,0.01,0.0,32,45,47,46
-Elo,Panama,L,56.8,3.41,1.56,0.0,32,33,35,32
-Squad value,Mexico,A,99.01,69.36,21.04,0.89,16,6,16,4
-Squad value,South Africa,A,10.63,0.18,0.18,0.0,35,41,40,43
-Squad value,South Korea,A,94.62,24.98,6.15,0.01,33,17,30,19
-Squad value,Czechia,A,65.47,5.48,6.44,0.02,31,32,29,30
-Squad value,Canada,B,95.24,49.27,25.73,0.97,14,14,11,11
-Squad value,Bosnia and Herzegovina,B,86.26,21.31,6.95,0.03,28,23,28,20
-Squad value,Qatar,B,8.97,0.37,0.06,0.0,35,42,42,41
-Squad value,Switzerland,B,76.18,29.05,16.22,0.5,21,27,20,17
-Squad value,Brazil,C,98.05,54.06,41.13,6.14,7,11,7,10
-Squad value,Morocco,C,95.0,36.61,24.57,1.3,13,15,12,14
-Squad value,Haiti,C,3.3,0.22,0.02,0.0,35,45,44,42
-Squad value,Scotland,C,68.23,9.11,3.75,0.02,31,31,32,28
-Squad value,United States,D,99.82,89.99,51.43,6.34,6,1,5,1
-Squad value,Paraguay,D,32.75,0.68,2.65,0.03,28,36,33,40
-Squad value,Australia,D,75.43,5.36,2.47,0.0,35,28,35,31
-Squad value,Turkey,D,55.94,3.97,13.43,0.58,20,33,21,33
-Squad value,Germany,E,99.8,67.71,39.24,6.95,5,2,8,6
-Squad value,Curacao,E,0.99,0.0,0.02,0.0,35,48,44,48
-Squad value,Cote d'Ivoire,E,99.44,31.43,21.65,1.37,12,3,15,16
-Squad value,Ecuador,E,73.89,0.86,12.31,0.27,22,29,22,39
-Squad value,Netherlands,F,95.44,45.8,36.32,4.27,9,13,9,12
-Squad value,Japan,F,82.91,16.92,8.65,0.12,25,26,27,23
-Squad value,Sweden,F,98.29,37.12,17.85,0.64,19,10,19,13
-Squad value,Tunisia,F,3.79,0.16,0.01,0.0,35,44,46,44
-Squad value,Belgium,G,99.04,67.6,34.22,2.41,10,5,10,7
-Squad value,Egypt,G,92.04,27.22,5.37,0.03,28,18,31,18
-Squad value,Iran,G,29.02,2.28,0.17,0.0,35,38,41,35
-Squad value,New Zealand,G,32.11,2.9,0.25,0.0,35,37,38,34
-Squad value,Spain,H,97.6,62.02,54.76,12.97,3,12,3,9
-Squad value,Cape Verde,H,48.89,2.24,0.8,0.0,35,35,36,36
-Squad value,Saudi Arabia,H,19.65,1.25,0.24,0.0,35,40,39,38
-Squad value,Uruguay,H,94.79,34.49,24.54,0.83,17,16,13,15
-Squad value,France,I,98.65,65.05,56.36,17.94,1,8,2,8
-Squad value,Senegal,I,84.84,14.92,18.11,0.93,15,24,18,26
-Squad value,Iraq,I,1.29,0.03,0.01,0.0,35,46,46,46
-Squad value,Norway,I,90.0,20.0,24.37,1.92,11,19,14,21
-Squad value,Argentina,J,98.86,68.62,43.41,5.71,8,7,6,5
-Squad value,Algeria,J,88.62,16.91,11.32,0.12,25,20,24,24
-Squad value,Austria,J,86.47,14.44,9.78,0.14,24,22,25,27
-Squad value,Jordan,J,1.22,0.03,0.0,0.0,35,47,48,46
-Squad value,Portugal,K,98.65,76.31,52.89,9.52,4,8,4,2
-Squad value,DR Congo,K,49.65,4.79,2.64,0.01,33,34,34,32
-Squad value,Uzbekistan,K,22.97,1.39,0.56,0.0,35,39,37,37
-Squad value,Colombia,K,83.44,17.51,12.15,0.21,23,25,23,22
-Squad value,England,L,99.3,76.15,61.37,15.99,2,4,1,3
-Squad value,Croatia,L,87.01,16.55,19.53,0.73,18,21,17,25
-Squad value,Ghana,L,71.46,7.2,8.85,0.09,27,30,26,29
-Squad value,Panama,L,4.98,0.1,0.03,0.0,35,43,43,45
-FIFA ranking,Mexico,A,99.95,83.36,42.38,3.72,6,2,9,4
-FIFA ranking,South Africa,A,21.9,0.22,0.33,0.0,26,41,38,43
-FIFA ranking,South Korea,A,96.19,15.6,10.33,0.04,22,15,21,21
-FIFA ranking,Czechia,A,42.95,0.82,1.45,0.0,26,34,34,37
-FIFA ranking,Canada,B,87.2,42.17,17.25,0.22,17,25,17,14
-FIFA ranking,Bosnia and Herzegovina,B,32.3,3.07,0.32,0.0,26,38,39,29
-FIFA ranking,Qatar,B,59.69,9.04,1.46,0.0,26,31,33,26
-FIFA ranking,Switzerland,B,90.88,45.72,19.1,0.19,18,23,16,13
-FIFA ranking,Brazil,C,99.28,49.12,43.89,2.88,8,7,7,11
-FIFA ranking,Morocco,C,99.06,47.81,43.17,2.53,9,8,8,12
-FIFA ranking,Haiti,C,0.92,0.01,0.0,0.0,26,48,47,47
-FIFA ranking,Scotland,C,61.24,3.06,1.63,0.0,26,29,32,30
-FIFA ranking,United States,D,99.85,84.61,53.64,3.77,5,3,5,3
-FIFA ranking,Paraguay,D,23.2,0.37,0.53,0.0,26,40,35,40
-FIFA ranking,Australia,D,95.31,13.94,7.03,0.04,22,17,23,24
-FIFA ranking,Turkey,D,45.51,1.08,2.82,0.0,26,33,30,36
-FIFA ranking,Germany,E,99.99,84.93,24.94,1.3,12,1,14,2
-FIFA ranking,Curacao,E,2.06,0.01,0.0,0.0,26,47,47,47
-FIFA ranking,Cote d'Ivoire,E,98.18,14.33,3.87,0.0,26,11,26,23
-FIFA ranking,Ecuador,E,76.96,0.73,5.49,0.01,25,27,24,38
-FIFA ranking,Netherlands,F,97.78,57.3,37.08,2.37,10,13,10,9
-FIFA ranking,Japan,F,93.22,32.08,14.57,0.16,19,20,19,16
-FIFA ranking,Sweden,F,93.93,10.25,2.3,0.0,26,19,31,25
-FIFA ranking,Tunisia,F,4.27,0.37,0.08,0.0,26,45,43,40
-FIFA ranking,Belgium,G,98.06,54.49,36.46,1.87,11,12,11,10
-FIFA ranking,Egypt,G,90.06,18.29,7.44,0.02,24,24,22,20
-FIFA ranking,Iran,G,91.38,27.0,12.47,0.11,20,21,20,18
-FIFA ranking,New Zealand,G,4.03,0.22,0.01,0.0,26,46,46,43
-FIFA ranking,Spain,H,98.67,70.37,61.55,19.65,3,10,3,7
-FIFA ranking,Cape Verde,H,32.8,0.7,0.12,0.0,26,37,42,39
-FIFA ranking,Saudi Arabia,H,33.0,1.62,0.18,0.0,26,36,41,33
-FIFA ranking,Uruguay,H,95.41,27.31,14.77,0.3,16,16,18,17
-FIFA ranking,France,I,99.61,82.62,74.7,24.39,1,5,1,5
-FIFA ranking,Senegal,I,91.31,15.13,26.45,0.52,14,22,12,22
-FIFA ranking,Iraq,I,14.72,0.31,0.29,0.0,26,42,40,42
-FIFA ranking,Norway,I,50.72,1.94,2.98,0.0,26,32,29,32
-FIFA ranking,Argentina,J,99.75,89.42,64.93,21.18,2,4,2,1
-FIFA ranking,Algeria,J,70.46,4.25,3.52,0.0,26,28,27,28
-FIFA ranking,Austria,J,79.49,6.14,5.1,0.05,21,26,25,27
-FIFA ranking,Jordan,J,11.46,0.19,0.07,0.0,26,43,44,45
-FIFA ranking,Portugal,K,98.7,63.7,47.95,3.62,7,9,6,8
-FIFA ranking,DR Congo,K,33.26,1.58,0.49,0.0,26,35,36,34
-FIFA ranking,Uzbekistan,K,28.29,1.31,0.38,0.0,26,39,37,35
-FIFA ranking,Colombia,K,95.09,33.41,23.7,0.49,15,18,15,15
-FIFA ranking,England,L,99.48,70.84,54.47,9.55,4,6,4,6
-FIFA ranking,Croatia,L,96.52,26.8,25.25,1.02,13,14,13,19
-FIFA ranking,Ghana,L,6.17,0.04,0.05,0.0,26,44,45,46
-FIFA ranking,Panama,L,59.74,2.32,3.01,0.0,26,30,28,31
+Model,Mexico,A,99.86,81.38,32.23,0.86,10,2,9,4
+Model,South Africa,A,5.05,0.02,0.01,0.0,29,44,43,46
+Model,South Korea,A,97.52,16.67,7.57,0.01,26,12,23,20
+Model,Czechia,A,62.35,1.93,6.06,0.0,29,32,25,34
+Model,Canada,B,95.7,46.17,24.2,0.19,19,17,14,13
+Model,Bosnia and Herzegovina,B,78.79,7.23,1.51,0.0,29,28,34,29
+Model,Qatar,B,10.34,0.29,0.04,0.0,29,41,42,41
+Model,Switzerland,B,92.5,46.31,26.69,0.3,16,19,13,12
+Model,Brazil,C,99.07,61.44,47.47,3.54,5,7,5,8
+Model,Morocco,C,94.79,28.61,14.05,0.11,20,18,21,16
+Model,Haiti,C,2.01,0.02,0.01,0.0,29,46,43,46
+Model,Scotland,C,74.78,9.93,4.45,0.02,24,29,27,26
+Model,United States,D,96.66,60.64,22.07,0.06,22,15,17,9
+Model,Paraguay,D,32.07,2.87,3.02,0.02,24,37,28,32
+Model,Australia,D,85.07,24.39,6.59,0.01,26,24,24,17
+Model,Turkey,D,67.4,12.1,15.24,0.31,15,30,19,23
+Model,Germany,E,99.91,82.71,27.48,1.28,9,1,11,3
+Model,Curacao,E,0.46,0.01,0.0,0.0,29,48,46,48
+Model,Cote d'Ivoire,E,98.58,14.84,2.94,0.0,29,9,29,22
+Model,Ecuador,E,87.93,2.44,22.57,0.6,12,22,16,33
+Model,Netherlands,F,98.57,52.29,38.88,1.58,7,10,8,11
+Model,Japan,F,97.11,38.2,23.36,0.27,17,14,15,15
+Model,Sweden,F,90.77,9.41,2.66,0.0,29,20,31,27
+Model,Tunisia,F,1.47,0.1,0.0,0.0,29,47,46,43
+Model,Belgium,G,98.1,71.62,39.19,0.7,11,11,7,7
+Model,Egypt,G,81.81,16.94,2.52,0.0,29,25,32,19
+Model,Iran,G,54.05,10.07,2.47,0.0,29,33,33,25
+Model,New Zealand,G,17.33,1.37,0.09,0.0,29,40,40,35
+Model,Spain,H,99.28,85.7,74.22,38.1,1,5,1,2
+Model,Cape Verde,H,44.75,1.08,0.22,0.0,29,34,37,38
+Model,Saudi Arabia,H,36.66,1.3,0.18,0.0,29,36,39,36
+Model,Uruguay,H,87.19,11.92,13.35,0.23,18,23,22,24
+Model,France,I,99.23,74.97,70.18,15.21,3,6,3,6
+Model,Senegal,I,79.09,8.68,15.35,0.11,20,27,18,28
+Model,Iraq,I,2.49,0.04,0.01,0.0,29,45,43,45
+Model,Norway,I,88.87,16.31,26.96,0.5,13,21,12,21
+Model,Argentina,J,99.83,90.73,73.47,22.98,2,3,2,1
+Model,Algeria,J,62.38,2.88,2.72,0.01,26,31,30,31
+Model,Austria,J,81.52,6.28,5.54,0.05,23,26,26,30
+Model,Jordan,J,9.25,0.11,0.07,0.0,29,42,41,42
+Model,Portugal,K,98.61,58.44,44.11,3.53,6,8,6,10
+Model,DR Congo,K,18.93,0.52,0.21,0.0,29,39,38,40
+Model,Uzbekistan,K,28.09,0.94,0.34,0.0,29,38,36,39
+Model,Colombia,K,97.31,40.1,30.24,1.42,8,13,10,14
+Model,England,L,99.63,75.4,53.77,7.56,4,4,4,5
+Model,Croatia,L,96.34,23.27,14.98,0.44,14,16,20,18
+Model,Ghana,L,7.01,0.08,0.0,0.0,29,43,46,44
+Model,Panama,L,43.49,1.25,0.71,0.0,29,35,35,37
+Elo,Mexico,A,99.82,80.76,40.59,2.92,8,2,6,3
+Elo,South Africa,A,7.29,0.05,0.06,0.0,31,43,43,47
+Elo,South Korea,A,96.74,17.2,9.84,0.01,25,12,24,21
+Elo,Czechia,A,56.54,1.99,6.45,0.01,25,33,28,37
+Elo,Canada,B,94.72,47.65,28.17,0.62,16,16,12,13
+Elo,Bosnia and Herzegovina,B,71.67,7.31,1.67,0.0,31,29,35,30
+Elo,Qatar,B,15.76,0.7,0.04,0.0,31,42,44,42
+Elo,Switzerland,B,91.0,44.34,28.32,0.59,17,19,11,14
+Elo,Brazil,C,97.98,59.1,42.57,3.23,6,7,5,8
+Elo,Morocco,C,91.81,26.22,12.38,0.11,21,18,22,18
+Elo,Haiti,C,3.51,0.13,0.04,0.0,31,46,44,45
+Elo,Scotland,C,80.27,14.55,6.74,0.01,25,25,26,24
+Elo,United States,D,95.48,54.02,21.44,0.09,22,14,17,9
+Elo,Paraguay,D,33.36,3.27,4.1,0.01,25,38,29,32
+Elo,Australia,D,88.22,32.51,11.36,0.04,23,21,23,16
+Elo,Turkey,D,62.52,10.2,14.86,0.55,18,31,20,27
+Elo,Germany,E,99.86,79.56,27.03,1.15,10,1,13,4
+Elo,Curacao,E,0.99,0.03,0.0,0.0,31,48,48,48
+Elo,Cote d'Ivoire,E,97.3,16.76,2.82,0.0,31,9,32,23
+Elo,Ecuador,E,87.2,3.65,24.5,1.02,11,22,16,31
+Elo,Netherlands,F,97.63,48.77,35.88,1.8,9,8,9,11
+Elo,Japan,F,96.17,41.04,26.45,0.7,14,13,15,15
+Elo,Sweden,F,89.35,10.01,2.9,0.0,31,20,31,28
+Elo,Tunisia,F,2.19,0.18,0.02,0.0,31,47,47,43
+Elo,Belgium,G,95.28,60.12,32.21,0.7,14,15,10,7
+Elo,Egypt,G,74.84,16.88,3.45,0.0,31,26,30,22
+Elo,Iran,G,65.51,20.51,6.82,0.01,25,30,25,19
+Elo,New Zealand,G,23.38,2.49,0.16,0.0,31,39,42,35
+Elo,Spain,H,99.03,82.58,70.69,35.23,1,5,1,2
+Elo,Cape Verde,H,44.6,1.47,0.45,0.0,31,35,38,39
+Elo,Saudi Arabia,H,38.26,1.92,0.3,0.0,31,36,39,38
+Elo,Uruguay,H,84.54,14.03,14.03,0.43,19,24,21,25
+Elo,France,I,98.43,70.84,64.57,12.73,3,6,3,5
+Elo,Senegal,I,74.61,10.7,15.57,0.2,20,27,19,26
+Elo,Iraq,I,6.05,0.18,0.17,0.0,31,44,41,43
+Elo,Norway,I,85.26,18.28,26.68,0.75,12,23,14,20
+Elo,Argentina,J,99.63,88.85,69.94,23.49,2,3,2,1
+Elo,Algeria,J,51.69,3.05,2.82,0.0,31,34,32,34
+Elo,Austria,J,74.17,7.32,6.62,0.02,24,28,27,29
+Elo,Jordan,J,23.16,0.78,0.6,0.0,31,40,37,41
+Elo,Portugal,K,97.19,49.05,36.85,3.59,5,10,7,10
+Elo,DR Congo,K,19.51,0.85,0.19,0.0,31,41,40,40
+Elo,Uzbekistan,K,34.24,2.14,0.88,0.0,31,37,36,36
+Elo,Colombia,K,96.96,47.96,36.28,3.1,7,11,8,12
+Elo,England,L,99.22,69.35,44.32,6.16,4,4,4,6
+Elo,Croatia,L,94.71,27.35,16.42,0.72,13,17,18,17
+Elo,Ghana,L,5.47,0.06,0.03,0.0,31,45,46,46
+Elo,Panama,L,56.88,3.24,1.72,0.01,25,32,34,33
+Squad value,Mexico,A,99.07,68.23,21.38,1.01,14,5,15,8
+Squad value,South Africa,A,11.82,0.15,0.11,0.0,35,41,41,43
+Squad value,South Korea,A,94.43,25.51,6.03,0.03,29,16,30,18
+Squad value,Czechia,A,66.24,6.11,6.31,0.03,29,32,29,30
+Squad value,Canada,B,95.26,49.94,23.48,0.83,15,14,12,11
+Squad value,Bosnia and Herzegovina,B,86.81,20.74,6.51,0.01,31,22,28,20
+Squad value,Qatar,B,9.09,0.51,0.03,0.0,35,42,44,41
+Squad value,Switzerland,B,75.95,28.81,14.69,0.24,23,28,20,16
+Squad value,Brazil,C,97.94,53.02,41.32,6.07,6,11,7,10
+Squad value,Morocco,C,95.35,37.95,23.46,1.14,13,13,13,13
+Squad value,Haiti,C,3.47,0.16,0.04,0.0,35,45,43,42
+Squad value,Scotland,C,71.13,8.87,4.34,0.06,27,31,32,28
+Squad value,United States,D,99.76,90.13,51.17,5.73,7,2,5,1
+Squad value,Paraguay,D,33.25,0.78,2.7,0.01,31,37,34,40
+Squad value,Australia,D,76.08,5.46,2.97,0.01,31,27,33,31
+Squad value,Turkey,D,57.61,3.63,14.0,0.71,18,33,21,33
+Squad value,Germany,E,99.85,68.26,40.1,7.55,5,1,8,7
+Squad value,Curacao,E,0.97,0.01,0.0,0.0,35,48,46,48
+Squad value,Cote d'Ivoire,E,99.47,30.94,22.21,1.51,12,3,14,15
+Squad value,Ecuador,E,74.27,0.79,12.25,0.38,21,29,22,39
+Squad value,Netherlands,F,95.15,45.48,36.22,4.47,9,15,9,12
+Squad value,Japan,F,82.75,16.83,8.68,0.12,26,25,27,24
+Squad value,Sweden,F,98.49,37.56,18.93,0.73,17,10,17,14
+Squad value,Tunisia,F,4.66,0.13,0.05,0.0,35,44,42,44
+Squad value,Belgium,G,98.94,69.51,34.74,2.21,10,7,10,5
+Squad value,Egypt,G,91.74,27.33,5.85,0.0,35,17,31,17
+Squad value,Iran,G,18.12,1.56,0.15,0.0,35,40,40,37
+Squad value,New Zealand,G,19.46,1.6,0.18,0.0,35,39,39,36
+Squad value,Spain,H,97.58,71.39,54.67,12.25,3,12,3,4
+Squad value,Cape Verde,H,50.89,3.22,0.79,0.0,35,35,36,34
+Squad value,Saudi Arabia,H,34.67,2.31,0.24,0.0,35,36,38,35
+Squad value,Uruguay,H,84.49,23.08,21.33,0.71,18,24,16,19
+Squad value,France,I,98.7,65.41,55.61,18.19,1,8,2,9
+Squad value,Senegal,I,86.15,14.73,18.19,0.82,16,23,19,26
+Squad value,Iraq,I,1.27,0.02,0.0,0.0,35,46,46,47
+Squad value,Norway,I,90.25,19.84,24.79,1.9,11,18,11,21
+Squad value,Argentina,J,99.07,68.31,46.93,5.73,7,5,6,6
+Squad value,Algeria,J,88.6,16.96,11.84,0.24,23,19,24,23
+Squad value,Austria,J,87.1,14.7,10.66,0.14,25,21,25,27
+Squad value,Jordan,J,1.27,0.03,0.0,0.0,35,46,46,46
+Squad value,Portugal,K,98.65,76.64,52.95,9.44,4,9,4,2
+Squad value,DR Congo,K,50.9,4.9,2.12,0.01,31,34,35,32
+Squad value,Uzbekistan,K,24.3,1.32,0.48,0.0,35,38,37,38
+Squad value,Colombia,K,82.62,17.14,11.94,0.25,22,26,23,22
+Squad value,England,L,99.28,75.22,61.76,16.7,2,4,1,3
+Squad value,Croatia,L,87.83,16.74,18.9,0.71,18,20,18,25
+Squad value,Ghana,L,74.0,7.98,8.87,0.06,27,30,26,29
+Squad value,Panama,L,5.25,0.06,0.03,0.0,35,43,44,45
+FIFA ranking,Mexico,A,99.91,84.14,42.15,3.6,5,2,9,4
+FIFA ranking,South Africa,A,22.14,0.11,0.27,0.0,30,41,39,44
+FIFA ranking,South Korea,A,96.33,15.06,11.03,0.02,23,14,20,22
+FIFA ranking,Czechia,A,43.05,0.69,1.6,0.0,30,35,32,39
+FIFA ranking,Canada,B,87.03,41.56,17.41,0.17,18,23,17,14
+FIFA ranking,Bosnia and Herzegovina,B,31.83,3.18,0.38,0.0,30,38,38,29
+FIFA ranking,Qatar,B,60.15,9.09,1.39,0.0,30,31,34,26
+FIFA ranking,Switzerland,B,91.18,46.17,18.79,0.15,19,20,16,13
+FIFA ranking,Brazil,C,99.31,49.02,43.98,3.08,8,7,7,11
+FIFA ranking,Morocco,C,99.19,47.88,43.02,2.45,9,8,8,12
+FIFA ranking,Haiti,C,0.87,0.02,0.0,0.0,30,48,47,47
+FIFA ranking,Scotland,C,64.38,3.08,1.43,0.0,30,28,33,30
+FIFA ranking,United States,D,99.84,84.4,53.62,3.23,7,3,5,3
+FIFA ranking,Paraguay,D,22.93,0.27,0.5,0.0,30,40,35,43
+FIFA ranking,Australia,D,95.42,14.08,7.57,0.03,22,16,22,24
+FIFA ranking,Turkey,D,45.78,1.25,2.71,0.01,29,34,30,35
+FIFA ranking,Germany,E,99.97,85.05,25.93,1.48,12,1,13,2
+FIFA ranking,Curacao,E,2.04,0.01,0.0,0.0,30,47,47,48
+FIFA ranking,Cote d'Ivoire,E,98.31,14.16,3.91,0.0,30,11,26,23
+FIFA ranking,Ecuador,E,78.52,0.78,5.44,0.02,23,26,25,38
+FIFA ranking,Netherlands,F,98.07,56.5,36.47,2.1,10,12,11,10
+FIFA ranking,Japan,F,93.02,31.84,14.61,0.21,17,19,18,16
+FIFA ranking,Sweden,F,94.23,11.32,2.1,0.0,30,18,31,25
+FIFA ranking,Tunisia,F,4.3,0.34,0.07,0.0,30,46,44,41
+FIFA ranking,Belgium,G,97.78,62.1,36.5,1.9,11,13,10,9
+FIFA ranking,Egypt,G,90.0,21.51,7.4,0.02,23,22,23,18
+FIFA ranking,Iran,G,63.54,15.95,8.05,0.05,20,29,21,20
+FIFA ranking,New Zealand,G,7.05,0.44,0.04,0.0,30,44,45,40
+FIFA ranking,Spain,H,98.74,78.76,64.04,19.97,3,9,3,6
+FIFA ranking,Cape Verde,H,33.71,1.16,0.2,0.0,30,37,42,36
+FIFA ranking,Saudi Arabia,H,51.6,2.75,0.4,0.0,30,33,37,32
+FIFA ranking,Uruguay,H,86.74,17.33,13.03,0.29,16,24,19,19
+FIFA ranking,France,I,99.71,82.27,74.17,22.66,2,5,1,5
+FIFA ranking,Senegal,I,90.88,15.5,26.57,0.72,14,21,12,21
+FIFA ranking,Iraq,I,15.75,0.34,0.26,0.0,30,42,40,41
+FIFA ranking,Norway,I,52.22,1.89,2.91,0.02,23,32,29,33
+FIFA ranking,Argentina,J,99.83,89.3,69.71,22.91,1,4,2,1
+FIFA ranking,Algeria,J,71.3,4.18,3.75,0.02,23,27,27,28
+FIFA ranking,Austria,J,79.97,6.41,5.48,0.04,21,25,24,27
+FIFA ranking,Jordan,J,12.26,0.11,0.1,0.0,30,43,43,44
+FIFA ranking,Portugal,K,98.74,64.76,47.59,3.43,6,9,6,8
+FIFA ranking,DR Congo,K,34.5,1.57,0.5,0.0,30,36,35,34
+FIFA ranking,Uzbekistan,K,29.08,1.09,0.26,0.0,30,39,40,37
+FIFA ranking,Colombia,K,94.93,32.58,23.4,0.64,15,17,15,15
+FIFA ranking,England,L,99.43,69.68,53.85,9.82,4,6,4,7
+FIFA ranking,Croatia,L,96.03,27.51,24.14,0.94,13,15,14,17
+FIFA ranking,Ghana,L,5.76,0.04,0.03,0.0,30,45,46,46
+FIFA ranking,Panama,L,62.65,2.77,3.24,0.02,23,30,28,31

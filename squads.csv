@@ -681,7 +681,7 @@ Iran,,Shojae Khalilzadeh,0,DF,37,1989-05-14,Iran,Tractor,57,2,100000,0,0
 Iran,,Milad Mohammadi,0,DF,32,1993-09-29,Iran,Persepolis,75,1,900000,0,0
 Iran,,Saeid Ezatolahi,0,MF,29,1996-10-01,Iran,Shabab Al Ahli,82,1,1800000,0,0
 Iran,,Alireza Jahanbakhsh,0,MF,32,1993-08-11,Iran,Dender,98,17,500000,0,0
-Iran,,Mohammad Mohebi,0,MF,27,1998-12-20,Iran,Rostov,36,14,2500000,0,0
+Iran,,Mohammad Mohebi,0,MF,27,1998-12-20,Iran,Rostov,36,14,2500000,1,0
 Iran,,Mehdi Taremi,0,FW,33,1992-07-18,Iran,Olympiacos,104,60,2000000,0,0
 Iran,,Mehdi Ghayedi,0,FW,27,1998-12-05,Iran,Al Nasr,29,10,4500000,0,0
 Iran,,Ali Alipour,0,FW,30,1995-11-11,Iran,Persepolis,13,1,1700000,0,0
@@ -696,7 +696,7 @@ Iran,,Ali Nemati,0,DF,30,1996-02-08,Iran,Foolad,16,0,550000,0,0
 Iran,,Shahriyar Moghanlou,0,FW,31,1994-12-21,Iran,Kalba,20,2,800000,0,0
 Iran,,Mohammad Ghorbani,0,MF,24,2001-10-07,Iran,Al Wahda,15,0,1200000,0,0
 Iran,,Hossein Hosseini,0,GK,33,1992-06-30,Iran,Sepahan,13,0,500000,0,0
-Iran,,Ramin Rezaeian,0,DF,36,1990-03-21,Iran,Foolad,73,7,250000,0,0
+Iran,,Ramin Rezaeian,0,DF,36,1990-03-21,Iran,Foolad,73,7,250000,1,1
 Iran,,Dennis Eckert,0,FW,29,1997-01-09,Iran,Standard Liège,0,0,2000000,0,0
 Iran,,Danial Eiri,0,DF,22,2003-10-26,Iran,Malavan,0,0,1000000,0,0
 Iran,,Amirmohammad Razzaghinia,0,MF,20,2006-04-11,Iran,Esteghlal,3,0,1200000,0,0
@@ -710,7 +710,7 @@ New Zealand,,Matthew Garbett,0,MF,24,2002-04-13,New Zealand,Peterborough United,
 New Zealand,,Marko Stamenić,0,MF,24,2002-02-19,New Zealand,Swansea City,38,3,3000000,0,0
 New Zealand,,Chris Wood,1,FW,34,1991-12-07,New Zealand,Nottingham Forest,89,45,5000000,0,0
 New Zealand,,Sarpreet Singh,0,MF,27,1999-02-20,New Zealand,Wellington Phoenix,27,3,500000,0,0
-New Zealand,,Elijah Just,0,MF,26,2000-05-01,New Zealand,Motherwell,43,9,2500000,0,0
+New Zealand,,Elijah Just,0,MF,26,2000-05-01,New Zealand,Motherwell,43,9,2500000,2,0
 New Zealand,,Alex Paulsen,0,GK,23,2002-07-04,New Zealand,Lechia Gdańsk,7,0,500000,0,0
 New Zealand,,Liberato Cacace,0,DF,25,2000-09-27,New Zealand,Wrexham,36,1,2500000,0,0
 New Zealand,,Alex Rufer,0,MF,29,1996-06-12,New Zealand,Wellington Phoenix,25,0,600000,0,0
@@ -807,7 +807,7 @@ Spain,,Borja Iglesias,0,FW,33,1993-01-17,Spain,Celta Vigo,6,0,3000000,0,0
 Uruguay,,Sergio Rochet,0,GK,33,1993-03-23,Uruguay,Internacional,35,0,1800000,0,0
 Uruguay,,José Giménez,1,DF,31,1995-01-20,Uruguay,Atlético Madrid,99,8,12000000,0,0
 Uruguay,,Sebastián Cáceres,0,DF,26,1999-08-18,Uruguay,América,24,0,4500000,0,0
-Uruguay,,Ronald Araújo,0,DF,27,1999-03-07,Uruguay,Barcelona,27,1,20000000,0,0
+Uruguay,,Ronald Araújo,0,DF,27,1999-03-07,Uruguay,Barcelona,27,1,20000000,1,0
 Uruguay,,Manuel Ugarte,0,MF,25,2001-04-11,Uruguay,Manchester United,36,1,25000000,0,0
 Uruguay,,Rodrigo Bentancur,0,MF,28,1997-06-25,Uruguay,Tottenham Hotspur,74,3,20000000,0,0
 Uruguay,,Nicolás de la Cruz,0,MF,29,1997-06-01,Uruguay,Flamengo,34,5,8000000,0,0
@@ -823,7 +823,7 @@ Uruguay,,Mathías Olivera,0,DF,28,1997-10-31,Uruguay,Napoli,35,2,15000000,0,0
 Uruguay,,Matías Viña,0,DF,28,1997-11-09,Uruguay,River Plate,43,1,3500000,0,0
 Uruguay,,Brian Rodríguez,0,FW,26,2000-05-20,Uruguay,América,32,4,8000000,0,0
 Uruguay,,Rodrigo Aguirre,0,FW,31,1994-10-01,Uruguay,UANL,10,3,2300000,0,0
-Uruguay,,Maximiliano Araújo,0,MF,26,2000-02-15,Uruguay,Sporting CP,28,3,35000000,0,0
+Uruguay,,Maximiliano Araújo,0,MF,26,2000-02-15,Uruguay,Sporting CP,28,3,35000000,1,0
 Uruguay,,Federico Viñas,0,FW,27,1998-06-30,Uruguay,Oviedo,11,2,4000000,0,0
 Uruguay,,Joaquín Piquerez,0,MF,27,1998-08-24,Uruguay,Palmeiras,19,0,12000000,0,0
 Uruguay,,Fernando Muslera,0,GK,39,1986-06-16,Uruguay,Estudiantes,134,0,700000,0,0
