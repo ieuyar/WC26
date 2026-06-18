@@ -1,7 +1,6 @@
 stage,group,home_team,away_team,home_goals,away_goals,status
 GROUP_STAGE,A,Mexico,South Africa,2,0,FINISHED
 GROUP_STAGE,A,South Korea,Czechia,2,1,FINISHED
-GROUP_STAGE,B,Canada,Bosnia and Herzegovina,1,1,FINISHED
 GROUP_STAGE,D,United States,Paraguay,4,1,FINISHED
 GROUP_STAGE,B,Qatar,Switzerland,1,1,FINISHED
 GROUP_STAGE,C,Brazil,Morocco,1,1,FINISHED
