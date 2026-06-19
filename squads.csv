@@ -31,7 +31,7 @@ Mexico,,César Montes,0,DF,29,1997-02-24,Mexico,Lokomotiv Moscow,66,4,7500000,0,
 Mexico,,Edson Álvarez,1,DF,28,1997-10-24,Mexico,Fenerbahçe,97,7,15000000,0,0
 Mexico,,Johan Vásquez,0,DF,27,1998-10-22,Mexico,Genoa,45,2,12000000,0,0
 Mexico,,Érik Lira,0,MF,26,2000-05-08,Mexico,Cruz Azul,24,0,12000000,0,0
-Mexico,,Luis Romo,0,MF,31,1995-06-05,Mexico,Guadalajara,62,4,3000000,0,0
+Mexico,,Luis Romo,0,MF,31,1995-06-05,Mexico,Guadalajara,62,4,3000000,1,0
 Mexico,,Álvaro Fidalgo,0,MF,29,1997-04-09,Mexico,Real Betis,3,0,10000000,0,0
 Mexico,,Raúl Jiménez,0,FW,35,1991-05-05,Mexico,Fulham,123,44,3000000,1,0
 Mexico,,Alexis Vega,0,FW,28,1997-11-25,Mexico,Toluca,51,7,8000000,0,0
@@ -138,7 +138,7 @@ Canada,,Mathieu Choinière,0,MF,27,1999-02-07,Canada,Los Angeles FC,23,0,800000,
 Canada,,Stephen Eustáquio,0,MF,29,1996-12-21,Canada,Los Angeles FC,55,4,6000000,0,0
 Canada,,Ismaël Koné,0,MF,23,2002-06-16,Canada,Sassuolo,39,4,25000000,0,0
 Canada,,Cyle Larin,0,FW,31,1995-04-17,Canada,Southampton,89,30,2500000,2,0
-Canada,,Jonathan David,0,FW,26,2000-01-14,Canada,Juventus,76,39,30000000,2,0
+Canada,,Jonathan David,0,FW,26,2000-01-14,Canada,Juventus,76,39,30000000,3,0
 Canada,,Liam Millar,0,MF,26,1999-09-27,Canada,Hull City,40,1,3000000,0,0
 Canada,,Tani Oluwaseyi,0,FW,26,2000-05-15,Canada,Villarreal,23,2,8000000,0,0
 Canada,,Derek Cornelius,0,DF,28,1997-11-25,Canada,Rangers,43,1,2500000,0,0
@@ -152,8 +152,8 @@ Canada,,Ali Ahmed,0,FW,25,2000-10-10,Canada,Norwich City,24,1,5000000,0,0
 Canada,,Jonathan Osorio,0,MF,33,1992-06-12,Canada,Toronto FC,90,10,1000000,0,0
 Canada,,Richie Laryea,0,DF,31,1995-01-07,Canada,Toronto FC,74,1,1000000,0,0
 Canada,,Niko Sigur,0,DF,22,2003-09-09,Canada,Hajduk Split,18,2,4000000,0,0
-Canada,,Promise David,0,FW,24,2001-07-03,Canada,Union Saint-Gilloise,9,3,17000000,2,0
-Canada,,Nathan Saliba,0,MF,22,2004-02-07,Canada,Anderlecht,14,2,7500000,0,0
+Canada,,Promise David,0,FW,24,2001-07-03,Canada,Union Saint-Gilloise,9,3,17000000,3,0
+Canada,,Nathan Saliba,0,MF,22,2004-02-07,Canada,Anderlecht,14,2,7500000,1,0
 Qatar,,Mahmud Abunada,0,GK,26,2000-02-05,Qatar,Al-Rayyan,4,0,400000,0,0
 Qatar,,Pedro Miguel,0,DF,35,1990-08-06,Qatar,Al-Sadd,98,3,150000,0,0
 Qatar,,Lucas Mendes,0,DF,35,1990-07-03,Qatar,Al-Wakrah,25,1,350000,0,0
