@@ -32,20 +32,14 @@ GitHub Actions runs this automatically at 06:00 UTC each day.
 
 ## Data sources
 
-- ClubElo (clubelo.com) — Elo ratings, scraped pre-tournament
+- ClubElo (clubelo.com) - Elo ratings, scraped pre-tournament
 - FIFA rankings (fifa.com) — official ranking snapshot
 - Transfermarkt — per-player market values
 - Wikipedia — 26-man squad rosters
 - football-data.org — live match results (requires API token)
 - DraftKings via RotoWire — bookmaker odds for model vs market
 
-## Local development
 
-```bash
-echo "YOUR_TOKEN" > api_token.txt    # never commit this file
-python3 build_live_dashboard.py
-# Open dashboard_live.html in any browser
-```
 
 ## Deployment
 
