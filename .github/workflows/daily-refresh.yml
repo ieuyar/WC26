@@ -46,6 +46,7 @@ jobs:
 
       - name: Re-run simulation pipeline
         run: |
+          python3 apply_elo_updates.py
           python3 run_simulation.py
           python3 run_engines.py
           python3 engine_matches.py
@@ -63,7 +64,8 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add dashboard_live.html index.html wc2026_data.json \
-                  simulation_output/ live_results.csv squads.csv
+                  simulation_output/ live_results.csv squads.csv \
+                  elo_ratings.csv elo_ratings_pre_tournament.csv
           if git diff --staged --quiet; then
             echo "No changes - skipping commit."
           else

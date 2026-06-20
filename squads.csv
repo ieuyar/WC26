@@ -16,7 +16,7 @@ Czechia,,David Jurásek,0,DF,25,2000-08-07,Czechia,Slavia Prague,17,1,5000000,0,
 Czechia,,Pavel Šulc,0,FW,25,2000-12-29,Czechia,Lyon,20,5,20000000,0,0
 Czechia,,Jindřich Staněk,0,GK,30,1996-04-27,Czechia,Slavia Prague,14,0,2000000,0,0
 Czechia,,Lukáš Provod,0,MF,29,1996-10-23,Czechia,Slavia Prague,37,3,8000000,0,0
-Czechia,,Michal Sadílek,0,MF,27,1999-05-31,Czechia,Slavia Prague,34,1,8000000,0,0
+Czechia,,Michal Sadílek,0,MF,27,1999-05-31,Czechia,Slavia Prague,34,1,8000000,1,0
 Czechia,,Tomáš Chorý,0,FW,31,1995-01-26,Czechia,Slavia Prague,21,6,2700000,0,0
 Czechia,,Jaroslav Zelený,0,DF,33,1992-08-20,Czechia,Sparta Prague,22,0,600000,0,0
 Czechia,,David Douděra,0,DF,28,1998-05-31,Czechia,Slavia Prague,16,2,3500000,0,0
@@ -31,7 +31,7 @@ Mexico,,César Montes,0,DF,29,1997-02-24,Mexico,Lokomotiv Moscow,66,4,7500000,0,
 Mexico,,Edson Álvarez,1,DF,28,1997-10-24,Mexico,Fenerbahçe,97,7,15000000,0,0
 Mexico,,Johan Vásquez,0,DF,27,1998-10-22,Mexico,Genoa,45,2,12000000,0,0
 Mexico,,Érik Lira,0,MF,26,2000-05-08,Mexico,Cruz Azul,24,0,12000000,0,0
-Mexico,,Luis Romo,0,MF,31,1995-06-05,Mexico,Guadalajara,62,4,3000000,0,0
+Mexico,,Luis Romo,0,MF,31,1995-06-05,Mexico,Guadalajara,62,4,3000000,1,0
 Mexico,,Álvaro Fidalgo,0,MF,29,1997-04-09,Mexico,Real Betis,3,0,10000000,0,0
 Mexico,,Raúl Jiménez,0,FW,35,1991-05-05,Mexico,Fulham,123,44,3000000,1,0
 Mexico,,Alexis Vega,0,FW,28,1997-11-25,Mexico,Toluca,51,7,8000000,0,0
@@ -54,7 +54,7 @@ Mexico,,Brian Gutiérrez,0,MF,22,2003-06-17,Mexico,Guadalajara,6,2,8000000,0,0
 South Africa,,Ronwen Williams,1,GK,34,1992-01-21,South Africa,Mamelodi Sundowns,62,0,900000,0,0
 South Africa,,Thabang Matuludi,0,DF,27,1999-01-14,South Africa,Polokwane City,2,0,900000,0,0
 South Africa,,Khulumani Ndamane,0,DF,22,2004-02-05,South Africa,Mamelodi Sundowns,5,0,800000,0,0
-South Africa,,Teboho Mokoena,0,MF,29,1997-01-24,South Africa,Mamelodi Sundowns,51,9,2500000,0,0
+South Africa,,Teboho Mokoena,0,MF,29,1997-01-24,South Africa,Mamelodi Sundowns,51,9,2500000,1,0
 South Africa,,Thalente Mbatha,0,MF,26,2000-03-06,South Africa,Orlando Pirates,14,3,1600000,0,0
 South Africa,,Aubrey Modiba,0,DF,30,1995-07-22,South Africa,Mamelodi Sundowns,44,3,1800000,0,0
 South Africa,,Oswin Appollis,0,FW,24,2001-08-25,South Africa,Orlando Pirates,25,8,2000000,0,0
@@ -128,7 +128,7 @@ Bosnia and Herzegovina,,Martin Zlomislić,0,GK,27,1998-08-16,Bosnia and Herzegov
 Bosnia and Herzegovina,,Haris Tabaković,0,FW,31,1994-06-20,Bosnia and Herzegovina,Borussia Mönchengladbach,10,4,3500000,0,0
 Bosnia and Herzegovina,,Nidal Čelik,0,DF,19,2006-07-17,Bosnia and Herzegovina,Lens,1,0,7000000,0,0
 Bosnia and Herzegovina,,Jovo Lukić,0,FW,27,1998-11-28,Bosnia and Herzegovina,Universitatea Cluj,2,0,1500000,1,0
-Bosnia and Herzegovina,,Ermin Mahmić,0,MF,21,2005-03-14,Bosnia and Herzegovina,Slovan Liberec,1,0,5000000,0,0
+Bosnia and Herzegovina,,Ermin Mahmić,0,MF,21,2005-03-14,Bosnia and Herzegovina,Slovan Liberec,1,0,5000000,1,0
 Canada,,Dayne St. Clair,0,GK,29,1997-05-09,Canada,Inter Miami CF,20,0,3500000,0,0
 Canada,,Alistair Johnston,0,DF,27,1998-10-08,Canada,Celtic,57,1,8000000,0,0
 Canada,,Alfie Jones,0,DF,28,1997-10-07,Canada,Middlesbrough,2,0,6000000,0,0
@@ -137,8 +137,8 @@ Canada,,Joel Waterman,0,DF,30,1996-01-24,Canada,Chicago Fire FC,17,0,2000000,0,0
 Canada,,Mathieu Choinière,0,MF,27,1999-02-07,Canada,Los Angeles FC,23,0,800000,0,0
 Canada,,Stephen Eustáquio,0,MF,29,1996-12-21,Canada,Los Angeles FC,55,4,6000000,0,0
 Canada,,Ismaël Koné,0,MF,23,2002-06-16,Canada,Sassuolo,39,4,25000000,0,0
-Canada,,Cyle Larin,0,FW,31,1995-04-17,Canada,Southampton,89,30,2500000,1,0
-Canada,,Jonathan David,0,FW,26,2000-01-14,Canada,Juventus,76,39,30000000,0,0
+Canada,,Cyle Larin,0,FW,31,1995-04-17,Canada,Southampton,89,30,2500000,2,0
+Canada,,Jonathan David,0,FW,26,2000-01-14,Canada,Juventus,76,39,30000000,3,0
 Canada,,Liam Millar,0,MF,26,1999-09-27,Canada,Hull City,40,1,3000000,0,0
 Canada,,Tani Oluwaseyi,0,FW,26,2000-05-15,Canada,Villarreal,23,2,8000000,0,0
 Canada,,Derek Cornelius,0,DF,28,1997-11-25,Canada,Rangers,43,1,2500000,0,0
@@ -152,8 +152,8 @@ Canada,,Ali Ahmed,0,FW,25,2000-10-10,Canada,Norwich City,24,1,5000000,0,0
 Canada,,Jonathan Osorio,0,MF,33,1992-06-12,Canada,Toronto FC,90,10,1000000,0,0
 Canada,,Richie Laryea,0,DF,31,1995-01-07,Canada,Toronto FC,74,1,1000000,0,0
 Canada,,Niko Sigur,0,DF,22,2003-09-09,Canada,Hajduk Split,18,2,4000000,0,0
-Canada,,Promise David,0,FW,24,2001-07-03,Canada,Union Saint-Gilloise,9,3,17000000,0,0
-Canada,,Nathan Saliba,0,MF,22,2004-02-07,Canada,Anderlecht,14,2,7500000,0,0
+Canada,,Promise David,0,FW,24,2001-07-03,Canada,Union Saint-Gilloise,9,3,17000000,3,0
+Canada,,Nathan Saliba,0,MF,22,2004-02-07,Canada,Anderlecht,14,2,7500000,1,0
 Qatar,,Mahmud Abunada,0,GK,26,2000-02-05,Qatar,Al-Rayyan,4,0,400000,0,0
 Qatar,,Pedro Miguel,0,DF,35,1990-08-06,Qatar,Al-Sadd,98,3,150000,0,0
 Qatar,,Lucas Mendes,0,DF,35,1990-07-03,Qatar,Al-Wakrah,25,1,350000,0,0
@@ -186,17 +186,17 @@ Switzerland,,Silvan Widmer,0,DF,33,1993-03-05,Switzerland,Mainz 05,59,5,800000,0
 Switzerland,,Nico Elvedi,0,DF,29,1996-09-30,Switzerland,Borussia Mönchengladbach,66,3,8000000,0,0
 Switzerland,,Manuel Akanji,0,DF,30,1995-07-19,Switzerland,Inter Milan,80,4,17000000,0,0
 Switzerland,,Denis Zakaria,0,MF,29,1996-11-20,Switzerland,Monaco,64,3,25000000,0,0
-Switzerland,,Breel Embolo,0,FW,29,1997-02-14,Switzerland,Rennes,86,24,15000000,1,0
+Switzerland,,Breel Embolo,0,FW,29,1997-02-14,Switzerland,Rennes,86,24,15000000,1,1
 Switzerland,,Remo Freuler,0,MF,34,1992-04-15,Switzerland,Bologna,87,11,3000000,0,0
-Switzerland,,Johan Manzambi,0,MF,20,2005-10-14,Switzerland,SC Freiburg,11,3,50000000,0,0
-Switzerland,,Granit Xhaka,1,MF,33,1992-09-27,Switzerland,Sunderland,145,17,8000000,0,0
+Switzerland,,Johan Manzambi,0,MF,20,2005-10-14,Switzerland,SC Freiburg,11,3,50000000,2,0
+Switzerland,,Granit Xhaka,1,MF,33,1992-09-27,Switzerland,Sunderland,145,17,8000000,1,0
 Switzerland,,Dan Ndoye,0,FW,25,2000-10-25,Switzerland,Nottingham Forest,30,7,32000000,0,0
 Switzerland,,Yvon Mvogo,0,GK,32,1994-06-06,Switzerland,Lorient,13,0,2500000,0,0
 Switzerland,,Ricardo Rodriguez,0,DF,33,1992-08-25,Switzerland,Real Betis,137,9,1500000,0,0
 Switzerland,,Ardon Jashari,0,MF,23,2002-07-30,Switzerland,Milan,7,0,25000000,0,0
 Switzerland,,Djibril Sow,0,MF,29,1997-02-06,Switzerland,Sevilla,51,0,7500000,0,0
 Switzerland,,Christian Fassnacht,0,FW,32,1993-11-11,Switzerland,Young Boys,22,5,2000000,0,0
-Switzerland,,Rubén Vargas,0,FW,27,1998-08-05,Switzerland,Sevilla,61,11,12000000,0,0
+Switzerland,,Rubén Vargas,0,FW,27,1998-08-05,Switzerland,Sevilla,61,11,12000000,1,1
 Switzerland,,Eray Cömert,0,DF,28,1998-02-04,Switzerland,Valencia,21,0,2500000,0,0
 Switzerland,,Noah Okafor,0,FW,26,2000-05-24,Switzerland,Leeds United,24,2,25000000,0,0
 Switzerland,,Michel Aebischer,0,MF,29,1997-01-06,Switzerland,Pisa,39,2,4000000,0,0
@@ -212,9 +212,9 @@ Brazil,,Gabriel Magalhães,0,DF,28,1997-12-19,Brazil,Arsenal,17,1,75000000,0,0
 Brazil,,Marquinhos,1,DF,32,1994-05-14,Brazil,Paris Saint-Germain,104,7,28000000,0,0
 Brazil,,Casemiro,0,MF,34,1992-02-23,Brazil,Manchester United,85,9,6000000,0,0
 Brazil,,Alex Sandro,0,DF,35,1991-01-26,Brazil,Flamengo,44,2,1000000,0,0
-Brazil,,Vinícius Júnior,0,FW,25,2000-07-12,Brazil,Real Madrid,48,9,150000000,1,0
+Brazil,,Vinícius Júnior,0,FW,25,2000-07-12,Brazil,Real Madrid,48,9,150000000,2,2
 Brazil,,Bruno Guimarães,0,MF,28,1997-11-16,Brazil,Newcastle United,42,2,70000000,0,0
-Brazil,,Matheus Cunha,0,FW,27,1999-05-27,Brazil,Manchester United,22,1,75000000,0,0
+Brazil,,Matheus Cunha,0,FW,27,1999-05-27,Brazil,Manchester United,22,1,75000000,2,0
 Brazil,,Neymar,0,FW,34,1992-02-05,Brazil,Santos,128,79,8000000,0,0
 Brazil,,Raphinha,0,FW,29,1996-12-14,Brazil,Barcelona,38,11,80000000,0,0
 Brazil,,Weverton,0,GK,38,1987-12-13,Brazil,Grêmio,10,0,700000,0,0
@@ -268,7 +268,7 @@ Morocco,,Chemsdine Talbi,0,MF,21,2005-05-09,Morocco,Sunderland,5,0,25000000,0,0
 Morocco,,Azzedine Ounahi,0,MF,26,2000-04-19,Morocco,Girona,48,9,10000000,0,0
 Morocco,,Soufiane Rahimi,0,FW,30,1996-06-02,Morocco,Al Ain,36,12,6000000,0,0
 Morocco,,Brahim Díaz,0,FW,26,1999-08-03,Morocco,Real Madrid,25,13,35000000,0,0
-Morocco,,Ismael Saibari,0,MF,25,2001-01-28,Morocco,PSV Eindhoven,30,9,40000000,1,0
+Morocco,,Ismael Saibari,0,MF,25,2001-01-28,Morocco,PSV Eindhoven,30,9,40000000,2,0
 Morocco,,Munir Mohamedi,0,GK,37,1989-05-10,Morocco,RS Berkane,53,0,,0,0
 Morocco,,Zakaria El Ouahdi,0,DF,24,2001-12-31,Morocco,Genk,2,0,17000000,0,0
 Morocco,,Issa Diop,0,DF,29,1997-01-09,Morocco,Fulham,3,0,8000000,0,0
@@ -358,7 +358,7 @@ Paraguay,,Julio Enciso,0,FW,22,2004-01-23,Paraguay,Strasbourg,31,4,25000000,0,0
 Paraguay,,Braian Ojeda,0,MF,25,2000-06-27,Paraguay,Orlando City SC,16,0,3500000,0,0
 Paraguay,,Gabriel Ávalos,0,FW,35,1990-10-12,Paraguay,Independiente,22,2,750000,0,0
 Paraguay,,Gastón Olveira,0,GK,33,1993-04-21,Paraguay,Olimpia,1,0,500000,0,0
-Paraguay,,Matías Galarza,0,MF,24,2002-02-11,Paraguay,Atlanta United FC,14,2,3000000,0,0
+Paraguay,,Matías Galarza,0,MF,24,2002-02-11,Paraguay,Atlanta United FC,14,2,3000000,1,0
 Paraguay,,Gustavo Caballero,0,MF,24,2001-09-21,Paraguay,Portsmouth,2,1,1000000,0,0
 Paraguay,,Isidro Pitta,0,FW,26,1999-08-14,Paraguay,Red Bull Bragantino,5,0,7500000,0,0
 Paraguay,,Alexandro Maidana,0,DF,20,2005-07-26,Paraguay,Talleres,1,0,2500000,0,0
@@ -403,7 +403,7 @@ United States,,Miles Robinson,0,DF,29,1997-03-14,United States,FC Cincinnati,39,
 United States,,Tim Ream,1,DF,38,1987-10-05,United States,Charlotte FC,81,1,150000,0,0
 United States,,Sebastian Berhalter,0,MF,25,2001-05-10,United States,Vancouver Whitecaps FC,12,1,8000000,0,0
 United States,,Cristian Roldan,0,MF,31,1995-06-03,United States,Seattle Sounders FC,46,0,3500000,0,0
-United States,,Alex Freeman,0,DF,21,2004-08-09,United States,Villarreal,16,2,3500000,0,0
+United States,,Alex Freeman,0,DF,21,2004-08-09,United States,Villarreal,16,2,3500000,1,0
 United States,,Malik Tillman,0,MF,24,2002-05-28,United States,Bayer Leverkusen,29,3,30000000,0,0
 United States,,Maximilian Arfsten,0,DF,25,2001-04-19,United States,Columbus Crew,19,1,5000000,0,0
 United States,,Haji Wright,0,FW,28,1998-03-27,United States,Coventry City,20,7,16000000,0,0
@@ -655,7 +655,7 @@ Egypt,,Hossam Abdelmaguid,0,DF,25,2001-04-30,Egypt,Zamalek,13,0,2000000,0,0
 Egypt,,Ramy Rabia,0,DF,33,1993-05-20,Egypt,Al Ain,44,5,600000,0,0
 Egypt,,Mohamed Abdelmonem,0,DF,27,1999-02-01,Egypt,Nice,35,3,2500000,0,0
 Egypt,,Trézéguet,0,FW,31,1994-10-01,Egypt,Al Ahly,95,23,4500000,0,0
-Egypt,,Emam Ashour,0,MF,28,1998-02-20,Egypt,Al Ahly,28,0,4000000,0,0
+Egypt,,Emam Ashour,0,MF,28,1998-02-20,Egypt,Al Ahly,28,0,4000000,1,0
 Egypt,,Hamza Abdelkarim,0,FW,18,2008-01-01,Egypt,Barcelona,1,0,1500000,0,0
 Egypt,,Mohamed Salah,1,FW,33,1992-06-15,Egypt,Liverpool,115,67,22000000,0,0
 Egypt,,Mostafa Ziko,0,MF,29,1997-04-27,Egypt,Pyramids,1,1,1800000,0,0
@@ -681,7 +681,7 @@ Iran,,Shojae Khalilzadeh,0,DF,37,1989-05-14,Iran,Tractor,57,2,100000,0,0
 Iran,,Milad Mohammadi,0,DF,32,1993-09-29,Iran,Persepolis,75,1,900000,0,0
 Iran,,Saeid Ezatolahi,0,MF,29,1996-10-01,Iran,Shabab Al Ahli,82,1,1800000,0,0
 Iran,,Alireza Jahanbakhsh,0,MF,32,1993-08-11,Iran,Dender,98,17,500000,0,0
-Iran,,Mohammad Mohebi,0,MF,27,1998-12-20,Iran,Rostov,36,14,2500000,0,0
+Iran,,Mohammad Mohebi,0,MF,27,1998-12-20,Iran,Rostov,36,14,2500000,1,0
 Iran,,Mehdi Taremi,0,FW,33,1992-07-18,Iran,Olympiacos,104,60,2000000,0,0
 Iran,,Mehdi Ghayedi,0,FW,27,1998-12-05,Iran,Al Nasr,29,10,4500000,0,0
 Iran,,Ali Alipour,0,FW,30,1995-11-11,Iran,Persepolis,13,1,1700000,0,0
@@ -696,7 +696,7 @@ Iran,,Ali Nemati,0,DF,30,1996-02-08,Iran,Foolad,16,0,550000,0,0
 Iran,,Shahriyar Moghanlou,0,FW,31,1994-12-21,Iran,Kalba,20,2,800000,0,0
 Iran,,Mohammad Ghorbani,0,MF,24,2001-10-07,Iran,Al Wahda,15,0,1200000,0,0
 Iran,,Hossein Hosseini,0,GK,33,1992-06-30,Iran,Sepahan,13,0,500000,0,0
-Iran,,Ramin Rezaeian,0,DF,36,1990-03-21,Iran,Foolad,73,7,250000,0,0
+Iran,,Ramin Rezaeian,0,DF,36,1990-03-21,Iran,Foolad,73,7,250000,1,1
 Iran,,Dennis Eckert,0,FW,29,1997-01-09,Iran,Standard Liège,0,0,2000000,0,0
 Iran,,Danial Eiri,0,DF,22,2003-10-26,Iran,Malavan,0,0,1000000,0,0
 Iran,,Amirmohammad Razzaghinia,0,MF,20,2006-04-11,Iran,Esteghlal,3,0,1200000,0,0
@@ -710,7 +710,7 @@ New Zealand,,Matthew Garbett,0,MF,24,2002-04-13,New Zealand,Peterborough United,
 New Zealand,,Marko Stamenić,0,MF,24,2002-02-19,New Zealand,Swansea City,38,3,3000000,0,0
 New Zealand,,Chris Wood,1,FW,34,1991-12-07,New Zealand,Nottingham Forest,89,45,5000000,0,0
 New Zealand,,Sarpreet Singh,0,MF,27,1999-02-20,New Zealand,Wellington Phoenix,27,3,500000,0,0
-New Zealand,,Elijah Just,0,MF,26,2000-05-01,New Zealand,Motherwell,43,9,2500000,0,0
+New Zealand,,Elijah Just,0,MF,26,2000-05-01,New Zealand,Motherwell,43,9,2500000,2,0
 New Zealand,,Alex Paulsen,0,GK,23,2002-07-04,New Zealand,Lechia Gdańsk,7,0,500000,0,0
 New Zealand,,Liberato Cacace,0,DF,25,2000-09-27,New Zealand,Wrexham,36,1,2500000,0,0
 New Zealand,,Alex Rufer,0,MF,29,1996-06-12,New Zealand,Wellington Phoenix,25,0,600000,0,0
@@ -807,7 +807,7 @@ Spain,,Borja Iglesias,0,FW,33,1993-01-17,Spain,Celta Vigo,6,0,3000000,0,0
 Uruguay,,Sergio Rochet,0,GK,33,1993-03-23,Uruguay,Internacional,35,0,1800000,0,0
 Uruguay,,José Giménez,1,DF,31,1995-01-20,Uruguay,Atlético Madrid,99,8,12000000,0,0
 Uruguay,,Sebastián Cáceres,0,DF,26,1999-08-18,Uruguay,América,24,0,4500000,0,0
-Uruguay,,Ronald Araújo,0,DF,27,1999-03-07,Uruguay,Barcelona,27,1,20000000,0,0
+Uruguay,,Ronald Araújo,0,DF,27,1999-03-07,Uruguay,Barcelona,27,1,20000000,1,0
 Uruguay,,Manuel Ugarte,0,MF,25,2001-04-11,Uruguay,Manchester United,36,1,25000000,0,0
 Uruguay,,Rodrigo Bentancur,0,MF,28,1997-06-25,Uruguay,Tottenham Hotspur,74,3,20000000,0,0
 Uruguay,,Nicolás de la Cruz,0,MF,29,1997-06-01,Uruguay,Flamengo,34,5,8000000,0,0
@@ -823,7 +823,7 @@ Uruguay,,Mathías Olivera,0,DF,28,1997-10-31,Uruguay,Napoli,35,2,15000000,0,0
 Uruguay,,Matías Viña,0,DF,28,1997-11-09,Uruguay,River Plate,43,1,3500000,0,0
 Uruguay,,Brian Rodríguez,0,FW,26,2000-05-20,Uruguay,América,32,4,8000000,0,0
 Uruguay,,Rodrigo Aguirre,0,FW,31,1994-10-01,Uruguay,UANL,10,3,2300000,0,0
-Uruguay,,Maximiliano Araújo,0,MF,26,2000-02-15,Uruguay,Sporting CP,28,3,35000000,0,0
+Uruguay,,Maximiliano Araújo,0,MF,26,2000-02-15,Uruguay,Sporting CP,28,3,35000000,1,0
 Uruguay,,Federico Viñas,0,FW,27,1998-06-30,Uruguay,Oviedo,11,2,4000000,0,0
 Uruguay,,Joaquín Piquerez,0,MF,27,1998-08-24,Uruguay,Palmeiras,19,0,12000000,0,0
 Uruguay,,Fernando Muslera,0,GK,39,1986-06-16,Uruguay,Estudiantes,134,0,700000,0,0
@@ -839,9 +839,9 @@ France,,Manu Koné,0,MF,25,2001-05-17,France,Roma,12,0,50000000,0,0
 France,,Ousmane Dembélé,0,FW,29,1997-05-15,France,Paris Saint-Germain,58,7,100000000,0,0
 France,,Aurélien Tchouaméni,0,MF,26,2000-01-27,France,Real Madrid,44,3,75000000,0,0
 France,,Marcus Thuram,0,FW,28,1997-08-06,France,Inter Milan,33,3,50000000,0,0
-France,,Kylian Mbappé,1,FW,27,1998-12-20,France,Real Madrid,96,56,200000000,0,0
+France,,Kylian Mbappé,1,FW,27,1998-12-20,France,Real Madrid,96,56,200000000,2,0
 France,,Michael Olise,0,FW,24,2001-12-12,France,Bayern Munich,15,4,150000000,0,0
-France,,Bradley Barcola,0,FW,23,2002-09-02,France,Paris Saint-Germain,18,3,70000000,0,0
+France,,Bradley Barcola,0,FW,23,2002-09-02,France,Paris Saint-Germain,18,3,70000000,1,0
 France,,N'Golo Kanté,0,MF,35,1991-03-29,France,Fenerbahçe,67,2,4000000,0,0
 France,,Adrien Rabiot,0,MF,31,1995-04-03,France,Milan,57,7,18000000,0,0
 France,,Ibrahima Konaté,0,DF,27,1999-05-25,France,Liverpool,27,0,45000000,0,0
@@ -873,7 +873,7 @@ Iraq,,Zidane Iqbal,0,MF,23,2003-04-27,Iraq,Utrecht,23,2,1000000,0,0
 Iraq,,Ahmed Yahya,0,DF,30,1995-07-01,Iraq,Al-Shorta,19,0,450000,0,0
 Iraq,,Amir Al-Ammari,0,MF,28,1997-07-27,Iraq,Cracovia,49,3,1000000,0,0
 Iraq,,Ali Jasim,0,FW,22,2004-01-20,Iraq,Al-Najma,35,2,500000,0,0
-Iraq,,Aymen Hussein,0,FW,30,1996-03-22,Iraq,Al-Karma,93,33,400000,0,0
+Iraq,,Aymen Hussein,0,FW,30,1996-03-22,Iraq,Al-Karma,93,33,400000,1,0
 Iraq,,Kevin Yakob,0,MF,25,2000-10-10,Iraq,AGF,7,0,850000,0,0
 Iraq,,Aimar Sher,0,MF,23,2002-12-20,Iraq,Sarpsborg 08,6,0,1500000,0,0
 Iraq,,Marko Farji,0,FW,22,2004-03-16,Iraq,Venezia,10,0,1700000,0,0
@@ -885,12 +885,12 @@ Iraq,,Frans Putros,0,DF,32,1993-07-14,Iraq,Persib,26,0,325000,0,0
 Norway,,Ørjan Nyland,0,GK,35,1990-09-10,Norway,Sevilla,70,0,900000,0,0
 Norway,,Morten Thorsby,0,MF,30,1996-05-05,Norway,Cremonese,31,0,2800000,0,0
 Norway,,Kristoffer Ajer,0,DF,28,1998-04-17,Norway,Brentford,51,2,18000000,0,0
-Norway,,Leo Østigård,0,DF,26,1999-11-28,Norway,Genoa,37,1,13000000,0,0
+Norway,,Leo Østigård,0,DF,26,1999-11-28,Norway,Genoa,37,1,13000000,1,0
 Norway,,David Møller Wolfe,0,DF,24,2002-04-23,Norway,Wolverhampton Wanderers,21,1,8000000,0,0
 Norway,,Patrick Berg,0,MF,28,1997-11-24,Norway,Bodø/Glimt,42,0,8000000,0,0
 Norway,,Alexander Sørloth,0,FW,30,1995-12-05,Norway,Atlético Madrid,71,26,20000000,0,0
 Norway,,Sander Berge,0,MF,28,1998-02-14,Norway,Fulham,65,1,25000000,0,0
-Norway,,Erling Haaland,0,FW,25,2000-07-21,Norway,Manchester City,49,55,200000000,0,0
+Norway,,Erling Haaland,0,FW,25,2000-07-21,Norway,Manchester City,49,55,200000000,2,0
 Norway,,Martin Ødegaard,1,MF,27,1998-12-17,Norway,Arsenal,67,4,65000000,0,0
 Norway,,Jørgen Strand Larsen,0,FW,26,2000-02-06,Norway,Crystal Palace,27,6,40000000,0,0
 Norway,,Sander Tangvik,0,GK,23,2002-11-29,Norway,Hamburger SV,0,0,3000000,0,0
@@ -927,7 +927,7 @@ Senegal,,Édouard Mendy,0,GK,34,1992-03-01,Senegal,Al-Ahli,56,0,4000000,0,0
 Senegal,,Pape Matar Sarr,0,MF,23,2002-09-14,Senegal,Tottenham Hotspur,39,4,30000000,0,0
 Senegal,,Ismaïla Sarr,0,FW,28,1998-02-25,Senegal,Crystal Palace,82,19,40000000,0,0
 Senegal,,Moussa Niakhaté,0,DF,30,1996-03-08,Senegal,Lyon,30,0,15000000,0,0
-Senegal,,Ibrahim Mbaye,0,FW,18,2008-01-24,Senegal,Paris Saint-Germain,10,3,30000000,0,0
+Senegal,,Ibrahim Mbaye,0,FW,18,2008-01-24,Senegal,Paris Saint-Germain,10,3,30000000,1,0
 Senegal,,Habib Diarra,0,MF,22,2004-01-03,Senegal,Sunderland,20,4,35000000,0,0
 Senegal,,Bara Sapoko Ndiaye,0,MF,18,2007-12-31,Senegal,Bayern Munich,1,0,4000000,0,0
 Senegal,,Mory Diaw,0,GK,32,1993-06-22,Senegal,Le Havre,5,0,900000,0,0
@@ -969,7 +969,7 @@ Argentina,,Lisandro Martínez,0,DF,28,1998-01-18,Argentina,Manchester United,26,
 Argentina,,Rodrigo De Paul,0,MF,32,1994-05-24,Argentina,Inter Miami CF,85,2,14000000,0,0
 Argentina,,Valentín Barco,0,MF,21,2004-07-23,Argentina,Strasbourg,2,1,40000000,0,0
 Argentina,,Julián Alvarez,0,FW,26,2000-01-31,Argentina,Atlético Madrid,51,14,90000000,0,0
-Argentina,,Lionel Messi,1,FW,38,1987-06-24,Argentina,Inter Miami CF,198,116,15000000,0,0
+Argentina,,Lionel Messi,1,FW,38,1987-06-24,Argentina,Inter Miami CF,198,116,15000000,3,0
 Argentina,,Giovani Lo Celso,0,MF,30,1996-04-09,Argentina,Real Betis,65,4,10000000,0,0
 Argentina,,Gerónimo Rulli,0,GK,34,1992-05-20,Argentina,Marseille,7,0,6000000,0,0
 Argentina,,Cristian Romero,0,DF,28,1998-04-27,Argentina,Tottenham Hotspur,49,3,45000000,0,0
@@ -992,7 +992,7 @@ Austria,,Kevin Danso,0,DF,27,1998-09-19,Austria,Tottenham Hotspur,32,0,20000000,
 Austria,,Xaver Schlager,0,MF,28,1997-09-28,Austria,RB Leipzig,51,4,10000000,0,0
 Austria,,Stefan Posch,0,DF,29,1997-05-14,Austria,Mainz 05,52,5,6000000,0,0
 Austria,,Nicolas Seiwald,0,MF,25,2001-05-04,Austria,RB Leipzig,47,1,25000000,0,0
-Austria,,Marko Arnautović,0,FW,37,1989-04-19,Austria,Red Star Belgrade,133,47,2500000,0,0
+Austria,,Marko Arnautović,0,FW,37,1989-04-19,Austria,Red Star Belgrade,133,47,2500000,1,0
 Austria,,David Alaba,1,DF,33,1992-06-24,Austria,Real Madrid,113,15,3500000,0,0
 Austria,,Marcel Sabitzer,0,MF,32,1994-03-17,Austria,Borussia Dortmund,98,26,6000000,0,0
 Austria,,Florian Grillitsch,0,MF,30,1995-08-07,Austria,Braga,58,1,2500000,0,0
@@ -1003,7 +1003,7 @@ Austria,,Saša Kalajdžić,0,FW,28,1997-07-07,Austria,LASK,22,4,4000000,0,0
 Austria,,Philipp Lienhart,0,DF,29,1996-07-11,Austria,SC Freiburg,41,3,10000000,0,0
 Austria,,Phillipp Mwene,0,DF,32,1994-01-29,Austria,Mainz 05,30,0,1500000,0,0
 Austria,,Carney Chukwuemeka,0,MF,22,2003-10-20,Austria,Borussia Dortmund,3,1,20000000,0,0
-Austria,,Romano Schmid,0,MF,26,2000-01-27,Austria,Werder Bremen,34,3,15000000,0,0
+Austria,,Romano Schmid,0,MF,26,2000-01-27,Austria,Werder Bremen,34,3,15000000,1,0
 Austria,,Konrad Laimer,0,MF,29,1997-05-27,Austria,Bayern Munich,57,7,32000000,0,0
 Austria,,Patrick Wimmer,0,FW,25,2001-05-30,Austria,VfL Wolfsburg,30,1,12000000,0,0
 Austria,,Alexander Prass,0,MF,25,2001-05-26,Austria,TSG Hoffenheim,19,0,9000000,0,0
@@ -1019,7 +1019,7 @@ Jordan,,Yazan Al-Arab,0,DF,30,1996-01-31,Jordan,FC Seoul,79,3,1000000,0,0
 Jordan,,Amer Jamous,0,MF,23,2002-07-03,Jordan,Al-Zawraa,18,1,500000,0,0
 Jordan,,Mohammad Abu Zrayq,0,FW,28,1997-12-30,Jordan,Raja Casablanca,40,5,,0,0
 Jordan,,Noor Al-Rawabdeh,0,MF,29,1997-02-24,Jordan,Selangor,67,3,450000,0,0
-Jordan,,Ali Olwan,0,FW,26,2000-03-26,Jordan,Al-Sailiya,65,29,800000,0,0
+Jordan,,Ali Olwan,0,FW,26,2000-03-26,Jordan,Al-Sailiya,65,29,800000,1,0
 Jordan,,Musa Al-Taamari,0,FW,29,1997-06-10,Jordan,Rennes,91,24,,0,0
 Jordan,,Odeh Al-Fakhouri,0,FW,20,2005-11-22,Jordan,Pyramids,9,1,,0,0
 Jordan,,Nour Bani Attiah,0,GK,33,1993-01-25,Jordan,Al-Faisaly,4,0,,0,0
@@ -1038,12 +1038,12 @@ Jordan,,Ali Azaizeh,0,FW,22,2004-04-13,Jordan,Al-Shabab,3,0,325000,0,0
 Jordan,,Mohammad Al-Dawoud,0,MF,34,1992-04-12,Jordan,Al-Wehdat,12,1,150000,0,0
 Jordan,,Anas Badawi,0,DF,28,1997-09-13,Jordan,Al-Faisaly,1,0,200000,0,0
 Colombia,,David Ospina,0,GK,37,1988-08-31,Colombia,Atlético Nacional,130,0,100000,0,0
-Colombia,,Daniel Muñoz,0,DF,30,1996-05-26,Colombia,Crystal Palace,45,3,22000000,0,0
+Colombia,,Daniel Muñoz,0,DF,30,1996-05-26,Colombia,Crystal Palace,45,3,22000000,1,0
 Colombia,,Jhon Lucumí,0,DF,27,1998-06-26,Colombia,Bologna,36,1,22000000,0,0
 Colombia,,Santiago Arias,0,DF,34,1992-01-13,Colombia,Independiente,67,0,1200000,0,0
 Colombia,,Kevin Castaño,0,MF,25,2000-09-29,Colombia,River Plate,25,0,5000000,0,0
 Colombia,,Richard Ríos,0,MF,26,2000-06-02,Colombia,Benfica,31,2,25000000,0,0
-Colombia,,Luis Díaz,0,FW,29,1997-01-13,Colombia,Bayern Munich,73,22,70000000,0,0
+Colombia,,Luis Díaz,0,FW,29,1997-01-13,Colombia,Bayern Munich,73,22,70000000,1,1
 Colombia,,Jorge Carrascal,0,MF,28,1998-05-25,Colombia,Flamengo,23,2,13000000,0,0
 Colombia,,Jhon Córdoba,0,FW,33,1993-05-11,Colombia,Krasnodar,21,6,10000000,0,0
 Colombia,,James Rodríguez,1,MF,34,1991-07-12,Colombia,Minnesota United FC,125,31,1500000,0,0
@@ -1057,7 +1057,7 @@ Colombia,,Johan Mojica,0,DF,33,1992-08-21,Colombia,Mallorca,44,1,1800000,0,0
 Colombia,,Willer Ditta,0,DF,28,1998-01-23,Colombia,Cruz Azul,4,0,5500000,0,0
 Colombia,,Cucho Hernández,0,FW,27,1999-04-20,Colombia,Real Betis,8,2,18000000,0,0
 Colombia,,Juan Fernando Quintero,0,MF,33,1993-01-18,Colombia,River Plate,48,6,1800000,0,0
-Colombia,,Jaminton Campaz,0,FW,26,2000-05-24,Colombia,Rosario Central,9,1,5500000,0,0
+Colombia,,Jaminton Campaz,0,FW,26,2000-05-24,Colombia,Rosario Central,9,1,5500000,1,0
 Colombia,,Deiver Machado,0,DF,32,1993-09-02,Colombia,Nantes,15,0,1800000,0,0
 Colombia,,Davinson Sánchez,0,DF,29,1996-06-12,Colombia,Galatasaray,78,4,16000000,0,0
 Colombia,,Álvaro Montero,0,GK,31,1995-03-29,Colombia,Vélez Sarsfield,11,0,2500000,0,0
@@ -1082,7 +1082,7 @@ DR Congo,,Timothy Fayulu,0,GK,26,1999-07-24,DR Congo,Noah,3,0,800000,0,0
 DR Congo,,Cédric Bakambu,0,FW,35,1991-04-11,DR Congo,Real Betis,69,21,1400000,0,0
 DR Congo,,Charles Pickel,0,MF,29,1997-05-15,DR Congo,Espanyol,34,1,2500000,0,0
 DR Congo,,Fiston Mayele,0,FW,31,1994-06-24,DR Congo,Pyramids,37,6,1800000,0,0
-DR Congo,,Yoane Wissa,0,FW,29,1996-09-03,DR Congo,Newcastle United,37,9,25000000,0,0
+DR Congo,,Yoane Wissa,0,FW,29,1996-09-03,DR Congo,Newcastle United,37,9,25000000,1,0
 DR Congo,,Matthieu Epolo,0,GK,21,2005-01-15,DR Congo,Standard Liège,1,0,8000000,0,0
 DR Congo,,Chancel Mbemba,1,DF,31,1994-08-08,DR Congo,Lille,108,7,2000000,0,0
 DR Congo,,Simon Banza,0,FW,29,1996-08-13,DR Congo,Al Jazira,15,2,10000000,0,0
@@ -1103,7 +1103,7 @@ Portugal,,João Félix,0,FW,26,1999-11-10,Portugal,Al-Nassr,52,12,28000000,0,0
 Portugal,,José Sá,0,GK,33,1993-01-17,Portugal,Wolverhampton Wanderers,4,0,3500000,0,0
 Portugal,,Renato Veiga,0,DF,22,2003-07-29,Portugal,Villarreal,11,1,25000000,0,0
 Portugal,,Gonçalo Inácio,0,DF,24,2001-08-25,Portugal,Sporting CP,20,2,40000000,0,0
-Portugal,,João Neves,0,MF,21,2004-09-27,Portugal,Paris Saint-Germain,21,3,140000000,0,0
+Portugal,,João Neves,0,MF,21,2004-09-27,Portugal,Paris Saint-Germain,21,3,140000000,1,0
 Portugal,,Francisco Trincão,0,FW,26,1999-12-29,Portugal,Sporting CP,17,3,40000000,0,0
 Portugal,,Rafael Leão,0,FW,27,1999-06-10,Portugal,Milan,43,5,50000000,0,0
 Portugal,,Pedro Neto,0,FW,26,2000-03-09,Portugal,Chelsea,23,2,60000000,0,0
@@ -1136,7 +1136,7 @@ Uzbekistan,,Abdulla Abdullaev,0,DF,28,1997-09-01,Uzbekistan,Dibba,17,0,500000,0,
 Uzbekistan,,Azizjon Ganiev,0,MF,28,1998-02-22,Uzbekistan,Al Bataeh,19,0,2000000,0,0
 Uzbekistan,,Azizbek Amonov,0,FW,28,1997-10-30,Uzbekistan,Dinamo Samarqand,12,2,,0,0
 Uzbekistan,,Igor Sergeev,0,FW,33,1993-04-30,Uzbekistan,Persepolis,82,24,1200000,0,0
-Uzbekistan,,Abbosbek Fayzullaev,0,MF,22,2003-10-03,Uzbekistan,İstanbul Başakşehir,31,8,7000000,0,0
+Uzbekistan,,Abbosbek Fayzullaev,0,MF,22,2003-10-03,Uzbekistan,İstanbul Başakşehir,31,8,7000000,1,0
 Uzbekistan,,Sherzod Esanov,0,MF,23,2003-02-01,Uzbekistan,Bukhara,1,0,450000,0,0
 Uzbekistan,,Bekhruz Karimov,0,DF,18,2007-08-07,Uzbekistan,Surkhon Termiz,2,0,350000,0,0
 Uzbekistan,,Avazbek Ulmasaliev,0,DF,26,2000-03-27,Uzbekistan,AGMK,0,0,500000,0,0
@@ -1156,7 +1156,7 @@ Croatia,,Ivor Pandur,0,GK,26,2000-03-25,Croatia,Hull City,0,0,4500000,0,0
 Croatia,,Nikola Vlašić,0,MF,28,1997-10-04,Croatia,Torino,62,10,10000000,0,0
 Croatia,,Ivan Perišić,0,FW,37,1989-02-02,Croatia,PSV Eindhoven,153,38,1200000,0,0
 Croatia,,Mario Pašalić,0,MF,31,1995-02-09,Croatia,Atalanta,84,11,6000000,0,0
-Croatia,,Martin Baturina,0,MF,23,2003-02-16,Croatia,Como,18,1,30000000,0,0
+Croatia,,Martin Baturina,0,MF,23,2003-02-16,Croatia,Como,18,1,30000000,1,0
 Croatia,,Petar Sučić,0,MF,22,2003-10-25,Croatia,Inter Milan,16,1,40000000,0,0
 Croatia,,Kristijan Jakić,0,DF,29,1997-05-14,Croatia,FC Augsburg,17,2,6000000,0,0
 Croatia,,Toni Fruk,0,MF,25,2001-03-09,Croatia,Rijeka,7,1,9000000,0,0
@@ -1166,7 +1166,7 @@ Croatia,,Luka Vušković,0,DF,19,2007-02-24,Croatia,Hamburger SV,5,1,60000000,0,
 Croatia,,Dominik Kotarski,0,GK,26,2000-02-10,Croatia,Copenhagen,4,0,5000000,0,0
 Croatia,,Marco Pašalić,0,FW,25,2000-09-14,Croatia,Orlando City SC,14,1,6500000,0,0
 Croatia,,Martin Erlić,0,DF,28,1998-01-24,Croatia,Midtjylland,12,1,4000000,0,0
-Croatia,,Petar Musa,0,FW,28,1998-03-04,Croatia,FC Dallas,11,1,12000000,0,0
+Croatia,,Petar Musa,0,FW,28,1998-03-04,Croatia,FC Dallas,11,1,12000000,1,0
 England,,Jordan Pickford,0,GK,32,1994-03-07,England,Everton,82,0,13000000,0,0
 England,,Ezri Konsa,0,DF,28,1997-10-23,England,Aston Villa,18,1,40000000,0,0
 England,,Nico O'Reilly,0,DF,21,2005-03-21,England,Manchester City,3,0,70000000,0,0
@@ -1175,9 +1175,9 @@ England,,John Stones,0,DF,32,1994-05-28,England,Manchester City,87,3,12000000,0,
 England,,Marc Guéhi,0,DF,25,2000-07-13,England,Manchester City,27,1,70000000,0,0
 England,,Bukayo Saka,0,FW,24,2001-09-05,England,Arsenal,48,14,110000000,0,0
 England,,Elliot Anderson,0,MF,23,2002-11-06,England,Nottingham Forest,7,0,75000000,0,0
-England,,Harry Kane,1,FW,32,1993-07-28,England,Bayern Munich,112,78,60000000,0,0
-England,,Jude Bellingham,0,MF,22,2003-06-29,England,Real Madrid,46,6,140000000,0,0
-England,,Marcus Rashford,0,FW,28,1997-10-31,England,Barcelona,70,18,40000000,0,0
+England,,Harry Kane,1,FW,32,1993-07-28,England,Bayern Munich,112,78,60000000,2,0
+England,,Jude Bellingham,0,MF,22,2003-06-29,England,Real Madrid,46,6,140000000,1,0
+England,,Marcus Rashford,0,FW,28,1997-10-31,England,Barcelona,70,18,40000000,1,0
 England,,Tino Livramento,0,DF,23,2002-11-12,England,Newcastle United,5,0,45000000,0,0
 England,,Dean Henderson,0,GK,29,1997-03-12,England,Crystal Palace,4,0,28000000,0,0
 England,,Jordan Henderson,0,MF,35,1990-06-17,England,Brentford,89,3,1200000,0,0
@@ -1195,7 +1195,7 @@ England,,Djed Spence,0,DF,25,2000-08-09,England,Tottenham Hotspur,4,0,30000000,0
 England,,Jarell Quansah,0,DF,23,2003-01-29,England,Bayer Leverkusen,1,0,45000000,0,0
 Ghana,,Lawrence Ati-Zigi,0,GK,29,1996-11-29,Ghana,St. Gallen,29,0,1500000,0,0
 Ghana,,Alidu Seidu,0,DF,26,2000-06-04,Ghana,Rennes,24,1,6000000,0,0
-Ghana,,Caleb Yirenkyi,0,MF,20,2006-01-15,Ghana,Nordsjælland,11,1,10000000,0,0
+Ghana,,Caleb Yirenkyi,0,MF,20,2006-01-15,Ghana,Nordsjælland,11,1,10000000,1,0
 Ghana,,Jonas Adjetey,0,DF,22,2003-12-13,Ghana,VfL Wolfsburg,10,0,6000000,0,0
 Ghana,,Thomas Partey,0,MF,32,1993-06-13,Ghana,Villarreal,57,15,2500000,0,0
 Ghana,,Abdul Mumin,0,DF,28,1998-06-06,Ghana,Rayo Vallecano,5,0,4000000,0,0

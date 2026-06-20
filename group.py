@@ -4,22 +4,28 @@ Step 4 - simulate a four-team group and rank it with FIFA tiebreakers.
 Each group plays a single round robin: six matches, every team meeting every
 other once. Three points for a win, one for a draw.
 
-Final ranking follows the official FIFA World Cup group-stage criteria, applied
-in order:
-  1. points across all group matches
-  2. goal difference across all group matches
-  3. goals scored across all group matches
-  If teams remain level, criteria 4-6 are applied to the matches *among the
-  tied teams only*:
-  4. points in head-to-head matches
-  5. goal difference in head-to-head matches
-  6. goals scored in head-to-head matches
-  7. drawing of lots
+Final ranking follows the official FIFA World Cup 2026 group-stage criteria:
+  1. Points across all group matches.
+  When two or more teams are level on points:
+  2. Head-to-head points (mini-league of tied teams only).
+  3. Head-to-head goal difference (in those mini-league matches).
+  4. Head-to-head goals scored (in those mini-league matches).
+  5. Overall group goal difference (across all group matches).
+  6. Overall group goals scored (across all group matches).
+  7. Fair play (yellow/red cards) - skipped, no disciplinary data.
+  8. Drawing of lots.
 
-Modelling note: FIFA's published criteria also include fair-play points
-(criterion before the drawing of lots). The simulator has no disciplinary data,
-so it goes straight from head-to-head to a random draw of lots. This affects
-only the handful of cases that are still exactly level after head-to-head.
+Note on order: this is the post-2022 FIFA rule, where head-to-head is applied
+BEFORE overall goal difference. The earlier convention (GD first, then H2H) was
+retired - it allowed teams that had lost to each direct rival to advance on
+goal-difference padding. The change matters in cases like Group D 2026: Turkey
+finished tied with their direct rivals but had lost both head-to-head meetings,
+making them 4th under the current rules.
+
+For the 3rd-place ranking across groups (used to fill the 8 best-3rd spots),
+teams in different groups never played each other, so the comparison falls
+straight through to overall GD/GF. That logic lives in third_place.py - this
+module only ranks within a single group.
 """
 
 from itertools import combinations
@@ -51,8 +57,30 @@ def _apply_result(record, goals_for, goals_against):
         record["lost"] += 1
 
 
+def _points_key(record):
+    """Sort key for criterion 1: points only."""
+    return (record["points"],)
+
+
+def _h2h_key(record):
+    """Sort key for criteria 2-4: head-to-head points, GD, GF."""
+    return (record["points"], record["gd"], record["gf"])
+
+
+def _overall_gd_key(record):
+    """Sort key for criteria 5-6: overall group GD then GF."""
+    return (record["gd"], record["gf"])
+
+
 def _overall_key(record):
-    """Sort key for criteria 1-3: points, goal difference, goals scored."""
+    """Sort key for cross-group comparisons (e.g. ranking the 12 third-placed
+    teams against each other). Uses points -> overall GD -> overall GF.
+
+    This is intentionally different from the within-group tiebreaker: teams in
+    different groups never played each other, so head-to-head is undefined and
+    we go straight to the overall criteria. tournament.py imports this for the
+    best-third-place ranking.
+    """
     return (record["points"], record["gd"], record["gf"])
 
 
@@ -69,11 +97,11 @@ def _tied_blocks(ordered, key_of):
     return blocks
 
 
-def _break_tie(block, results, rng):
-    """Order a set of teams level on criteria 1-3 using head-to-head, then lots.
+def _h2h_records(block, results):
+    """Build head-to-head-only records for a set of tied teams.
 
     `results` maps (team_a, team_b) -> (goals_a, goals_b) for all six group
-    matches; only the matches between teams in `block` are counted here.
+    matches; only the matches *between teams in `block`* are counted here.
     """
     in_block = set(block)
     h2h = {team: _blank_record() for team in block}
@@ -81,25 +109,52 @@ def _break_tie(block, results, rng):
         if team_a in in_block and team_b in in_block:
             _apply_result(h2h[team_a], goals_a, goals_b)
             _apply_result(h2h[team_b], goals_b, goals_a)
+    return h2h
 
-    key_of = lambda team: _overall_key(h2h[team])
+
+def _break_overall_gd(block, stats, rng):
+    """Apply criteria 5-6 (overall GD, overall GF), then lots."""
+    key_of = lambda team: _overall_gd_key(stats[team])
     ordered = sorted(block, key=key_of, reverse=True)
-
-    final_order = []
+    final = []
     for sub in _tied_blocks(ordered, key_of):
         if len(sub) == 1:
-            final_order.append(sub[0])
+            final.append(sub[0])
         else:
-            # Still exactly level after head-to-head: drawing of lots.
+            # Still level after overall GD/GF: drawing of lots.
             sub = list(sub)
             rng.shuffle(sub)
-            final_order.extend(sub)
-    return final_order
+            final.extend(sub)
+    return final
+
+
+def _break_h2h(block, stats, results, rng):
+    """Order teams tied on points using head-to-head (criteria 2-4), then
+    falling back to overall GD/GF (criteria 5-6), then lots.
+
+    Important: per FIFA 2022+ rules, head-to-head is applied BEFORE overall
+    goal difference. If three teams are tied, a mini-league is built from
+    their matches against each other only. If that mini-league still leaves
+    some teams tied, those still-tied teams are separated by overall GD/GF
+    (computed from their full group record, not the mini-league).
+    """
+    h2h = _h2h_records(block, results)
+    key_of = lambda team: _h2h_key(h2h[team])
+    ordered = sorted(block, key=key_of, reverse=True)
+
+    final = []
+    for sub in _tied_blocks(ordered, key_of):
+        if len(sub) == 1:
+            final.append(sub[0])
+        else:
+            # Head-to-head couldn't split them; use overall GD/GF, then lots.
+            final.extend(_break_overall_gd(sub, stats, rng))
+    return final
 
 
 def _rank(teams, stats, results, rng):
     """Return the four teams ordered 1st -> 4th by the full FIFA criteria."""
-    key_of = lambda team: _overall_key(stats[team])
+    key_of = lambda team: _points_key(stats[team])
     ordered = sorted(teams, key=key_of, reverse=True)
 
     final_order = []
@@ -107,7 +162,7 @@ def _rank(teams, stats, results, rng):
         if len(block) == 1:
             final_order.append(block[0])
         else:
-            final_order.extend(_break_tie(block, results, rng))
+            final_order.extend(_break_h2h(block, stats, results, rng))
     return final_order
 
 
