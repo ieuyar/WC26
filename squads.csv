@@ -553,8 +553,8 @@ Netherlands,,Jan Paul van Hecke,0,DF,26,2000-06-08,Netherlands,Brighton & Hove A
 Netherlands,,Justin Kluivert,0,MF,27,1999-05-05,Netherlands,Bournemouth,12,0,25000000,0,0
 Netherlands,,Ryan Gravenberch,0,MF,24,2002-05-16,Netherlands,Liverpool,26,1,80000000,0,0
 Netherlands,,Wout Weghorst,0,FW,33,1992-08-07,Netherlands,Ajax,52,14,2000000,0,0
-Netherlands,,Memphis Depay,0,FW,32,1994-02-13,Netherlands,Corinthians,109,55,7000000,0,0
-Netherlands,,Cody Gakpo,0,FW,27,1999-05-07,Netherlands,Liverpool,49,19,60000000,0,0
+Netherlands,,Memphis Depay,0,FW,32,1994-02-13,Netherlands,Corinthians,109,55,7000000,1,0
+Netherlands,,Cody Gakpo,0,FW,27,1999-05-07,Netherlands,Liverpool,49,19,60000000,2,2
 Netherlands,,Mats Wieffer,0,DF,26,1999-11-16,Netherlands,Brighton & Hove Albion,15,1,25000000,0,0
 Netherlands,,Robin Roefs,0,GK,23,2003-01-17,Netherlands,Sunderland,1,0,28000000,0,0
 Netherlands,,Tijjani Reijnders,0,MF,27,1998-07-29,Netherlands,Manchester City,31,7,50000000,0,0
@@ -562,12 +562,12 @@ Netherlands,,Micky van de Ven,0,DF,25,2001-04-19,Netherlands,Tottenham Hotspur,2
 Netherlands,,Guus Til,0,MF,28,1997-12-22,Netherlands,PSV Eindhoven,6,1,15000000,0,0
 Netherlands,,Noa Lang,0,FW,26,1999-06-17,Netherlands,Galatasaray,15,3,22000000,0,0
 Netherlands,,Donyell Malen,0,FW,27,1999-01-19,Netherlands,Roma,52,13,45000000,0,0
-Netherlands,,Brian Brobbey,0,FW,24,2002-02-01,Netherlands,Sunderland,11,1,30000000,0,0
+Netherlands,,Brian Brobbey,0,FW,24,2002-02-01,Netherlands,Sunderland,11,1,30000000,2,0
 Netherlands,,Teun Koopmeiners,0,MF,28,1998-02-28,Netherlands,Juventus,28,3,14000000,0,0
 Netherlands,,Frenkie de Jong,0,MF,29,1997-05-12,Netherlands,Barcelona,65,2,45000000,0,0
 Netherlands,,Denzel Dumfries,0,DF,30,1996-04-18,Netherlands,Inter Milan,71,11,25000000,0,0
 Netherlands,,Mark Flekken,0,GK,32,1993-06-13,Netherlands,Bayer Leverkusen,11,0,6000000,0,0
-Netherlands,,Crysencio Summerville,0,FW,24,2001-10-30,Netherlands,West Ham United,1,0,35000000,1,0
+Netherlands,,Crysencio Summerville,0,FW,24,2001-10-30,Netherlands,West Ham United,1,0,35000000,1,1
 Netherlands,,Jorrel Hato,0,DF,20,2006-03-07,Netherlands,Chelsea,8,0,40000000,0,0
 Netherlands,,Quinten Timber,0,MF,24,2001-06-17,Netherlands,Marseille,11,1,25000000,0,0
 Sweden,,Jacob Widell Zetterström,0,GK,27,1998-07-11,Sweden,Derby County,3,0,2500000,0,0
@@ -578,9 +578,9 @@ Sweden,,Gabriel Gudmundsson,0,DF,27,1999-04-29,Sweden,Leeds United,24,0,20000000
 Sweden,,Herman Johansson,0,DF,28,1997-10-16,Sweden,FC Dallas,3,0,1800000,0,0
 Sweden,,Lucas Bergvall,0,MF,20,2006-02-02,Sweden,Tottenham Hotspur,10,0,35000000,0,0
 Sweden,,Daniel Svensson,0,DF,24,2002-02-12,Sweden,Borussia Dortmund,13,0,22000000,0,0
-Sweden,,Alexander Isak,0,FW,26,1999-09-21,Sweden,Liverpool,58,17,85000000,1,2
+Sweden,,Alexander Isak,0,FW,26,1999-09-21,Sweden,Liverpool,58,17,85000000,1,3
 Sweden,,Benjamin Nygren,0,MF,24,2001-07-08,Sweden,Celtic,11,3,14000000,0,0
-Sweden,,Anthony Elanga,0,FW,24,2002-04-27,Sweden,Newcastle United,30,6,32000000,0,0
+Sweden,,Anthony Elanga,0,FW,24,2002-04-27,Sweden,Newcastle United,30,6,32000000,1,0
 Sweden,,Viktor Johansson,0,GK,27,1998-09-14,Sweden,Stoke City,12,0,12000000,0,0
 Sweden,,Ken Sema,0,MF,32,1993-09-30,Sweden,Pafos,33,5,800000,0,0
 Sweden,,Hjalmar Ekdal,0,DF,27,1998-10-21,Sweden,Burnley,13,0,5000000,0,0
