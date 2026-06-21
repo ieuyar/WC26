@@ -11,8 +11,8 @@ Model,9,1,E,Cote d'Ivoire,Ecuador,0.18054,0.22738,0.59208,0-1,2026-06-14
 Model,10,1,E,Germany,Curacao,0.91445,0.0802,0.00535,2-0,2026-06-14
 Model,11,1,F,Netherlands,Japan,0.54713,0.23828,0.21459,1-0,2026-06-14
 Model,12,1,F,Sweden,Tunisia,0.75608,0.16869,0.07523,2-0,2026-06-14
-Model,13,1,H,Saudi Arabia,Uruguay,0.03526,0.12848,0.83626,0-2,2026-06-15
-Model,14,1,H,Spain,Cape Verde,0.91371,0.08071,0.00558,2-0,2026-06-15
+Model,13,1,H,Saudi Arabia,Uruguay,0.0328,0.12535,0.84186,0-2,2026-06-15
+Model,14,1,H,Spain,Cape Verde,0.9148,0.07996,0.00524,2-0,2026-06-15
 Model,15,1,G,Iran,New Zealand,0.67042,0.20308,0.1265,1-0,2026-06-15
 Model,16,1,G,Belgium,Egypt,0.72361,0.18272,0.09368,2-0,2026-06-15
 Model,17,1,I,France,Senegal,0.78399,0.15562,0.06038,2-0,2026-06-16
@@ -36,7 +36,7 @@ Model,34,2,E,Ecuador,Curacao,0.89374,0.09403,0.01224,2-0,2026-06-20
 Model,35,2,F,Netherlands,Sweden,0.79244,0.15148,0.05608,2-0,2026-06-20
 Model,36,2,F,Tunisia,Japan,0.01904,0.10566,0.8753,0-2,2026-06-20
 Model,37,2,H,Uruguay,Cape Verde,0.82269,0.13588,0.04143,2-0,2026-06-21
-Model,38,2,H,Spain,Saudi Arabia,0.91604,0.07911,0.00486,2-0,2026-06-21
+Model,38,2,H,Spain,Saudi Arabia,0.91789,0.07782,0.00429,2-0,2026-06-21
 Model,39,2,G,Belgium,Iran,0.71655,0.1856,0.09785,2-0,2026-06-21
 Model,40,2,G,New Zealand,Egypt,0.13195,0.206,0.66205,0-1,2026-06-21
 Model,41,2,I,Norway,Senegal,0.54583,0.23856,0.21561,1-0,2026-06-22
@@ -63,8 +63,8 @@ Model,61,3,I,Norway,France,0.12244,0.20083,0.67672,0-1,2026-06-26
 Model,62,3,I,Senegal,Iraq,0.83439,0.12951,0.0361,2-0,2026-06-26
 Model,63,3,G,Egypt,Iran,0.36026,0.2581,0.38164,1-1,2026-06-26
 Model,64,3,G,New Zealand,Belgium,0.02702,0.11759,0.85539,0-2,2026-06-26
-Model,65,3,H,Cape Verde,Saudi Arabia,0.41092,0.25708,0.332,1-1,2026-06-26
-Model,66,3,H,Uruguay,Spain,0.05303,0.14843,0.79854,0-2,2026-06-26
+Model,65,3,H,Cape Verde,Saudi Arabia,0.42922,0.25587,0.31491,1-1,2026-06-26
+Model,66,3,H,Uruguay,Spain,0.04926,0.14452,0.80622,0-2,2026-06-26
 Model,67,3,L,Panama,England,0.01371,0.09669,0.8896,0-2,2026-06-27
 Model,68,3,L,Croatia,Ghana,0.82919,0.13236,0.03844,2-0,2026-06-27
 Model,69,3,J,Algeria,Austria,0.19806,0.23336,0.56859,0-1,2026-06-27
@@ -83,8 +83,8 @@ Elo,9,1,E,Cote d'Ivoire,Ecuador,0.16779,0.2225,0.60972,0-1,2026-06-14
 Elo,10,1,E,Germany,Curacao,0.89673,0.09208,0.01119,2-0,2026-06-14
 Elo,11,1,F,Netherlands,Japan,0.48759,0.24921,0.2632,1-1,2026-06-14
 Elo,12,1,F,Sweden,Tunisia,0.6923,0.19509,0.11261,2-0,2026-06-14
-Elo,13,1,H,Saudi Arabia,Uruguay,0.0595,0.15479,0.78572,0-2,2026-06-15
-Elo,14,1,H,Spain,Cape Verde,0.89841,0.09098,0.01061,2-0,2026-06-15
+Elo,13,1,H,Saudi Arabia,Uruguay,0.05526,0.15067,0.79407,0-2,2026-06-15
+Elo,14,1,H,Spain,Cape Verde,0.90039,0.08968,0.00993,2-0,2026-06-15
 Elo,15,1,G,Iran,New Zealand,0.67356,0.20197,0.12447,1-0,2026-06-15
 Elo,16,1,G,Belgium,Egypt,0.65812,0.20734,0.13454,1-0,2026-06-15
 Elo,17,1,I,France,Senegal,0.74862,0.17202,0.07936,2-0,2026-06-16
@@ -108,7 +108,7 @@ Elo,34,2,E,Ecuador,Curacao,0.86845,0.10984,0.02171,2-0,2026-06-20
 Elo,35,2,F,Netherlands,Sweden,0.77325,0.16077,0.06599,2-0,2026-06-20
 Elo,36,2,F,Tunisia,Japan,0.02592,0.11603,0.85806,0-2,2026-06-20
 Elo,37,2,H,Uruguay,Cape Verde,0.77232,0.16121,0.06648,2-0,2026-06-21
-Elo,38,2,H,Spain,Saudi Arabia,0.90134,0.08905,0.00961,2-0,2026-06-21
+Elo,38,2,H,Spain,Saudi Arabia,0.90485,0.08671,0.00844,2-0,2026-06-21
 Elo,39,2,G,Belgium,Iran,0.58869,0.22828,0.18303,1-0,2026-06-21
 Elo,40,2,G,New Zealand,Egypt,0.17006,0.2234,0.60653,0-1,2026-06-21
 Elo,41,2,I,Norway,Senegal,0.53412,0.24101,0.22487,1-1,2026-06-22
@@ -135,155 +135,155 @@ Elo,61,3,I,Norway,France,0.15145,0.21552,0.63303,0-1,2026-06-26
 Elo,62,3,I,Senegal,Iraq,0.75684,0.16835,0.07481,2-0,2026-06-26
 Elo,63,3,G,Egypt,Iran,0.29343,0.25367,0.4529,1-1,2026-06-26
 Elo,64,3,G,New Zealand,Belgium,0.05095,0.14629,0.80276,0-2,2026-06-26
-Elo,65,3,H,Cape Verde,Saudi Arabia,0.39799,0.25767,0.34433,1-1,2026-06-26
-Elo,66,3,H,Uruguay,Spain,0.06898,0.16341,0.76762,0-2,2026-06-26
+Elo,65,3,H,Cape Verde,Saudi Arabia,0.41624,0.25677,0.32699,1-1,2026-06-26
+Elo,66,3,H,Uruguay,Spain,0.06406,0.15903,0.7769,0-2,2026-06-26
 Elo,67,3,L,Panama,England,0.03078,0.12271,0.84651,0-2,2026-06-27
 Elo,68,3,L,Croatia,Ghana,0.8193,0.13769,0.04301,2-0,2026-06-27
 Elo,69,3,J,Algeria,Austria,0.19418,0.2321,0.57372,0-1,2026-06-27
 Elo,70,3,J,Jordan,Argentina,0.01445,0.09798,0.88757,0-2,2026-06-27
 Elo,71,3,K,Colombia,Portugal,0.43273,0.25559,0.31169,1-1,2026-06-27
 Elo,72,3,K,DR Congo,Uzbekistan,0.34433,0.25767,0.39799,1-1,2026-06-27
-Squad value,1,1,A,Mexico,South Africa,0.8044,0.14546,0.05014,2-0,2026-06-11
-Squad value,2,1,A,South Korea,Czechia,0.29699,0.25409,0.44892,1-1,2026-06-11
-Squad value,3,1,B,Canada,Bosnia and Herzegovina,0.61323,0.22148,0.16529,1-0,2026-06-12
-Squad value,4,1,D,United States,Paraguay,0.73322,0.17869,0.08809,2-0,2026-06-12
-Squad value,5,1,C,Haiti,Scotland,0.14884,0.21432,0.63684,0-1,2026-06-13
-Squad value,6,1,D,Australia,Turkey,0.07514,0.16862,0.75624,0-2,2026-06-13
-Squad value,7,1,C,Brazil,Morocco,0.52474,0.24286,0.2324,1-1,2026-06-13
-Squad value,8,1,B,Qatar,Switzerland,0.02539,0.11528,0.85934,0-2,2026-06-13
-Squad value,9,1,E,Cote d'Ivoire,Ecuador,0.45763,0.25315,0.28923,1-1,2026-06-14
-Squad value,10,1,E,Germany,Curacao,0.89283,0.09461,0.01256,2-0,2026-06-14
-Squad value,11,1,F,Netherlands,Japan,0.62622,0.21762,0.15616,1-0,2026-06-14
-Squad value,12,1,F,Sweden,Tunisia,0.74907,0.17182,0.07911,2-0,2026-06-14
-Squad value,13,1,H,Saudi Arabia,Uruguay,0.04737,0.14251,0.81013,0-2,2026-06-15
-Squad value,14,1,H,Spain,Cape Verde,0.87428,0.10629,0.01943,2-0,2026-06-15
-Squad value,15,1,G,Iran,New Zealand,0.35332,0.25796,0.38872,1-1,2026-06-15
-Squad value,16,1,G,Belgium,Egypt,0.72582,0.1818,0.09238,2-0,2026-06-15
-Squad value,17,1,I,France,Senegal,0.64949,0.21023,0.14028,1-0,2026-06-16
-Squad value,18,1,I,Iraq,Norway,0.01623,0.10104,0.88273,0-2,2026-06-16
-Squad value,19,1,J,Argentina,Algeria,0.64184,0.21273,0.14544,1-0,2026-06-16
-Squad value,20,1,J,Austria,Jordan,0.88447,0.09995,0.01558,2-0,2026-06-16
-Squad value,21,1,L,Ghana,Panama,0.77203,0.16134,0.06663,2-0,2026-06-17
-Squad value,22,1,L,England,Croatia,0.66657,0.20443,0.129,1-0,2026-06-17
-Squad value,23,1,K,Portugal,DR Congo,0.77402,0.1604,0.06558,2-0,2026-06-17
-Squad value,24,1,K,Uzbekistan,Colombia,0.12822,0.20402,0.66776,0-1,2026-06-17
-Squad value,25,2,A,Czechia,South Africa,0.70019,0.19208,0.10774,2-0,2026-06-18
-Squad value,26,2,B,Switzerland,Bosnia and Herzegovina,0.56588,0.234,0.20012,1-0,2026-06-18
-Squad value,27,2,B,Canada,Qatar,0.87099,0.1083,0.02071,2-0,2026-06-18
-Squad value,28,2,A,Mexico,South Korea,0.6282,0.21701,0.15478,1-0,2026-06-18
-Squad value,29,2,C,Brazil,Haiti,0.85282,0.11908,0.0281,2-0,2026-06-19
-Squad value,30,2,C,Scotland,Morocco,0.15731,0.21812,0.62457,0-1,2026-06-19
-Squad value,31,2,D,Turkey,Paraguay,0.63897,0.21365,0.14738,1-0,2026-06-19
-Squad value,32,2,D,United States,Australia,0.81676,0.13904,0.04421,2-0,2026-06-19
-Squad value,33,2,E,Germany,Cote d'Ivoire,0.52777,0.24228,0.22995,1-1,2026-06-20
-Squad value,34,2,E,Ecuador,Curacao,0.84376,0.12427,0.03197,2-0,2026-06-20
-Squad value,35,2,F,Netherlands,Sweden,0.54417,0.23892,0.21691,1-0,2026-06-20
-Squad value,36,2,F,Tunisia,Japan,0.11373,0.19577,0.6905,0-2,2026-06-20
-Squad value,37,2,H,Uruguay,Cape Verde,0.78574,0.15477,0.05948,2-0,2026-06-21
-Squad value,38,2,H,Spain,Saudi Arabia,0.88413,0.10016,0.01571,2-0,2026-06-21
-Squad value,39,2,G,Belgium,Iran,0.85632,0.11705,0.02663,2-0,2026-06-21
-Squad value,40,2,G,New Zealand,Egypt,0.14133,0.21075,0.64792,0-1,2026-06-21
-Squad value,41,2,I,Norway,Senegal,0.42382,0.25627,0.31992,1-1,2026-06-22
-Squad value,42,2,I,France,Iraq,0.90992,0.0833,0.00678,2-0,2026-06-22
-Squad value,43,2,J,Argentina,Austria,0.66111,0.20632,0.13257,1-0,2026-06-22
-Squad value,44,2,J,Jordan,Algeria,0.01424,0.09762,0.88814,0-2,2026-06-22
-Squad value,45,2,L,England,Ghana,0.74836,0.17213,0.0795,2-0,2026-06-23
-Squad value,46,2,L,Panama,Croatia,0.04072,0.13505,0.82423,0-2,2026-06-23
-Squad value,47,2,K,Portugal,Uzbekistan,0.83049,0.13166,0.03785,2-0,2026-06-23
-Squad value,48,2,K,Colombia,DR Congo,0.55015,0.23762,0.21223,1-0,2026-06-23
-Squad value,49,3,C,Scotland,Brazil,0.08594,0.1771,0.73696,0-2,2026-06-24
-Squad value,50,3,C,Morocco,Haiti,0.80044,0.14747,0.05209,2-0,2026-06-24
-Squad value,51,3,B,Switzerland,Canada,0.3204,0.25631,0.4233,1-1,2026-06-24
-Squad value,52,3,B,Bosnia and Herzegovina,Qatar,0.79287,0.15127,0.05586,2-0,2026-06-24
-Squad value,53,3,A,Czechia,Mexico,0.2058,0.23574,0.55846,0-1,2026-06-24
-Squad value,54,3,A,South Africa,South Korea,0.14599,0.21299,0.64103,0-1,2026-06-24
-Squad value,55,3,E,Curacao,Cote d'Ivoire,0.02276,0.11142,0.86582,0-2,2026-06-25
-Squad value,56,3,E,Ecuador,Germany,0.16895,0.22296,0.60809,0-1,2026-06-25
-Squad value,57,3,F,Japan,Sweden,0.28562,0.25267,0.4617,1-1,2026-06-25
-Squad value,58,3,F,Tunisia,Netherlands,0.03906,0.1331,0.82784,0-2,2026-06-25
-Squad value,59,3,D,Turkey,United States,0.25123,0.24697,0.5018,1-1,2026-06-25
-Squad value,60,3,D,Paraguay,Australia,0.54021,0.23976,0.22004,1-0,2026-06-25
-Squad value,61,3,I,Norway,France,0.17133,0.2239,0.60477,0-1,2026-06-26
-Squad value,62,3,I,Senegal,Iraq,0.8732,0.10695,0.01985,2-0,2026-06-26
-Squad value,63,3,G,Egypt,Iran,0.6622,0.20595,0.13185,1-0,2026-06-26
-Squad value,64,3,G,New Zealand,Belgium,0.02859,0.11976,0.85166,0-2,2026-06-26
-Squad value,65,3,H,Cape Verde,Saudi Arabia,0.42696,0.25604,0.317,1-1,2026-06-26
-Squad value,66,3,H,Uruguay,Spain,0.14647,0.21322,0.64031,0-1,2026-06-26
-Squad value,67,3,L,Panama,England,0.01209,0.09375,0.89417,0-2,2026-06-27
-Squad value,68,3,L,Croatia,Ghana,0.49266,0.24844,0.2589,1-1,2026-06-27
-Squad value,69,3,J,Algeria,Austria,0.39479,0.25778,0.34742,1-1,2026-06-27
-Squad value,70,3,J,Jordan,Argentina,0.00516,0.07979,0.91504,0-2,2026-06-27
-Squad value,71,3,K,Colombia,Portugal,0.13487,0.20752,0.65761,0-1,2026-06-27
-Squad value,72,3,K,DR Congo,Uzbekistan,0.50679,0.24613,0.24708,1-1,2026-06-27
-FIFA ranking,1,1,A,Mexico,South Africa,0.85311,0.11891,0.02797,2-0,2026-06-11
-FIFA ranking,2,1,A,South Korea,Czechia,0.54817,0.23805,0.21378,1-0,2026-06-11
-FIFA ranking,3,1,B,Canada,Bosnia and Herzegovina,0.79625,0.14958,0.05417,2-0,2026-06-12
-FIFA ranking,4,1,D,United States,Paraguay,0.79533,0.15004,0.05463,2-0,2026-06-12
-FIFA ranking,5,1,C,Haiti,Scotland,0.08409,0.1757,0.74022,0-2,2026-06-13
-FIFA ranking,6,1,D,Australia,Turkey,0.33452,0.25722,0.40826,1-1,2026-06-13
-FIFA ranking,7,1,C,Brazil,Morocco,0.38159,0.2581,0.36031,1-1,2026-06-13
-FIFA ranking,8,1,B,Qatar,Switzerland,0.09297,0.18222,0.72481,0-2,2026-06-13
-FIFA ranking,9,1,E,Cote d'Ivoire,Ecuador,0.2549,0.24769,0.49742,1-1,2026-06-14
-FIFA ranking,10,1,E,Germany,Curacao,0.89081,0.09591,0.01328,2-0,2026-06-14
-FIFA ranking,11,1,F,Netherlands,Japan,0.56774,0.23356,0.1987,1-0,2026-06-14
-FIFA ranking,12,1,F,Sweden,Tunisia,0.43572,0.25533,0.30895,1-1,2026-06-14
-FIFA ranking,13,1,H,Saudi Arabia,Uruguay,0.0579,0.15325,0.78885,0-2,2026-06-15
-FIFA ranking,14,1,H,Spain,Cape Verde,0.90694,0.08531,0.00775,2-0,2026-06-15
-FIFA ranking,15,1,G,Iran,New Zealand,0.8495,0.121,0.0295,2-0,2026-06-15
-FIFA ranking,16,1,G,Belgium,Egypt,0.6931,0.19478,0.11211,2-0,2026-06-15
-FIFA ranking,17,1,I,France,Senegal,0.71672,0.18553,0.09774,2-0,2026-06-16
-FIFA ranking,18,1,I,Iraq,Norway,0.18966,0.23059,0.57975,0-1,2026-06-16
-FIFA ranking,19,1,J,Argentina,Algeria,0.83548,0.12891,0.03561,2-0,2026-06-16
-FIFA ranking,20,1,J,Austria,Jordan,0.73447,0.17816,0.08737,2-0,2026-06-16
-FIFA ranking,21,1,L,Ghana,Panama,0.09306,0.18228,0.72467,0-2,2026-06-17
-FIFA ranking,22,1,L,England,Croatia,0.58924,0.22814,0.18263,1-0,2026-06-17
-FIFA ranking,23,1,K,Portugal,DR Congo,0.81773,0.13852,0.04375,2-0,2026-06-17
-FIFA ranking,24,1,K,Uzbekistan,Colombia,0.0706,0.16481,0.76459,0-2,2026-06-17
-FIFA ranking,25,2,A,Czechia,South Africa,0.51728,0.24427,0.23846,1-1,2026-06-18
-FIFA ranking,26,2,B,Switzerland,Bosnia and Herzegovina,0.79972,0.14784,0.05244,2-0,2026-06-18
-FIFA ranking,27,2,B,Canada,Qatar,0.71968,0.18433,0.09599,2-0,2026-06-18
-FIFA ranking,28,2,A,Mexico,South Korea,0.70723,0.18933,0.10344,2-0,2026-06-18
-FIFA ranking,29,2,C,Brazil,Haiti,0.89929,0.0904,0.01031,2-0,2026-06-19
-FIFA ranking,30,2,C,Scotland,Morocco,0.05514,0.15055,0.79431,0-2,2026-06-19
-FIFA ranking,31,2,D,Turkey,Paraguay,0.56412,0.23442,0.20146,1-0,2026-06-19
-FIFA ranking,32,2,D,United States,Australia,0.70736,0.18928,0.10337,2-0,2026-06-19
-FIFA ranking,33,2,E,Germany,Cote d'Ivoire,0.72863,0.18063,0.09075,2-0,2026-06-20
-FIFA ranking,34,2,E,Ecuador,Curacao,0.82845,0.13277,0.03878,2-0,2026-06-20
-FIFA ranking,35,2,F,Netherlands,Sweden,0.78056,0.15728,0.06215,2-0,2026-06-20
-FIFA ranking,36,2,F,Tunisia,Japan,0.10687,0.19153,0.7016,0-2,2026-06-20
-FIFA ranking,37,2,H,Uruguay,Cape Verde,0.83185,0.13091,0.03724,2-0,2026-06-21
-FIFA ranking,38,2,H,Spain,Saudi Arabia,0.89589,0.09263,0.01149,2-0,2026-06-21
-FIFA ranking,39,2,G,Belgium,Iran,0.60835,0.22289,0.16876,1-0,2026-06-21
-FIFA ranking,40,2,G,New Zealand,Egypt,0.04514,0.14008,0.81478,0-2,2026-06-21
-FIFA ranking,41,2,I,Norway,Senegal,0.14622,0.2131,0.64068,0-1,2026-06-22
-FIFA ranking,42,2,I,France,Iraq,0.88923,0.09693,0.01385,2-0,2026-06-22
-FIFA ranking,43,2,J,Argentina,Austria,0.81453,0.14021,0.04526,2-0,2026-06-22
-FIFA ranking,44,2,J,Jordan,Algeria,0.1109,0.19405,0.69505,0-2,2026-06-22
-FIFA ranking,45,2,L,England,Ghana,0.90149,0.08895,0.00956,2-0,2026-06-23
-FIFA ranking,46,2,L,Panama,Croatia,0.1077,0.19205,0.70025,0-2,2026-06-23
-FIFA ranking,47,2,K,Portugal,Uzbekistan,0.8273,0.13339,0.03931,2-0,2026-06-23
-FIFA ranking,48,2,K,Colombia,DR Congo,0.7499,0.17145,0.07864,2-0,2026-06-23
-FIFA ranking,49,3,C,Scotland,Brazil,0.05277,0.14817,0.79906,0-2,2026-06-24
-FIFA ranking,50,3,C,Morocco,Haiti,0.89808,0.09119,0.01072,2-0,2026-06-24
-FIFA ranking,51,3,B,Switzerland,Canada,0.37878,0.25814,0.36308,1-1,2026-06-24
-FIFA ranking,52,3,B,Bosnia and Herzegovina,Qatar,0.24262,0.24518,0.5122,1-1,2026-06-24
-FIFA ranking,53,3,A,Czechia,Mexico,0.05027,0.14559,0.80414,0-2,2026-06-24
-FIFA ranking,54,3,A,South Africa,South Korea,0.124,0.2017,0.6743,0-1,2026-06-24
-FIFA ranking,55,3,E,Curacao,Cote d'Ivoire,0.06467,0.15958,0.77575,0-2,2026-06-25
-FIFA ranking,56,3,E,Ecuador,Germany,0.14905,0.21442,0.63653,0-1,2026-06-25
-FIFA ranking,57,3,F,Japan,Sweden,0.65326,0.20898,0.13776,1-0,2026-06-25
-FIFA ranking,58,3,F,Tunisia,Netherlands,0.04777,0.14294,0.80928,0-2,2026-06-25
-FIFA ranking,59,3,D,Turkey,United States,0.11992,0.1994,0.68068,0-2,2026-06-25
-FIFA ranking,60,3,D,Paraguay,Australia,0.22954,0.24217,0.52829,1-1,2026-06-25
-FIFA ranking,61,3,I,Norway,France,0.03131,0.12341,0.84529,0-2,2026-06-26
-FIFA ranking,62,3,I,Senegal,Iraq,0.77932,0.15788,0.0628,2-0,2026-06-26
-FIFA ranking,63,3,G,Egypt,Iran,0.2718,0.25065,0.47756,1-1,2026-06-26
-FIFA ranking,64,3,G,New Zealand,Belgium,0.01164,0.09292,0.89543,0-2,2026-06-26
-FIFA ranking,65,3,H,Cape Verde,Saudi Arabia,0.26938,0.25026,0.48036,1-1,2026-06-26
-FIFA ranking,66,3,H,Uruguay,Spain,0.08642,0.17745,0.73613,0-2,2026-06-26
-FIFA ranking,67,3,L,Panama,England,0.0438,0.13858,0.81762,0-2,2026-06-27
-FIFA ranking,68,3,L,Croatia,Ghana,0.86787,0.11019,0.02194,2-0,2026-06-27
-FIFA ranking,69,3,J,Algeria,Austria,0.31373,0.25576,0.43051,1-1,2026-06-27
-FIFA ranking,70,3,J,Jordan,Argentina,0.0093,0.08844,0.90225,0-2,2026-06-27
-FIFA ranking,71,3,K,Colombia,Portugal,0.23995,0.2446,0.51545,1-1,2026-06-27
-FIFA ranking,72,3,K,DR Congo,Uzbekistan,0.39729,0.2577,0.34501,1-1,2026-06-27
+Squad value,1,1,A,Mexico,South Africa,0.80497,0.14516,0.04986,2-0,2026-06-11
+Squad value,2,1,A,South Korea,Czechia,0.29673,0.25406,0.44922,1-1,2026-06-11
+Squad value,3,1,B,Canada,Bosnia and Herzegovina,0.61345,0.22142,0.16513,1-0,2026-06-12
+Squad value,4,1,D,United States,Paraguay,0.73375,0.17847,0.08778,2-0,2026-06-12
+Squad value,5,1,C,Haiti,Scotland,0.14825,0.21405,0.6377,0-1,2026-06-13
+Squad value,6,1,D,Australia,Turkey,0.07463,0.16819,0.75718,0-2,2026-06-13
+Squad value,7,1,C,Brazil,Morocco,0.5253,0.24276,0.23194,1-1,2026-06-13
+Squad value,8,1,B,Qatar,Switzerland,0.02512,0.11489,0.85999,0-2,2026-06-13
+Squad value,9,1,E,Cote d'Ivoire,Ecuador,0.45795,0.25311,0.28894,1-1,2026-06-14
+Squad value,10,1,E,Germany,Curacao,0.89327,0.09433,0.0124,2-0,2026-06-14
+Squad value,11,1,F,Netherlands,Japan,0.62706,0.21736,0.15558,1-0,2026-06-14
+Squad value,12,1,F,Sweden,Tunisia,0.75001,0.17141,0.07858,2-0,2026-06-14
+Squad value,13,1,H,Saudi Arabia,Uruguay,0.04696,0.14207,0.81097,0-2,2026-06-15
+Squad value,14,1,H,Spain,Cape Verde,0.87485,0.10594,0.01921,2-0,2026-06-15
+Squad value,15,1,G,Iran,New Zealand,0.35325,0.25796,0.38879,1-1,2026-06-15
+Squad value,16,1,G,Belgium,Egypt,0.72677,0.1814,0.09182,2-0,2026-06-15
+Squad value,17,1,I,France,Senegal,0.65037,0.20994,0.13969,1-0,2026-06-16
+Squad value,18,1,I,Iraq,Norway,0.01604,0.10072,0.88324,0-2,2026-06-16
+Squad value,19,1,J,Argentina,Algeria,0.64271,0.21245,0.14485,1-0,2026-06-16
+Squad value,20,1,J,Austria,Jordan,0.88497,0.09963,0.0154,2-0,2026-06-16
+Squad value,21,1,L,Ghana,Panama,0.77295,0.16091,0.06614,2-0,2026-06-17
+Squad value,22,1,L,England,Croatia,0.66748,0.20412,0.12841,1-0,2026-06-17
+Squad value,23,1,K,Portugal,DR Congo,0.77493,0.15997,0.0651,2-0,2026-06-17
+Squad value,24,1,K,Uzbekistan,Colombia,0.12763,0.2037,0.66867,0-1,2026-06-17
+Squad value,25,2,A,Czechia,South Africa,0.70113,0.19171,0.10716,2-0,2026-06-18
+Squad value,26,2,B,Switzerland,Bosnia and Herzegovina,0.56657,0.23384,0.19959,1-0,2026-06-18
+Squad value,27,2,B,Canada,Qatar,0.87144,0.10802,0.02054,2-0,2026-06-18
+Squad value,28,2,A,Mexico,South Korea,0.62847,0.21693,0.1546,1-0,2026-06-18
+Squad value,29,2,C,Brazil,Haiti,0.8535,0.11869,0.02781,2-0,2026-06-19
+Squad value,30,2,C,Scotland,Morocco,0.15672,0.21786,0.62541,0-1,2026-06-19
+Squad value,31,2,D,Turkey,Paraguay,0.63984,0.21337,0.14679,1-0,2026-06-19
+Squad value,32,2,D,United States,Australia,0.81732,0.13874,0.04394,2-0,2026-06-19
+Squad value,33,2,E,Germany,Cote d'Ivoire,0.52835,0.24216,0.22949,1-1,2026-06-20
+Squad value,34,2,E,Ecuador,Curacao,0.84448,0.12386,0.03165,2-0,2026-06-20
+Squad value,35,2,F,Netherlands,Sweden,0.5448,0.23878,0.21642,1-0,2026-06-20
+Squad value,36,2,F,Tunisia,Japan,0.11315,0.19541,0.69144,0-2,2026-06-20
+Squad value,37,2,H,Uruguay,Cape Verde,0.78664,0.15434,0.05902,2-0,2026-06-21
+Squad value,38,2,H,Spain,Saudi Arabia,0.88464,0.09984,0.01552,2-0,2026-06-21
+Squad value,39,2,G,Belgium,Iran,0.85699,0.11666,0.02636,2-0,2026-06-21
+Squad value,40,2,G,New Zealand,Egypt,0.14074,0.21046,0.6488,0-1,2026-06-21
+Squad value,41,2,I,Norway,Senegal,0.42402,0.25625,0.31973,1-1,2026-06-22
+Squad value,42,2,I,France,Iraq,0.91021,0.0831,0.00669,2-0,2026-06-22
+Squad value,43,2,J,Argentina,Austria,0.66201,0.20601,0.13198,1-0,2026-06-22
+Squad value,44,2,J,Jordan,Algeria,0.01407,0.09732,0.88862,0-2,2026-06-22
+Squad value,45,2,L,England,Ghana,0.74931,0.17172,0.07897,2-0,2026-06-23
+Squad value,46,2,L,Panama,Croatia,0.04035,0.13462,0.82503,0-2,2026-06-23
+Squad value,47,2,K,Portugal,Uzbekistan,0.83127,0.13123,0.0375,2-0,2026-06-23
+Squad value,48,2,K,Colombia,DR Congo,0.5508,0.23747,0.21173,1-0,2026-06-23
+Squad value,49,3,C,Scotland,Brazil,0.0854,0.17669,0.73791,0-2,2026-06-24
+Squad value,50,3,C,Morocco,Haiti,0.80131,0.14703,0.05166,2-0,2026-06-24
+Squad value,51,3,B,Switzerland,Canada,0.32085,0.25634,0.42281,1-1,2026-06-24
+Squad value,52,3,B,Bosnia and Herzegovina,Qatar,0.79375,0.15083,0.05542,2-0,2026-06-24
+Squad value,53,3,A,Czechia,Mexico,0.20578,0.23574,0.55848,0-1,2026-06-24
+Squad value,54,3,A,South Africa,South Korea,0.14539,0.21271,0.6419,0-1,2026-06-24
+Squad value,55,3,E,Curacao,Cote d'Ivoire,0.02251,0.11105,0.86644,0-2,2026-06-25
+Squad value,56,3,E,Ecuador,Germany,0.16837,0.22273,0.60889,0-1,2026-06-25
+Squad value,57,3,F,Japan,Sweden,0.28532,0.25263,0.46205,1-1,2026-06-25
+Squad value,58,3,F,Tunisia,Netherlands,0.0387,0.13267,0.82863,0-2,2026-06-25
+Squad value,59,3,D,Turkey,United States,0.25138,0.247,0.50161,1-1,2026-06-25
+Squad value,60,3,D,Paraguay,Australia,0.54082,0.23963,0.21955,1-0,2026-06-25
+Squad value,61,3,I,Norway,France,0.17076,0.22368,0.60557,0-1,2026-06-26
+Squad value,62,3,I,Senegal,Iraq,0.87378,0.1066,0.01963,2-0,2026-06-26
+Squad value,63,3,G,Egypt,Iran,0.6631,0.20564,0.13126,1-0,2026-06-26
+Squad value,64,3,G,New Zealand,Belgium,0.0283,0.11936,0.85234,0-2,2026-06-26
+Squad value,65,3,H,Cape Verde,Saudi Arabia,0.42717,0.25602,0.31681,1-1,2026-06-26
+Squad value,66,3,H,Uruguay,Spain,0.14588,0.21294,0.64118,0-1,2026-06-26
+Squad value,67,3,L,Panama,England,0.01194,0.09347,0.8946,0-2,2026-06-27
+Squad value,68,3,L,Croatia,Ghana,0.49311,0.24837,0.25852,1-1,2026-06-27
+Squad value,69,3,J,Algeria,Austria,0.39488,0.25778,0.34734,1-1,2026-06-27
+Squad value,70,3,J,Jordan,Argentina,0.00509,0.07962,0.91529,0-2,2026-06-27
+Squad value,71,3,K,Colombia,Portugal,0.13428,0.20721,0.65851,0-1,2026-06-27
+Squad value,72,3,K,DR Congo,Uzbekistan,0.50729,0.24604,0.24666,1-1,2026-06-27
+FIFA ranking,1,1,A,Mexico,South Africa,0.85362,0.11862,0.02776,2-0,2026-06-11
+FIFA ranking,2,1,A,South Korea,Czechia,0.54881,0.23791,0.21328,1-0,2026-06-11
+FIFA ranking,3,1,B,Canada,Bosnia and Herzegovina,0.79682,0.14929,0.05388,2-0,2026-06-12
+FIFA ranking,4,1,D,United States,Paraguay,0.79591,0.14975,0.05434,2-0,2026-06-12
+FIFA ranking,5,1,C,Haiti,Scotland,0.08355,0.17529,0.74116,0-2,2026-06-13
+FIFA ranking,6,1,D,Australia,Turkey,0.33438,0.25721,0.4084,1-1,2026-06-13
+FIFA ranking,7,1,C,Brazil,Morocco,0.38163,0.2581,0.36027,1-1,2026-06-13
+FIFA ranking,8,1,B,Qatar,Switzerland,0.09242,0.18182,0.72576,0-2,2026-06-13
+FIFA ranking,9,1,E,Cote d'Ivoire,Ecuador,0.2545,0.24761,0.49789,1-1,2026-06-14
+FIFA ranking,10,1,E,Germany,Curacao,0.89127,0.09561,0.01311,2-0,2026-06-14
+FIFA ranking,11,1,F,Netherlands,Japan,0.56844,0.23339,0.19817,1-0,2026-06-14
+FIFA ranking,12,1,F,Sweden,Tunisia,0.43597,0.25531,0.30872,1-1,2026-06-14
+FIFA ranking,13,1,H,Saudi Arabia,Uruguay,0.05744,0.15282,0.78974,0-2,2026-06-15
+FIFA ranking,14,1,H,Spain,Cape Verde,0.90726,0.08509,0.00764,2-0,2026-06-15
+FIFA ranking,15,1,G,Iran,New Zealand,0.8502,0.12059,0.0292,2-0,2026-06-15
+FIFA ranking,16,1,G,Belgium,Egypt,0.69404,0.19443,0.11153,2-0,2026-06-15
+FIFA ranking,17,1,I,France,Senegal,0.71767,0.18515,0.09718,2-0,2026-06-16
+FIFA ranking,18,1,I,Iraq,Norway,0.18911,0.23041,0.58048,0-1,2026-06-16
+FIFA ranking,19,1,J,Argentina,Algeria,0.83624,0.12849,0.03527,2-0,2026-06-16
+FIFA ranking,20,1,J,Austria,Jordan,0.73542,0.17776,0.08682,2-0,2026-06-16
+FIFA ranking,21,1,L,Ghana,Panama,0.0925,0.18188,0.72562,0-2,2026-06-17
+FIFA ranking,22,1,L,England,Croatia,0.58999,0.22794,0.18207,1-0,2026-06-17
+FIFA ranking,23,1,K,Portugal,DR Congo,0.81855,0.13808,0.04336,2-0,2026-06-17
+FIFA ranking,24,1,K,Uzbekistan,Colombia,0.0701,0.16438,0.76552,0-2,2026-06-17
+FIFA ranking,25,2,A,Czechia,South Africa,0.51782,0.24417,0.23802,1-1,2026-06-18
+FIFA ranking,26,2,B,Switzerland,Bosnia and Herzegovina,0.80059,0.1474,0.05202,2-0,2026-06-18
+FIFA ranking,27,2,B,Canada,Qatar,0.72018,0.18412,0.09569,2-0,2026-06-18
+FIFA ranking,28,2,A,Mexico,South Korea,0.70771,0.18914,0.10315,2-0,2026-06-18
+FIFA ranking,29,2,C,Brazil,Haiti,0.89968,0.09014,0.01018,2-0,2026-06-19
+FIFA ranking,30,2,C,Scotland,Morocco,0.0547,0.15011,0.79519,0-2,2026-06-19
+FIFA ranking,31,2,D,Turkey,Paraguay,0.56481,0.23426,0.20093,1-0,2026-06-19
+FIFA ranking,32,2,D,United States,Australia,0.70784,0.18909,0.10307,2-0,2026-06-19
+FIFA ranking,33,2,E,Germany,Cote d'Ivoire,0.72958,0.18023,0.09019,2-0,2026-06-20
+FIFA ranking,34,2,E,Ecuador,Curacao,0.82924,0.13234,0.03842,2-0,2026-06-20
+FIFA ranking,35,2,F,Netherlands,Sweden,0.78147,0.15685,0.06168,2-0,2026-06-20
+FIFA ranking,36,2,F,Tunisia,Japan,0.10629,0.19116,0.70255,0-2,2026-06-20
+FIFA ranking,37,2,H,Uruguay,Cape Verde,0.83262,0.13049,0.03689,2-0,2026-06-21
+FIFA ranking,38,2,H,Spain,Saudi Arabia,0.89631,0.09236,0.01134,2-0,2026-06-21
+FIFA ranking,39,2,G,Belgium,Iran,0.60915,0.22266,0.16819,1-0,2026-06-21
+FIFA ranking,40,2,G,New Zealand,Egypt,0.04475,0.13964,0.81561,0-2,2026-06-21
+FIFA ranking,41,2,I,Norway,Senegal,0.14563,0.21282,0.64155,0-1,2026-06-22
+FIFA ranking,42,2,I,France,Iraq,0.8897,0.09663,0.01368,2-0,2026-06-22
+FIFA ranking,43,2,J,Argentina,Austria,0.81536,0.13977,0.04487,2-0,2026-06-22
+FIFA ranking,44,2,J,Jordan,Algeria,0.11032,0.19369,0.69599,0-2,2026-06-22
+FIFA ranking,45,2,L,England,Ghana,0.90186,0.0887,0.00944,2-0,2026-06-23
+FIFA ranking,46,2,L,Panama,Croatia,0.10712,0.19169,0.7012,0-2,2026-06-23
+FIFA ranking,47,2,K,Portugal,Uzbekistan,0.82809,0.13296,0.03894,2-0,2026-06-23
+FIFA ranking,48,2,K,Colombia,DR Congo,0.75085,0.17103,0.07812,2-0,2026-06-23
+FIFA ranking,49,3,C,Scotland,Brazil,0.05234,0.14773,0.79993,0-2,2026-06-24
+FIFA ranking,50,3,C,Morocco,Haiti,0.89848,0.09093,0.01059,2-0,2026-06-24
+FIFA ranking,51,3,B,Switzerland,Canada,0.37949,0.25813,0.36239,1-1,2026-06-24
+FIFA ranking,52,3,B,Bosnia and Herzegovina,Qatar,0.24219,0.24509,0.51272,1-1,2026-06-24
+FIFA ranking,53,3,A,Czechia,Mexico,0.04999,0.1453,0.80471,0-2,2026-06-24
+FIFA ranking,54,3,A,South Africa,South Korea,0.12341,0.20138,0.67522,0-1,2026-06-24
+FIFA ranking,55,3,E,Curacao,Cote d'Ivoire,0.06419,0.15915,0.77667,0-2,2026-06-25
+FIFA ranking,56,3,E,Ecuador,Germany,0.14846,0.21415,0.63739,0-1,2026-06-25
+FIFA ranking,57,3,F,Japan,Sweden,0.65415,0.20868,0.13717,1-0,2026-06-25
+FIFA ranking,58,3,F,Tunisia,Netherlands,0.04737,0.14251,0.81013,0-2,2026-06-25
+FIFA ranking,59,3,D,Turkey,United States,0.11965,0.19925,0.6811,0-2,2026-06-25
+FIFA ranking,60,3,D,Paraguay,Australia,0.22908,0.24206,0.52886,1-1,2026-06-25
+FIFA ranking,61,3,I,Norway,France,0.031,0.123,0.84601,0-2,2026-06-26
+FIFA ranking,62,3,I,Senegal,Iraq,0.78022,0.15745,0.06233,2-0,2026-06-26
+FIFA ranking,63,3,G,Egypt,Iran,0.27145,0.25059,0.47796,1-1,2026-06-26
+FIFA ranking,64,3,G,New Zealand,Belgium,0.0115,0.09265,0.89585,0-2,2026-06-26
+FIFA ranking,65,3,H,Cape Verde,Saudi Arabia,0.26903,0.2502,0.48077,1-1,2026-06-26
+FIFA ranking,66,3,H,Uruguay,Spain,0.08587,0.17705,0.73708,0-2,2026-06-26
+FIFA ranking,67,3,L,Panama,England,0.04342,0.13815,0.81844,0-2,2026-06-27
+FIFA ranking,68,3,L,Croatia,Ghana,0.86847,0.10982,0.0217,2-0,2026-06-27
+FIFA ranking,69,3,J,Algeria,Austria,0.31352,0.25575,0.43073,1-1,2026-06-27
+FIFA ranking,70,3,J,Jordan,Argentina,0.00918,0.0882,0.90262,0-2,2026-06-27
+FIFA ranking,71,3,K,Colombia,Portugal,0.23951,0.2445,0.51599,1-1,2026-06-27
+FIFA ranking,72,3,K,DR Congo,Uzbekistan,0.39739,0.25769,0.34491,1-1,2026-06-27
