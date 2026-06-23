@@ -3,9 +3,9 @@ strength_rank,team,group,confederation,base_elo,squad_value_eur_millions,value_l
 2,Argentina,J,CONMEBOL,2145,799.5,1.12,44.8,2189.8
 3,France,I,UEFA,2093,1553.0,1.642,65.7,2158.7
 4,England,L,UEFA,2052,1373.2,1.545,61.8,2113.8
-5,Netherlands,F,UEFA,1995,814.2,1.135,45.4,2040.4
-6,Brazil,C,CONMEBOL,1988,909.2,1.221,48.9,2036.9
-7,Portugal,K,UEFA,1964,1006.5,1.301,52.0,2016.0
+5,Portugal,K,UEFA,2004,1006.5,1.301,52.0,2056.0
+6,Netherlands,F,UEFA,1995,814.2,1.135,45.4,2040.4
+7,Brazil,C,CONMEBOL,1988,909.2,1.221,48.9,2036.9
 8,Germany,E,UEFA,1961,982.0,1.282,51.3,2012.3
 9,Colombia,K,CONMEBOL,1998,297.6,0.344,13.8,2011.8
 10,Norway,I,UEFA,1957,592.0,0.884,35.4,1992.4
@@ -33,7 +33,7 @@ strength_rank,team,group,confederation,base_elo,squad_value_eur_millions,value_l
 32,Iran,G,AFC,1766,32.0,-1.408,-56.3,1709.7
 33,Czechia,A,UEFA,1696,188.2,-0.016,-0.6,1695.4
 34,DR Congo,K,CAF,1683,144.1,-0.226,-9.0,1674.0
-35,Uzbekistan,K,AFC,1698,83.5,-0.655,-26.2,1671.8
+35,Uzbekistan,K,AFC,1658,83.5,-0.655,-26.2,1631.8
 36,Panama,L,CONCACAF,1683,34.6,-1.347,-53.9,1629.1
 37,Cape Verde,H,CAF,1625,51.0,-1.042,-41.7,1583.3
 38,Bosnia and Herzegovina,B,UEFA,1590,150.6,-0.191,-7.6,1582.4
