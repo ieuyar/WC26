@@ -1,14 +1,14 @@
 strength_rank,team,group,confederation,base_elo,squad_value_eur_millions,value_log_z,elo_adjustment,adjusted_elo
 1,Spain,H,UEFA,2137,1217.0,1.45,58.0,2195.0
 2,Argentina,J,CONMEBOL,2145,799.5,1.12,44.8,2189.8
-3,France,I,UEFA,2085,1553.0,1.642,65.7,2150.7
+3,France,I,UEFA,2093,1553.0,1.642,65.7,2158.7
 4,England,L,UEFA,2052,1373.2,1.545,61.8,2113.8
 5,Netherlands,F,UEFA,1995,814.2,1.135,45.4,2040.4
 6,Brazil,C,CONMEBOL,1988,909.2,1.221,48.9,2036.9
 7,Portugal,K,UEFA,1964,1006.5,1.301,52.0,2016.0
 8,Germany,E,UEFA,1961,982.0,1.282,51.3,2012.3
 9,Colombia,K,CONMEBOL,1998,297.6,0.344,13.8,2011.8
-10,Norway,I,UEFA,1935,592.0,0.884,35.4,1970.4
+10,Norway,I,UEFA,1957,592.0,0.884,35.4,1992.4
 11,Japan,F,AFC,1931,280.9,0.299,11.9,1942.9
 12,Switzerland,B,UEFA,1891,332.6,0.431,17.3,1908.3
 13,Croatia,L,UEFA,1880,387.7,0.552,22.1,1902.1
@@ -16,9 +16,9 @@ strength_rank,team,group,confederation,base_elo,squad_value_eur_millions,value_l
 15,Mexico,A,CONCACAF,1896,193.8,0.007,0.3,1896.3
 16,Morocco,C,CAF,1866,489.5,0.735,29.4,1895.4
 17,Ecuador,E,CONMEBOL,1864,368.7,0.512,20.5,1884.5
-18,Senegal,I,CAF,1845,478.4,0.717,28.7,1873.7
-19,Uruguay,H,CONMEBOL,1851,392.3,0.561,22.4,1873.4
-20,United States,D,CONCACAF,1833,385.6,0.547,21.9,1854.9
+18,Uruguay,H,CONMEBOL,1851,392.3,0.561,22.4,1873.4
+19,United States,D,CONCACAF,1833,385.6,0.547,21.9,1854.9
+20,Senegal,I,CAF,1823,478.4,0.717,28.7,1851.7
 21,Austria,J,UEFA,1841,232.2,0.149,6.0,1847.0
 22,Turkey,D,UEFA,1812,473.7,0.709,28.4,1840.4
 23,Paraguay,D,CONMEBOL,1801,153.7,-0.175,-7.0,1794.0
@@ -40,7 +40,7 @@ strength_rank,team,group,confederation,base_elo,squad_value_eur_millions,value_l
 39,Ghana,L,CAF,1557,237.9,0.168,6.7,1563.7
 40,Jordan,J,AFC,1653,7.7,-2.527,-100.0,1553.0
 41,Saudi Arabia,H,AFC,1583,40.7,-1.219,-48.8,1534.2
-42,Iraq,I,AFC,1597,20.5,-1.758,-70.3,1526.7
+42,Iraq,I,AFC,1590,20.5,-1.758,-70.3,1519.7
 43,Tunisia,F,CAF,1538,69.7,-0.796,-31.9,1506.1
 44,New Zealand,G,OFC,1550,34.4,-1.351,-54.0,1496.0
 45,Haiti,C,CONCACAF,1526,55.8,-0.971,-38.8,1487.2

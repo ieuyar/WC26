@@ -836,10 +836,10 @@ France,,Lucas Digne,0,DF,32,1993-07-20,France,Aston Villa,56,0,6000000,0,0
 France,,Dayot Upamecano,0,DF,27,1998-10-27,France,Bayern Munich,36,2,70000000,0,0
 France,,Jules Koundé,0,DF,27,1998-11-12,France,Barcelona,46,0,65000000,0,0
 France,,Manu Koné,0,MF,25,2001-05-17,France,Roma,12,0,50000000,0,0
-France,,Ousmane Dembélé,0,FW,29,1997-05-15,France,Paris Saint-Germain,58,7,100000000,0,0
+France,,Ousmane Dembélé,0,FW,29,1997-05-15,France,Paris Saint-Germain,58,7,100000000,1,1
 France,,Aurélien Tchouaméni,0,MF,26,2000-01-27,France,Real Madrid,44,3,75000000,0,0
 France,,Marcus Thuram,0,FW,28,1997-08-06,France,Inter Milan,33,3,50000000,0,0
-France,,Kylian Mbappé,1,FW,27,1998-12-20,France,Real Madrid,96,56,200000000,3,0
+France,,Kylian Mbappé,1,FW,27,1998-12-20,France,Real Madrid,96,56,200000000,4,0
 France,,Michael Olise,0,FW,24,2001-12-12,France,Bayern Munich,15,4,150000000,0,0
 France,,Bradley Barcola,0,FW,23,2002-09-02,France,Paris Saint-Germain,18,3,70000000,1,0
 France,,N'Golo Kanté,0,MF,35,1991-03-29,France,Fenerbahçe,67,2,4000000,0,0
@@ -890,14 +890,14 @@ Norway,,David Møller Wolfe,0,DF,24,2002-04-23,Norway,Wolverhampton Wanderers,21
 Norway,,Patrick Berg,0,MF,28,1997-11-24,Norway,Bodø/Glimt,42,0,8000000,0,0
 Norway,,Alexander Sørloth,0,FW,30,1995-12-05,Norway,Atlético Madrid,71,26,20000000,0,0
 Norway,,Sander Berge,0,MF,28,1998-02-14,Norway,Fulham,65,1,25000000,0,0
-Norway,,Erling Haaland,0,FW,25,2000-07-21,Norway,Manchester City,49,55,200000000,2,0
+Norway,,Erling Haaland,0,FW,25,2000-07-21,Norway,Manchester City,49,55,200000000,4,0
 Norway,,Martin Ødegaard,1,MF,27,1998-12-17,Norway,Arsenal,67,4,65000000,0,0
 Norway,,Jørgen Strand Larsen,0,FW,26,2000-02-06,Norway,Crystal Palace,27,6,40000000,0,0
 Norway,,Sander Tangvik,0,GK,23,2002-11-29,Norway,Hamburger SV,0,0,3000000,0,0
 Norway,,Egil Selvik,0,GK,28,1997-07-30,Norway,Watford,6,0,1500000,0,0
 Norway,,Fredrik Aursnes,0,MF,30,1995-12-10,Norway,Benfica,21,1,15000000,0,0
 Norway,,Fredrik André Bjørkan,0,DF,27,1998-08-21,Norway,Bodø/Glimt,20,1,3500000,0,0
-Norway,,Marcus Holmgren Pedersen,0,DF,25,2000-07-16,Norway,Torino,32,0,3500000,0,0
+Norway,,Marcus Holmgren Pedersen,0,DF,25,2000-07-16,Norway,Torino,32,0,3500000,1,0
 Norway,,Torbjørn Heggem,0,DF,27,1999-01-12,Norway,Bologna,14,0,13000000,0,0
 Norway,,Kristian Thorstvedt,0,MF,27,1999-03-13,Norway,Sassuolo,36,4,12000000,0,0
 Norway,,Thelo Aasgaard,0,MF,24,2002-05-02,Norway,Rangers,7,5,2800000,0,0
@@ -909,7 +909,7 @@ Norway,,Sondre Langås,0,DF,25,2001-02-02,Norway,Derby County,3,0,4000000,0,0
 Norway,,Henrik Falchener,0,DF,23,2003-05-08,Norway,Viking,1,0,6000000,0,0
 Norway,,Julian Ryerson,0,FW,28,1997-11-17,Norway,Borussia Dortmund,42,1,25000000,0,0
 Senegal,,Yehvann Diouf,0,GK,26,1999-11-16,Senegal,Nice,2,0,7000000,0,0
-Senegal,,Mamadou Sarr,0,DF,20,2005-08-29,Senegal,Chelsea,7,0,22000000,0,0
+Senegal,,Mamadou Sarr,0,DF,20,2005-08-29,Senegal,Chelsea,7,0,22000000,2,0
 Senegal,,Kalidou Koulibaly,1,DF,34,1991-06-20,Senegal,Al-Hilal,102,2,4500000,0,0
 Senegal,,Abdoulaye Seck,0,DF,34,1992-06-04,Senegal,Maccabi Haifa,22,4,500000,0,0
 Senegal,,Idrissa Gueye,0,MF,36,1989-09-26,Senegal,Everton,130,7,500000,0,0
@@ -924,8 +924,8 @@ Senegal,,Iliman Ndiaye,0,FW,26,2000-03-06,Senegal,Everton,39,4,55000000,0,0
 Senegal,,Ismail Jakobs,0,DF,26,1999-08-17,Senegal,Galatasaray,29,0,8000000,0,0
 Senegal,,Krépin Diatta,0,DF,27,1999-02-25,Senegal,Monaco,60,2,6000000,0,0
 Senegal,,Édouard Mendy,0,GK,34,1992-03-01,Senegal,Al-Ahli,56,0,4000000,0,0
-Senegal,,Pape Matar Sarr,0,MF,23,2002-09-14,Senegal,Tottenham Hotspur,39,4,30000000,0,0
-Senegal,,Ismaïla Sarr,0,FW,28,1998-02-25,Senegal,Crystal Palace,82,19,40000000,0,0
+Senegal,,Pape Matar Sarr,0,MF,23,2002-09-14,Senegal,Tottenham Hotspur,39,4,30000000,2,0
+Senegal,,Ismaïla Sarr,0,FW,28,1998-02-25,Senegal,Crystal Palace,82,19,40000000,2,0
 Senegal,,Moussa Niakhaté,0,DF,30,1996-03-08,Senegal,Lyon,30,0,15000000,0,0
 Senegal,,Ibrahim Mbaye,0,FW,18,2008-01-24,Senegal,Paris Saint-Germain,10,3,30000000,1,0
 Senegal,,Habib Diarra,0,MF,22,2004-01-03,Senegal,Sunderland,20,4,35000000,0,0
