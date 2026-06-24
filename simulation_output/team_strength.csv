@@ -10,8 +10,8 @@ strength_rank,team,group,confederation,base_elo,squad_value_eur_millions,value_l
 9,Germany,E,UEFA,1961,982.0,1.282,51.3,2012.3
 10,Norway,I,UEFA,1957,592.0,0.884,35.4,1992.4
 11,Japan,F,AFC,1931,280.9,0.299,11.9,1942.9
-12,Croatia,L,UEFA,1894,387.7,0.552,22.1,1916.1
-13,Switzerland,B,UEFA,1891,332.6,0.431,17.3,1908.3
+12,Switzerland,B,UEFA,1921,332.6,0.431,17.3,1938.3
+13,Croatia,L,UEFA,1894,387.7,0.552,22.1,1916.1
 14,Belgium,G,UEFA,1867,550.7,0.827,33.1,1900.1
 15,Mexico,A,CONCACAF,1896,193.8,0.007,0.3,1896.3
 16,Morocco,C,CAF,1866,489.5,0.735,29.4,1895.4
@@ -22,11 +22,11 @@ strength_rank,team,group,confederation,base_elo,squad_value_eur_millions,value_l
 21,Austria,J,UEFA,1841,232.2,0.149,6.0,1847.0
 22,Turkey,D,UEFA,1812,473.7,0.709,28.4,1840.4
 23,Paraguay,D,CONMEBOL,1801,153.7,-0.175,-7.0,1794.0
-24,Canada,B,CONCACAF,1789,197.7,0.023,0.9,1789.9
-25,Algeria,J,CAF,1767,255.8,0.225,9.0,1776.0
-26,Australia,D,AFC,1801,77.6,-0.712,-28.5,1772.5
-27,Scotland,C,UEFA,1768,170.2,-0.095,-3.8,1764.2
-28,South Korea,A,AFC,1772,137.6,-0.262,-10.5,1761.5
+24,Algeria,J,CAF,1767,255.8,0.225,9.0,1776.0
+25,Australia,D,AFC,1801,77.6,-0.712,-28.5,1772.5
+26,Scotland,C,UEFA,1768,170.2,-0.095,-3.8,1764.2
+27,South Korea,A,AFC,1772,137.6,-0.262,-10.5,1761.5
+28,Canada,B,CONCACAF,1760,197.7,0.023,0.9,1760.9
 29,Cote d'Ivoire,E,CAF,1729,522.1,0.786,31.4,1760.4
 30,Sweden,F,UEFA,1730,404.3,0.585,23.4,1753.4
 31,Egypt,G,CAF,1740,110.8,-0.432,-17.3,1722.7
@@ -35,9 +35,9 @@ strength_rank,team,group,confederation,base_elo,squad_value_eur_millions,value_l
 34,DR Congo,K,CAF,1675,144.1,-0.226,-9.0,1666.0
 35,Uzbekistan,K,AFC,1658,83.5,-0.655,-26.2,1631.8
 36,Panama,L,CONCACAF,1669,34.6,-1.347,-53.9,1615.1
-37,Ghana,L,CAF,1584,237.9,0.168,6.7,1590.7
-38,Cape Verde,H,CAF,1625,51.0,-1.042,-41.7,1583.3
-39,Bosnia and Herzegovina,B,UEFA,1590,150.6,-0.191,-7.6,1582.4
+37,Bosnia and Herzegovina,B,UEFA,1615,150.6,-0.191,-7.6,1607.4
+38,Ghana,L,CAF,1584,237.9,0.168,6.7,1590.7
+39,Cape Verde,H,CAF,1625,51.0,-1.042,-41.7,1583.3
 40,Saudi Arabia,H,AFC,1583,40.7,-1.219,-48.8,1534.2
 41,Jordan,J,AFC,1631,7.7,-2.527,-100.0,1531.0
 42,Iraq,I,AFC,1590,20.5,-1.758,-70.3,1519.7
@@ -46,4 +46,4 @@ strength_rank,team,group,confederation,base_elo,squad_value_eur_millions,value_l
 45,Haiti,C,CONCACAF,1526,55.8,-0.971,-38.8,1487.2
 46,South Africa,A,CAF,1528,44.2,-1.154,-46.2,1481.8
 47,Curacao,E,CONCACAF,1446,25.8,-1.577,-63.1,1382.9
-48,Qatar,B,AFC,1425,18.4,-1.843,-73.7,1351.3
+48,Qatar,B,AFC,1400,18.4,-1.843,-73.7,1326.3
