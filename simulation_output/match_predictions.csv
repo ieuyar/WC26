@@ -1,6 +1,6 @@
 match_id,matchday,group,team_a,team_b,elo_a,elo_b,home_advantage,expected_goals_a,expected_goals_b,p_team_a_win,p_draw,p_team_b_win,likely_scoreline,match_date
-1,1,A,Mexico,South Africa,1896,1482,Mexico,2.567,0.133,0.89661,0.09215,0.01123,2-0,2026-06-11
-2,1,A,South Korea,Czechia,1762,1695,neutral,1.604,1.096,0.49151,0.24862,0.25988,1-1,2026-06-11
+1,1,A,Mexico,South Africa,1916,1530,Mexico,2.545,0.155,0.89005,0.0964,0.01355,2-0,2026-06-11
+2,1,A,South Korea,Czechia,1714,1675,neutral,1.498,1.202,0.44036,0.25492,0.30473,1-1,2026-06-11
 3,1,B,Canada,Bosnia and Herzegovina,1761,1607,Canada,2.191,0.509,0.76235,0.16584,0.07181,2-0,2026-06-12
 4,1,D,United States,Paraguay,1855,1794,United States,1.934,0.766,0.64929,0.2103,0.14041,1-0,2026-06-12
 5,1,C,Haiti,Scotland,1476,1735,neutral,0.496,2.204,0.06895,0.16339,0.76766,0-2,2026-06-13
@@ -23,10 +23,10 @@ match_id,matchday,group,team_a,team_b,elo_a,elo_b,home_advantage,expected_goals_
 22,1,L,England,Croatia,2087,1916,neutral,1.965,0.735,0.66344,0.20552,0.13104,1-0,2026-06-17
 23,1,K,Portugal,DR Congo,2056,1666,neutral,2.442,0.258,0.85674,0.1168,0.02646,2-0,2026-06-17
 24,1,K,Uzbekistan,Colombia,1632,2020,neutral,0.261,2.439,0.02687,0.11737,0.85576,0-2,2026-06-17
-25,2,A,Czechia,South Africa,1482,1695,neutral,0.611,2.089,0.71907,0.18458,0.09635,2-0,2026-06-18
+25,2,A,Czechia,South Africa,1530,1675,neutral,0.815,1.885,0.62619,0.21763,0.15618,1-0,2026-06-18
 26,2,B,Switzerland,Bosnia and Herzegovina,1607,1938,neutral,0.35,2.35,0.8245,0.13491,0.04059,2-0,2026-06-18
 27,2,B,Canada,Qatar,1761,1326,Canada,2.581,0.119,0.9007,0.08947,0.00983,2-0,2026-06-18
-28,2,A,Mexico,South Korea,1896,1762,Mexico,2.145,0.555,0.74306,0.17446,0.08248,2-0,2026-06-18
+28,2,A,Mexico,South Korea,1916,1714,Mexico,2.298,0.402,0.80486,0.14522,0.04992,2-0,2026-06-18
 29,2,C,Brazil,Haiti,2066,1476,neutral,2.612,0.088,0.90962,0.0835,0.00688,2-0,2026-06-19
 30,2,C,Scotland,Morocco,1906,1735,neutral,1.966,0.734,0.13062,0.2053,0.66408,0-1,2026-06-19
 31,2,D,Turkey,Paraguay,1794,1840,neutral,1.171,1.529,0.45542,0.25339,0.29119,1-1,2026-06-19
@@ -51,8 +51,8 @@ match_id,matchday,group,team_a,team_b,elo_a,elo_b,home_advantage,expected_goals_
 50,3,C,Morocco,Haiti,1906,1476,neutral,2.491,0.209,0.873,0.10707,0.01993,2-0,2026-06-24
 51,3,B,Switzerland,Canada,1761,1938,Canada,1.054,1.646,0.51167,0.24528,0.24306,1-1,2026-06-24
 52,3,B,Bosnia and Herzegovina,Qatar,1607,1326,neutral,2.253,0.447,0.78748,0.15393,0.05859,2-0,2026-06-24
-53,3,A,Czechia,Mexico,1896,1695,Mexico,2.294,0.406,0.0506,0.14594,0.80346,0-2,2026-06-24
-54,3,A,South Africa,South Korea,1482,1762,neutral,0.45,2.25,0.05919,0.1545,0.78631,0-2,2026-06-24
+53,3,A,Czechia,Mexico,1916,1675,Mexico,2.367,0.333,0.03773,0.1315,0.83077,0-2,2026-06-24
+54,3,A,South Africa,South Korea,1530,1714,neutral,0.696,2.004,0.11953,0.19917,0.6813,0-2,2026-06-24
 55,3,E,Curacao,Cote d'Ivoire,1383,1760,neutral,0.276,2.424,0.02895,0.12025,0.8508,0-2,2026-06-25
 56,3,E,Ecuador,Germany,2012,1884,neutral,1.825,0.875,0.17612,0.22574,0.59814,0-1,2026-06-25
 57,3,F,Japan,Sweden,1943,1753,neutral,2.021,0.679,0.6891,0.19629,0.11461,2-0,2026-06-25
