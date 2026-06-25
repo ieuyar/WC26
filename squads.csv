@@ -31,7 +31,7 @@ Mexico,,César Montes,0,DF,29,1997-02-24,Mexico,Lokomotiv Moscow,66,4,7500000,0,
 Mexico,,Edson Álvarez,1,DF,28,1997-10-24,Mexico,Fenerbahçe,97,7,15000000,0,0
 Mexico,,Johan Vásquez,0,DF,27,1998-10-22,Mexico,Genoa,45,2,12000000,0,0
 Mexico,,Érik Lira,0,MF,26,2000-05-08,Mexico,Cruz Azul,24,0,12000000,0,0
-Mexico,,Luis Romo,0,MF,31,1995-06-05,Mexico,Guadalajara,62,4,3000000,1,0
+Mexico,,Luis Romo,0,MF,31,1995-06-05,Mexico,Guadalajara,62,4,3000000,1,1
 Mexico,,Álvaro Fidalgo,0,MF,29,1997-04-09,Mexico,Real Betis,3,0,10000000,0,0
 Mexico,,Raúl Jiménez,0,FW,35,1991-05-05,Mexico,Fulham,123,44,3000000,1,0
 Mexico,,Alexis Vega,0,FW,28,1997-11-25,Mexico,Toluca,51,7,8000000,0,0
@@ -40,7 +40,7 @@ Mexico,,Carlos Acevedo,0,GK,30,1996-04-19,Mexico,Santos Laguna,7,0,2800000,0,0
 Mexico,,Guillermo Ochoa,0,GK,40,1985-07-13,Mexico,AEL Limassol,152,0,250000,0,0
 Mexico,,Armando González,0,FW,23,2003-04-20,Mexico,Guadalajara,7,1,15000000,0,0
 Mexico,,Israel Reyes,0,DF,26,2000-05-23,Mexico,América,33,2,6500000,0,0
-Mexico,,Julián Quiñones,0,FW,29,1997-03-24,Mexico,Al-Qadsiah,21,2,14000000,1,0
+Mexico,,Julián Quiñones,0,FW,29,1997-03-24,Mexico,Al-Qadsiah,21,2,14000000,2,0
 Mexico,,Orbelín Pineda,0,MF,30,1996-03-24,Mexico,AEK Athens,91,12,7000000,0,0
 Mexico,,Obed Vargas,0,MF,20,2005-08-05,Mexico,Atlético Madrid,6,0,8000000,0,0
 Mexico,,Gilberto Mora,0,MF,17,2008-10-14,Mexico,Tijuana,7,0,10000000,0,0
@@ -212,9 +212,9 @@ Brazil,,Gabriel Magalhães,0,DF,28,1997-12-19,Brazil,Arsenal,17,1,75000000,0,0
 Brazil,,Marquinhos,1,DF,32,1994-05-14,Brazil,Paris Saint-Germain,104,7,28000000,0,0
 Brazil,,Casemiro,0,MF,34,1992-02-23,Brazil,Manchester United,85,9,6000000,0,0
 Brazil,,Alex Sandro,0,DF,35,1991-01-26,Brazil,Flamengo,44,2,1000000,0,0
-Brazil,,Vinícius Júnior,0,FW,25,2000-07-12,Brazil,Real Madrid,48,9,150000000,3,1
+Brazil,,Vinícius Júnior,0,FW,25,2000-07-12,Brazil,Real Madrid,48,9,150000000,4,1
 Brazil,,Bruno Guimarães,0,MF,28,1997-11-16,Brazil,Newcastle United,42,2,70000000,0,0
-Brazil,,Matheus Cunha,0,FW,27,1999-05-27,Brazil,Manchester United,22,1,75000000,2,0
+Brazil,,Matheus Cunha,0,FW,27,1999-05-27,Brazil,Manchester United,22,1,75000000,3,0
 Brazil,,Neymar,0,FW,34,1992-02-05,Brazil,Santos,128,79,8000000,0,0
 Brazil,,Raphinha,0,FW,29,1996-12-14,Brazil,Barcelona,38,11,80000000,0,0
 Brazil,,Weverton,0,GK,38,1987-12-13,Brazil,Grêmio,10,0,700000,0,0
@@ -268,7 +268,7 @@ Morocco,,Chemsdine Talbi,0,MF,21,2005-05-09,Morocco,Sunderland,5,0,25000000,0,0
 Morocco,,Azzedine Ounahi,0,MF,26,2000-04-19,Morocco,Girona,48,9,10000000,0,0
 Morocco,,Soufiane Rahimi,0,FW,30,1996-06-02,Morocco,Al Ain,36,12,6000000,0,0
 Morocco,,Brahim Díaz,0,FW,26,1999-08-03,Morocco,Real Madrid,25,13,35000000,0,0
-Morocco,,Ismael Saibari,0,MF,25,2001-01-28,Morocco,PSV Eindhoven,30,9,40000000,2,0
+Morocco,,Ismael Saibari,0,MF,25,2001-01-28,Morocco,PSV Eindhoven,30,9,40000000,3,0
 Morocco,,Munir Mohamedi,0,GK,37,1989-05-10,Morocco,RS Berkane,53,0,,0,0
 Morocco,,Zakaria El Ouahdi,0,DF,24,2001-12-31,Morocco,Genk,2,0,17000000,0,0
 Morocco,,Issa Diop,0,DF,29,1997-01-09,Morocco,Fulham,3,0,8000000,0,0
