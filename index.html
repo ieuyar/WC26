@@ -249,6 +249,23 @@
   .bracket-slot.locked .slot-team { color: var(--gold); }
   .bracket-slot.locked .slot-prob { color: var(--gold); opacity: 0.7; }
   .bracket-slot.faded { opacity: 0.85; }
+  /* Played slot - actual result with winner highlighted, loser greyed. */
+  .bracket-slot.played .slot-team { font-weight: 700; }
+  .bracket-slot.played.winner .slot-team { color: #4ade80; }       /* green */
+  .bracket-slot.played.loser .slot-team {
+    color: var(--muted);
+    text-decoration: line-through;
+    text-decoration-color: rgba(255, 255, 255, 0.3);
+  }
+  .bracket-slot .slot-score {
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--text);
+    margin-left: 6px;
+    min-width: 16px;
+    text-align: right;
+  }
+  .bracket-slot.played.loser .slot-score { color: var(--muted); }
   .bracket-tooltip {
     display: none;
     position: absolute;
@@ -739,7 +756,7 @@
   <!-- FOOTER: data freshness indicator -->
   <div class="footer">
     <span class="refresh-dot"></span>
-    Data last refreshed: <strong>June 30, 2026 · 21:00 UTC</strong>
+    Data last refreshed: <strong>June 30, 2026 · 21:11 UTC</strong>
     &nbsp;·&nbsp; 50,000 Monte Carlo simulations &nbsp;·&nbsp; 4 rating engines
   </div>
 
@@ -1168,6 +1185,20 @@ function renderSlot(engine, match_no, slot) {
   }
   const top = candidates[0];
   const locked = top.probability >= 0.999;
+
+  // If this exact bracket match was actually played, show score + winner/loser
+  // styling instead of the projection.
+  const actual = (DATA.knockout_actuals || {})[String(match_no)];
+  if (actual) {
+    const goals = slot === "a" ? actual.goals_a : actual.goals_b;
+    const isWinner = actual.winner === top.team;
+    const cls = "bracket-slot played " + (isWinner ? "winner" : "loser");
+    return `<div class="${cls}">
+      <span class="slot-team">${top.team}</span>
+      <span class="slot-score">${goals}</span>
+    </div>`;
+  }
+
   const cls = "bracket-slot" + (locked ? " locked" : " faded");
   const probLabel = locked ? "" : ` <span class="slot-prob">${(top.probability * 100).toFixed(0)}%</span>`;
   const tooltip = candidates.length > 1

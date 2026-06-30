@@ -60,6 +60,64 @@ def build_data():
     else:
         out["knockout_match_predictions"] = []
 
+    # Build a knockout-match actuals lookup keyed by match_no. For each
+    # bracket match where both slots are locked at >=99% in the Model
+    # engine AND we have a real result for that pairing, expose the score
+    # and winner so the bracket UI can render it. Match_no is derived
+    # from the Model bracket: if NL appears in slot a of match 75 at 100%
+    # and Morocco in slot b at 100%, and they actually played in real
+    # life, then match 75 = NL vs Morocco with the actual score.
+    ko_played_path = os.path.join(_DIR, "live_results.csv")
+    ko_actual_by_pair = {}
+    if os.path.exists(ko_played_path):
+        knockout_stages = {"LAST_32", "LAST_16", "QUARTER_FINALS",
+                           "SEMI_FINALS", "THIRD_PLACE", "FINAL"}
+        for r in _read(ko_played_path):
+            if r.get("status") != "FINISHED":
+                continue
+            if r.get("stage") not in knockout_stages:
+                continue
+            home, away = r["home_team"], r["away_team"]
+            hg, ag = int(r["home_goals"]), int(r["away_goals"])
+            winner = home if hg > ag else (away if ag > hg else None)
+            if not winner:
+                continue
+            ko_actual_by_pair[frozenset((home, away))] = {
+                "home_team": home, "away_team": away,
+                "home_goals": hg, "away_goals": ag,
+                "winner": winner,
+            }
+
+    # Match up bracket slots to actual played results.
+    out["knockout_actuals"] = {}
+    if os.path.exists(os.path.join(SO, "knockout_bracket.csv")):
+        bracket_rows = _read(os.path.join(SO, "knockout_bracket.csv"))
+        # Group Model engine rank-1 rows by match_no.
+        by_match = {}
+        for r in bracket_rows:
+            if r["engine"] != "Model" or int(r["rank"]) != 1:
+                continue
+            by_match.setdefault(int(r["match_no"]), {})[r["slot"]] = {
+                "team": r["team"], "probability": _num(r["probability"]),
+            }
+        for match_no, slots in by_match.items():
+            a, b = slots.get("a"), slots.get("b")
+            if not a or not b:
+                continue
+            if a["probability"] < 0.99 or b["probability"] < 0.99:
+                continue
+            actual = ko_actual_by_pair.get(frozenset((a["team"], b["team"])))
+            if not actual:
+                continue
+            # Map team_a/team_b in the bracket to goals scored.
+            ga = actual["home_goals"] if actual["home_team"] == a["team"] else actual["away_goals"]
+            gb = actual["home_goals"] if actual["home_team"] == b["team"] else actual["away_goals"]
+            out["knockout_actuals"][str(match_no)] = {
+                "team_a": a["team"], "team_b": b["team"],
+                "goals_a": ga, "goals_b": gb,
+                "winner": actual["winner"],
+            }
+
     # ~744 rows (4 engines x ~62 slots x <=3 candidates) - bracket slot occupancy.
     bracket_path = os.path.join(SO, "knockout_bracket.csv")
     if os.path.exists(bracket_path):
