@@ -105,14 +105,17 @@ def build_data():
         for r in _read(os.path.join(SO, "simulation_results.csv"))
     ]
 
-    # Build a quick lookup of qualify probabilities so we can mark teams
-    # already eliminated (p_qualify == 0) on the Team Strength page. Squad
-    # value still gives Turkey +28 over base Elo, which is mathematically
-    # correct (intrinsic strength) but misleading once they're going home.
-    qualify_by_team = {
-        r["team"]: _num(r["p_qualify"])
-        for r in _read(os.path.join(SO, "simulation_results.csv"))
-    }
+    # Build a "is eliminated" lookup. A team is eliminated when they have
+    # ZERO probability of reaching ANY further stage. Just checking
+    # p_win_title isn't enough - a 50-1 longshot still in R32 (e.g. Sweden
+    # 4.6% to reach R16) has p_win_title = 0% rounded, but they aren't out.
+    # The correct check: their best-case future stage probability is zero.
+    eliminated_by_team = {}
+    for r in _read(os.path.join(SO, "simulation_results.csv")):
+        future_stages = [_num(r["p_reach_r16"]), _num(r["p_reach_qf"]),
+                         _num(r["p_reach_sf"]), _num(r["p_reach_final"]),
+                         _num(r["p_win_title"])]
+        eliminated_by_team[r["team"]] = max(future_stages) == 0.0
 
     # 48 rows - per-team strength
     out["team_strength"] = [
@@ -122,7 +125,7 @@ def build_data():
             "squad_value_eur_millions": _num(r["squad_value_eur_millions"]),
             "elo_adjustment": round(_num(r["elo_adjustment"]), 1),
             "adjusted_elo": round(_num(r["adjusted_elo"]), 1),
-            "eliminated": qualify_by_team.get(r["team"], 1.0) == 0.0,
+            "eliminated": eliminated_by_team.get(r["team"], False),
         }
         for r in _read(os.path.join(SO, "team_strength.csv"))
     ]

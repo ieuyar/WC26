@@ -83,11 +83,18 @@ def _rank_third_placed(group_results, rng):
 
 
 def simulate_tournament(elo, groups, third_place_table, rng,
-                        known_results=None):
+                        known_results=None, known_ko_results=None):
     """Simulate one complete tournament.
 
-    known_results: optional real group-stage scores to condition on (see
-    simulate_group); matches already played are locked in rather than simulated.
+    known_results:    optional real group-stage scores to condition on (see
+                      simulate_group); matches already played are locked in
+                      rather than simulated.
+    known_ko_results: optional dict of finished knockout matches keyed by
+                      frozenset({team_a, team_b}). When the simulator's
+                      bracket produces a matchup that has already been played
+                      in real life, the actual winner is used instead of
+                      simulating. This keeps the bracket viz consistent with
+                      reality once knockouts begin.
 
     Returns a dict:
         group_standings - {letter: [team x4]} ordered 1st -> 4th
@@ -131,7 +138,15 @@ def simulate_tournament(elo, groups, third_place_table, rng,
     lose = {}          # match_no -> losing team
 
     def record(match_no, team_a, team_b):
-        w, l = _play(team_a, team_b, elo, rng)
+        # If this exact pairing has already been played in real life, use
+        # the actual result instead of simulating.
+        actual = (known_ko_results.get(frozenset((team_a, team_b)))
+                  if known_ko_results else None)
+        if actual is not None:
+            w = actual["winner"]
+            l = team_b if w == team_a else team_a
+        else:
+            w, l = _play(team_a, team_b, elo, rng)
         knockout[match_no] = {"a": team_a, "b": team_b, "winner": w, "loser": l}
         win[match_no], lose[match_no] = w, l
 

@@ -41,8 +41,16 @@ jobs:
         run: echo "${{ secrets.FOOTBALL_DATA_TOKEN }}" > api_token.txt
 
       - name: Pull live match results
-        run: python3 live_ingest.py
-        continue-on-error: true   # don't kill the build if no new matches
+        # Don't kill the whole build if the API is unreachable, but we do
+        # want to see in the workflow log whether ingest succeeded.
+        # The script exits 0 on success and on "no new matches"; non-zero
+        # is a real error (auth, rate-limit, network, parse) - log it loudly.
+        run: |
+          if python3 live_ingest.py; then
+            echo "live_ingest succeeded"
+          else
+            echo "::warning::live_ingest.py FAILED (continuing anyway)"
+          fi
 
       - name: Re-run simulation pipeline
         run: |

@@ -109,6 +109,49 @@ def load_known_results():
     return known
 
 
+def load_known_ko_results():
+    """Return actual KNOCKOUT-STAGE results, as
+    {frozenset({team_a, team_b}): {"winner": team, "goals": (a, b)}}.
+
+    Used by the tournament simulator to lock in real knockout matchups: if a
+    simulated bracket happens to pair the same two teams that already met in
+    real life (e.g. Netherlands vs Morocco in R32), use the actual winner
+    rather than simulating it again. This keeps the bracket viz consistent
+    with reality once knockout games start - otherwise a Netherlands who lost
+    R32 in real life would keep advancing in simulations of later rounds.
+    """
+    path = _path("live_results.csv")
+    known = {}
+    if not os.path.exists(path):
+        return known
+    knockout_stages = {"LAST_32", "LAST_16", "QUARTER_FINALS",
+                       "SEMI_FINALS", "THIRD_PLACE", "FINAL"}
+    with open(path, newline="") as f:
+        for row in csv.DictReader(f):
+            if row.get("status") != "FINISHED":
+                continue
+            if row.get("stage") not in knockout_stages:
+                continue
+            home, away = row["home_team"], row["away_team"]
+            hg, ag = int(row["home_goals"]), int(row["away_goals"])
+            # Knockout matches don't end in a draw at the recorded level.
+            # If goals_after_extra_time or penalty_shootout fields existed
+            # we could be more careful; for now treat higher score as winner
+            # and equal as a tie (shouldn't happen with FINISHED status).
+            if hg > ag:
+                winner = home
+            elif ag > hg:
+                winner = away
+            else:
+                winner = None  # unresolved - skip
+            if winner:
+                known[frozenset((home, away))] = {
+                    "winner": winner,
+                    "goals": {home: hg, away: ag},
+                }
+    return known
+
+
 def load_fifa_rankings():
     """Return {team: FIFA ranking points}.
 

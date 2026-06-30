@@ -17,8 +17,8 @@ Output: simulation_output/engine_scenarios.csv
 import csv
 import os
 
-from data import (load_elo, load_groups, load_squad_values,
-                   load_third_place_table)
+from data import (load_elo, load_groups, load_known_ko_results,
+                   load_squad_values, load_third_place_table)
 from montecarlo import run_monte_carlo
 from rating_engines import engines as pure_engines
 from squad_strength import effective_elo
@@ -50,16 +50,19 @@ def main():
     # Apply the same results-conditioning as run_simulation.py - otherwise
     # the engine_scenarios.csv lags behind reality once matches are played.
     known_results = load_known_results()
+    known_ko_results = load_known_ko_results()
     if known_results:
-        print(f"Conditioning each engine on {len(known_results)} completed "
-              f"match(es) from live_results.csv.")
+        print(f"Conditioning each engine on {len(known_results)} group-stage "
+              f"+ {len(known_ko_results)} KO matches from live_results.csv.")
 
     rows = []
     for name, ratings in engines.items():
         print(f"Running {N_SIMULATIONS:,} simulations - {name} engine ...")
         mc = run_monte_carlo(ratings, groups, third_place_table,
                              n=N_SIMULATIONS, seed=RANDOM_SEED,
-                             known_results=known_results, progress=False)
+                             known_results=known_results,
+                             known_ko_results=known_ko_results,
+                             progress=False)
         for team, p in mc["teams"].items():
             rows.append({
                 "engine": name,

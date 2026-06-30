@@ -27,8 +27,8 @@ from collections import Counter, defaultdict
 
 import numpy as np
 
-from data import (load_elo, load_groups, load_squad_values,
-                  load_third_place_table)
+from data import (load_elo, load_groups, load_known_ko_results,
+                  load_squad_values, load_third_place_table)
 from rating_engines import engines as pure_engines
 from squad_strength import effective_elo
 from tournament import (FINAL_MATCH, QUARTER_FINALS, ROUND_OF_16, ROUND_OF_32,
@@ -61,7 +61,7 @@ _ROUND_BY_MATCH[FINAL_MATCH] = "F"
 
 
 def _tally_one_engine(name, ratings, groups, third_place_table,
-                     known_results, n):
+                     known_results, known_ko_results, n):
     """Run n tournaments for one engine, return slot-occupancy AND matchup
     counters.
 
@@ -80,7 +80,8 @@ def _tally_one_engine(name, ratings, groups, third_place_table,
     print(f"Running {n:,} simulations - {name} engine ...")
     for i in range(n):
         result = simulate_tournament(ratings, groups, third_place_table, rng,
-                                     known_results=known_results)
+                                     known_results=known_results,
+                                     known_ko_results=known_ko_results)
         for match_no, slots in result["knockout"].items():
             a, b = slots["a"], slots["b"]
             slot_counts[(match_no, "a")][a] += 1
@@ -140,9 +141,10 @@ def main():
     groups = load_groups()
     third_place_table = load_third_place_table()
     known_results = load_known_results()
-    if known_results:
-        print(f"Conditioning each engine on {len(known_results)} completed "
-              f"match(es) from live_results.csv.\n")
+    known_ko_results = load_known_ko_results()
+    if known_results or known_ko_results:
+        print(f"Conditioning each engine on {len(known_results)} group-stage "
+              f"+ {len(known_ko_results)} KO matches from live_results.csv.\n")
 
     pure = pure_engines()
     engines = {
@@ -157,7 +159,7 @@ def main():
     for name, ratings in engines.items():
         slot_counts, matchup_counts, winner_counts = _tally_one_engine(
             name, ratings, groups, third_place_table,
-            known_results, N_SIMULATIONS)
+            known_results, known_ko_results, N_SIMULATIONS)
         slot_rows.extend(_emit_slot_rows(name, slot_counts, N_SIMULATIONS))
         matchup_rows.extend(_emit_matchup_rows(name, matchup_counts,
                                                winner_counts, N_SIMULATIONS))

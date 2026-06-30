@@ -20,7 +20,7 @@ MILESTONES = ["R32", "R16", "QF", "SF", "final", "champion"]
 
 
 def run_monte_carlo(elo, groups, third_place_table, n=10000, seed=2026,
-                    progress=True, known_results=None):
+                    progress=True, known_results=None, known_ko_results=None):
     """Run `n` tournament simulations and aggregate the outcomes.
 
     Returns a dict:
@@ -47,7 +47,8 @@ def run_monte_carlo(elo, groups, third_place_table, n=10000, seed=2026,
 
     for i in range(n):
         result = simulate_tournament(elo, groups, third_place_table, rng,
-                                     known_results)
+                                     known_results=known_results,
+                                     known_ko_results=known_ko_results)
 
         for team in all_teams:
             rank = STAGE_ORDER[result["stage"][team]]

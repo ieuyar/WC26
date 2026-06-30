@@ -35,11 +35,15 @@ def main():
                         "draws": 0, "losses": 0, "goals_for": 0,
                         "goals_against": 0}
 
-    # Aggregate played matches
+    # Aggregate played GROUP-STAGE matches only. Skipping the stage filter
+    # was a bug: knockout games would inflate group standings (e.g. Paraguay
+    # showing P4 in a 6-match group after their R32 game vs Germany).
     if os.path.exists(LIVE):
         with open(LIVE) as f:
             for r in csv.DictReader(f):
                 if r.get("status") != "FINISHED":
+                    continue
+                if r.get("stage") != "GROUP_STAGE":
                     continue
                 home, away = r["home_team"], r["away_team"]
                 if home not in stats or away not in stats:

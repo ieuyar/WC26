@@ -7,7 +7,7 @@ strength_rank,team,group,confederation,base_elo,squad_value_eur_millions,value_l
 6,Portugal,K,UEFA,2004,1006.5,1.301,52.0,2056.0
 7,Colombia,K,CONMEBOL,2006,297.6,0.344,13.8,2019.8
 8,Netherlands,F,UEFA,1961,814.2,1.135,45.4,2006.4
-9,Norway,I,UEFA,1915,592.0,0.884,35.4,1950.4
+9,Norway,I,UEFA,1931,592.0,0.884,35.4,1966.4
 10,Morocco,C,CAF,1918,489.5,0.735,29.4,1947.4
 11,Switzerland,B,UEFA,1921,332.6,0.431,17.3,1938.3
 12,Germany,E,UEFA,1882,982.0,1.282,51.3,1933.3
@@ -23,10 +23,10 @@ strength_rank,team,group,confederation,base_elo,squad_value_eur_millions,value_l
 22,Paraguay,D,CONMEBOL,1841,153.7,-0.175,-7.0,1834.0
 23,United States,D,CONCACAF,1793,385.6,0.547,21.9,1814.9
 24,Algeria,J,CAF,1773,255.8,0.225,9.0,1782.0
-25,Cote d'Ivoire,E,CAF,1744,522.1,0.786,31.4,1775.4
-26,Australia,D,AFC,1801,77.6,-0.712,-28.5,1772.5
-27,Canada,B,CONCACAF,1769,197.7,0.023,0.9,1769.9
-28,Sweden,F,UEFA,1746,404.3,0.585,23.4,1769.4
+25,Australia,D,AFC,1801,77.6,-0.712,-28.5,1772.5
+26,Canada,B,CONCACAF,1769,197.7,0.023,0.9,1769.9
+27,Sweden,F,UEFA,1746,404.3,0.585,23.4,1769.4
+28,Cote d'Ivoire,E,CAF,1727,522.1,0.786,31.4,1758.4
 29,Scotland,C,UEFA,1739,170.2,-0.095,-3.8,1735.2
 30,Egypt,G,CAF,1742,110.8,-0.432,-17.3,1724.7
 31,South Korea,A,AFC,1724,137.6,-0.262,-10.5,1713.5

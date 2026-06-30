@@ -18,8 +18,8 @@ import os
 from itertools import combinations
 
 from data import (load_confederations, load_elo, load_groups,
-                   load_known_results, load_squad_values,
-                   load_third_place_table)
+                   load_known_ko_results, load_known_results,
+                   load_squad_values, load_third_place_table)
 import match
 from match import host_advantage, match_probabilities
 from montecarlo import run_monte_carlo
@@ -213,6 +213,7 @@ def main():
     third_place_table = load_third_place_table()
     squad_values = load_squad_values()
     known_results = load_known_results()
+    known_ko_results = load_known_ko_results()
     match.HOST_ADVANTAGE_ENABLED = USE_HOST_ADVANTAGE
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     print(f"Host advantage: "
@@ -233,12 +234,16 @@ def main():
               f"match(es) from live_results.csv.")
     else:
         print("No live results yet - running as a pre-tournament forecast.")
+    if known_ko_results:
+        print(f"Conditioning on {len(known_ko_results)} completed knockout "
+              f"match(es) (winners locked in when sim produces same matchup).")
 
     print(f"Running {N_SIMULATIONS:,} tournament simulations "
           f"(seed {RANDOM_SEED})...")
     mc = run_monte_carlo(elo, groups, third_place_table,
                          n=N_SIMULATIONS, seed=RANDOM_SEED,
-                         known_results=known_results)
+                         known_results=known_results,
+                         known_ko_results=known_ko_results)
 
     paths = {
         "match_predictions": os.path.join(OUTPUT_DIR, "match_predictions.csv"),
