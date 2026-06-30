@@ -17,6 +17,7 @@ from datetime import datetime, timezone
 
 _DIR = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(_DIR, "dashboard_live.html")
+OUT_OFFLINE = os.path.join(_DIR, "dashboard_live_offline.html")
 TEMPLATE = os.path.join(_DIR, "dashboard_live_template.html")
 DATA_OUT = os.path.join(_DIR, "wc2026_data.json")
 
@@ -37,6 +38,45 @@ def build_data():
     """Read every CSV and reshape into compact JS-friendly structures."""
     SO = os.path.join(_DIR, "simulation_output")
     out = {}
+
+    # ~384 rows (4 engines x 31 KO matches x top-3 matchups) - knockout match
+    # predictions: most likely matchups per slot + per-matchup W/L split.
+    ko_matches_path = os.path.join(SO, "knockout_match_predictions.csv")
+    if os.path.exists(ko_matches_path):
+        out["knockout_match_predictions"] = [
+            {
+                "engine": r["engine"],
+                "match_no": int(r["match_no"]),
+                "round": r["round"],
+                "rank": int(r["rank"]),
+                "team_a": r["team_a"],
+                "team_b": r["team_b"],
+                "matchup_probability": _num(r["matchup_probability"]),
+                "p_team_a_advance": _num(r["p_team_a_advance"]),
+                "p_team_b_advance": _num(r["p_team_b_advance"]),
+            }
+            for r in _read(ko_matches_path)
+        ]
+    else:
+        out["knockout_match_predictions"] = []
+
+    # ~744 rows (4 engines x ~62 slots x <=3 candidates) - bracket slot occupancy.
+    bracket_path = os.path.join(SO, "knockout_bracket.csv")
+    if os.path.exists(bracket_path):
+        out["knockout_bracket"] = [
+            {
+                "engine": r["engine"],
+                "match_no": int(r["match_no"]),
+                "round": r["round"],
+                "slot": r["slot"],
+                "rank": int(r["rank"]),
+                "team": r["team"],
+                "probability": _num(r["probability"]),
+            }
+            for r in _read(bracket_path)
+        ]
+    else:
+        out["knockout_bracket"] = []
 
     # 192 rows (4 engines x 48 teams), trim to what the dashboard uses
     out["engine_scenarios"] = [
@@ -65,6 +105,15 @@ def build_data():
         for r in _read(os.path.join(SO, "simulation_results.csv"))
     ]
 
+    # Build a quick lookup of qualify probabilities so we can mark teams
+    # already eliminated (p_qualify == 0) on the Team Strength page. Squad
+    # value still gives Turkey +28 over base Elo, which is mathematically
+    # correct (intrinsic strength) but misleading once they're going home.
+    qualify_by_team = {
+        r["team"]: _num(r["p_qualify"])
+        for r in _read(os.path.join(SO, "simulation_results.csv"))
+    }
+
     # 48 rows - per-team strength
     out["team_strength"] = [
         {
@@ -73,6 +122,7 @@ def build_data():
             "squad_value_eur_millions": _num(r["squad_value_eur_millions"]),
             "elo_adjustment": round(_num(r["elo_adjustment"]), 1),
             "adjusted_elo": round(_num(r["adjusted_elo"]), 1),
+            "eliminated": qualify_by_team.get(r["team"], 1.0) == 0.0,
         }
         for r in _read(os.path.join(SO, "team_strength.csv"))
     ]
@@ -181,19 +231,27 @@ def main():
     with open(DATA_OUT, "w", encoding="utf-8") as f:
         f.write(payload)
 
-    # Replace placeholder with a fetch loader (relative path - works in
-    # both local file:// and Shopify asset hosting contexts).
-    html = html.replace(
+    # 1. ONLINE BUILD - HTML + separate JSON file (Cloudflare / Shopify).
+    #    The fetch loader at initData() pulls wc2026_data.json at runtime.
+    online_html = html.replace(
         "/*__DATA_PLACEHOLDER__*/",
         "null /* loaded asynchronously - see initData() below */"
     )
-
     with open(OUT, "w", encoding="utf-8") as f:
-        f.write(html)
+        f.write(online_html)
+
+    # 2. OFFLINE BUILD - JSON inlined into the HTML so you can double-click
+    #    the file and view it without an HTTP server. Larger file, but no
+    #    cross-origin issues from file:// fetches.
+    offline_html = html.replace("/*__DATA_PLACEHOLDER__*/", payload)
+    with open(OUT_OFFLINE, "w", encoding="utf-8") as f:
+        f.write(offline_html)
 
     html_kb = os.path.getsize(OUT) / 1024
     data_kb = os.path.getsize(DATA_OUT) / 1024
+    offline_kb = os.path.getsize(OUT_OFFLINE) / 1024
     print(f"Built {OUT} ({html_kb:.0f} KB) + {DATA_OUT} ({data_kb:.0f} KB).")
+    print(f"Built {OUT_OFFLINE} ({offline_kb:.0f} KB)  <-- double-clickable, no server needed")
     print(f"  engines: {len(set(r['engine'] for r in data['engine_scenarios']))}")
     print(f"  teams:   {len(data['simulation_results'])}")
     print(f"  players: {len(data['squads'])}")

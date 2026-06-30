@@ -53,6 +53,18 @@
   .header-subtitle { font-size: 13px; color: var(--muted); max-width: 460px; line-height: 1.35; margin-top: 4px; }
   .header-left { display: flex; flex-direction: column; }
   .header-context { margin-left: auto; font-size: 18px; font-weight: 700; color: var(--gold); }
+  .eliminated-badge {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 2px 8px;
+    background: #c0392b;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    vertical-align: middle;
+  }
 
   /* SECTION HEADER */
   .section { padding: 20px 32px 0; }
@@ -186,6 +198,81 @@
     font-variant-numeric: tabular-nums;
     text-align: right;
     font-weight: 600;
+  }
+
+  /* PAGE 5 — bracket */
+  .bracket {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+    padding: 0 8px;
+    overflow-x: auto;
+  }
+  .bracket-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 8px;
+    min-width: 0;
+  }
+  .bracket-col-title {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--muted);
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 6px;
+  }
+  .bracket-match {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 8px 10px;
+    font-size: 11px;
+    line-height: 1.35;
+  }
+  .bracket-match.final-match {
+    border-color: var(--gold);
+    background: linear-gradient(180deg, rgba(255,193,7,0.06) 0%, var(--card) 100%);
+  }
+  .bracket-slot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 0;
+    cursor: default;
+    position: relative;
+  }
+  .bracket-slot + .bracket-slot { border-top: 1px dashed var(--border); margin-top: 2px; padding-top: 5px; }
+  .bracket-slot .slot-team { font-weight: 600; color: var(--text); }
+  .bracket-slot .slot-prob { color: var(--muted); font-size: 10px; margin-left: 6px; white-space: nowrap; }
+  .bracket-slot.locked .slot-team { color: var(--gold); }
+  .bracket-slot.locked .slot-prob { color: var(--gold); opacity: 0.7; }
+  .bracket-slot.faded { opacity: 0.85; }
+  .bracket-tooltip {
+    display: none;
+    position: absolute;
+    z-index: 30;
+    top: 100%;
+    left: 0;
+    margin-top: 4px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 8px 10px;
+    font-size: 11px;
+    min-width: 160px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  }
+  .bracket-slot:hover .bracket-tooltip { display: block; }
+  .bracket-tooltip-row { display: flex; justify-content: space-between; padding: 2px 0; }
+  .bracket-tooltip-row .ttp-team { color: var(--text); }
+  .bracket-tooltip-row .ttp-prob { color: var(--muted); margin-left: 12px; }
+  .bracket-legend {
+    margin-top: 18px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 11px;
   }
 
   /* PAGE 2 — group small multiples */
@@ -446,6 +533,7 @@
   <div class="tab-bar">
     <div class="tab active" data-page="1">Who Wins It?</div>
     <div class="tab" data-page="2">Group Stage</div>
+    <div class="tab" data-page="5">Knockouts</div>
     <div class="tab" data-page="3">Team Explorer</div>
     <div class="tab" data-page="4">Match Predictions</div>
   </div>
@@ -623,10 +711,35 @@
     <div class="section" id="p4-fixtures"></div>
   </div>
 
+  <!-- ============ PAGE 5: KNOCKOUT STAGE ============ -->
+  <div class="page" id="page-5">
+    <div class="header-strip">
+      <div class="header-left">
+        <div class="header-title">Knockout Stage</div>
+        <div class="header-subtitle">Most likely team at each bracket slot, R32 to the Final. Locked slots are solid; uncertain slots show the projected leader and their probability.</div>
+      </div>
+      <div style="margin-left:auto;">
+        <div class="slicer-tile-row" id="p5-engine-slicer">
+          <div class="slicer-tile" data-engine="Elo">Elo</div>
+          <div class="slicer-tile" data-engine="FIFA ranking">FIFA ranking</div>
+          <div class="slicer-tile active" data-engine="Model">Model</div>
+          <div class="slicer-tile" data-engine="Squad value">Squad value</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div id="p5-bracket" class="bracket"></div>
+      <div class="bracket-legend">
+        Hover or tap a slot to see the top-3 candidates. Solid slots are locked in; faded slots are projections from <span id="p5-sim-count">10,000</span> simulations.
+      </div>
+    </div>
+  </div>
+
   <!-- FOOTER: data freshness indicator -->
   <div class="footer">
     <span class="refresh-dot"></span>
-    Data last refreshed: <strong>June 20, 2026 · 22:02 UTC</strong>
+    Data last refreshed: <strong>June 30, 2026 · 17:55 UTC</strong>
     &nbsp;·&nbsp; 50,000 Monte Carlo simulations &nbsp;·&nbsp; 4 rating engines
   </div>
 
@@ -649,6 +762,7 @@ const state = {
   page1Engine: "Model",
   page2Engine: "Model",
   page4Engine: "Model",
+  page5Engine: "Model",
   page3Team: null,
   page4Group: "D"
 };
@@ -815,7 +929,10 @@ function renderPage3() {
   const str = DATA.team_strength.find(r => r.team === team);
   if (!sim || !str) return;
 
-  document.getElementById("p3-context").textContent = `${team} | Group ${sim.group}`;
+  const ctxEl = document.getElementById("p3-context");
+  const eliminated = str.eliminated === true;
+  ctxEl.innerHTML = `${team} | Group ${sim.group}` +
+    (eliminated ? ` <span class="eliminated-badge">ELIMINATED</span>` : "");
   document.getElementById("p3-qualify").textContent = fmtPctRaw(sim.p_qualify * 100, 2);
   document.getElementById("p3-qualify-sub").textContent = `top 2 of Group ${sim.group}`;
   document.getElementById("p3-r16").textContent = fmtPctRaw(sim.p_reach_r16 * 100, 2);
@@ -989,10 +1106,121 @@ function renderPage4() {
 }
 
 /* ====================================================================
+   PAGE 5 — Knockouts bracket
+   ==================================================================== */
+
+// Bracket structure for WC 2026. Each match feeds two slots ('a' and 'b').
+// The label is shown above the slot pair in the bracket card.
+const BRACKET_STRUCTURE = {
+  R32: [
+    { match_no: 79, label: "Match 79" },  // W-A vs 3-A
+    { match_no: 85, label: "Match 85" },  // W-B vs 3-B
+    { match_no: 73, label: "Match 73" },  // R-A vs R-B
+    { match_no: 75, label: "Match 75" },  // W-F vs R-C
+    { match_no: 76, label: "Match 76" },  // W-C vs R-F
+    { match_no: 74, label: "Match 74" },  // W-E vs 3-E
+    { match_no: 77, label: "Match 77" },  // W-I vs 3-I
+    { match_no: 78, label: "Match 78" },  // R-E vs R-I
+    { match_no: 81, label: "Match 81" },  // W-D vs 3-D
+    { match_no: 82, label: "Match 82" },  // W-G vs 3-G
+    { match_no: 88, label: "Match 88" },  // R-D vs R-G
+    { match_no: 84, label: "Match 84" },  // W-H vs R-J
+    { match_no: 86, label: "Match 86" },  // W-J vs R-H
+    { match_no: 80, label: "Match 80" },  // W-L vs 3-L
+    { match_no: 87, label: "Match 87" },  // W-K vs 3-K
+    { match_no: 83, label: "Match 83" },  // R-K vs R-L
+  ],
+  R16: [
+    { match_no: 92, label: "Match 92" },  // 79 vs 80
+    { match_no: 90, label: "Match 90" },  // 73 vs 75
+    { match_no: 91, label: "Match 91" },  // 76 vs 78
+    { match_no: 89, label: "Match 89" },  // 74 vs 77
+    { match_no: 94, label: "Match 94" },  // 81 vs 82
+    { match_no: 95, label: "Match 95" },  // 86 vs 88
+    { match_no: 96, label: "Match 96" },  // 85 vs 87
+    { match_no: 93, label: "Match 93" },  // 83 vs 84
+  ],
+  QF: [
+    { match_no: 99, label: "Quarter-final" },
+    { match_no: 97, label: "Quarter-final" },
+    { match_no: 100, label: "Quarter-final" },
+    { match_no: 98, label: "Quarter-final" },
+  ],
+  SF: [
+    { match_no: 101, label: "Semi-final" },
+    { match_no: 102, label: "Semi-final" },
+  ],
+  F: [
+    { match_no: 104, label: "Final" },
+  ],
+};
+
+function bracketSlotsFor(engine, match_no, slot) {
+  return DATA.knockout_bracket
+    .filter(r => r.engine === engine && r.match_no === match_no && r.slot === slot)
+    .sort((a, b) => a.rank - b.rank);
+}
+
+function renderSlot(engine, match_no, slot) {
+  const candidates = bracketSlotsFor(engine, match_no, slot);
+  if (candidates.length === 0) {
+    return `<div class="bracket-slot"><span class="slot-team">—</span></div>`;
+  }
+  const top = candidates[0];
+  const locked = top.probability >= 0.999;
+  const cls = "bracket-slot" + (locked ? " locked" : " faded");
+  const probLabel = locked ? "" : ` <span class="slot-prob">${(top.probability * 100).toFixed(0)}%</span>`;
+  const tooltip = candidates.length > 1
+    ? `<div class="bracket-tooltip">${candidates.map(c => `
+        <div class="bracket-tooltip-row">
+          <span class="ttp-team">${c.team}</span>
+          <span class="ttp-prob">${(c.probability * 100).toFixed(1)}%</span>
+        </div>
+      `).join("")}</div>`
+    : "";
+  return `<div class="${cls}"><span class="slot-team">${top.team}</span>${probLabel}${tooltip}</div>`;
+}
+
+function renderPage5() {
+  if (!DATA.knockout_bracket || DATA.knockout_bracket.length === 0) {
+    document.getElementById("p5-bracket").innerHTML =
+      `<div style="text-align:center; color:var(--muted); padding:40px;">Bracket data not available yet. Run <code>build_knockout_bracket.py</code> as part of the pipeline.</div>`;
+    return;
+  }
+  const engine = state.page5Engine;
+  const rounds = [
+    ["R32", "Round of 32"],
+    ["R16", "Round of 16"],
+    ["QF", "Quarter-finals"],
+    ["SF", "Semi-finals"],
+    ["F", "Final"],
+  ];
+  const html = rounds.map(([key, title]) => {
+    const matches = BRACKET_STRUCTURE[key].map(m => {
+      const isFinal = key === "F";
+      return `
+        <div class="bracket-match${isFinal ? " final-match" : ""}">
+          ${renderSlot(engine, m.match_no, "a")}
+          ${renderSlot(engine, m.match_no, "b")}
+        </div>
+      `;
+    }).join("");
+    return `
+      <div class="bracket-col">
+        <div class="bracket-col-title">${title.toUpperCase()}</div>
+        ${matches}
+      </div>
+    `;
+  }).join("");
+  document.getElementById("p5-bracket").innerHTML = html;
+}
+
+/* ====================================================================
    INIT — load data then render every page
    ==================================================================== */
 async function initData() {
-  try {
+  // Offline build embeds DATA directly. Skip the fetch if it's already set.
+  if (!DATA) try {
     const r = await fetch(DATA_URL);
     if (!r.ok) throw new Error("HTTP " + r.status);
     DATA = await r.json();
@@ -1021,12 +1249,18 @@ async function initData() {
     renderPage4();
     trackEvent("engine_change", { page: "match_predictions", engine });
   });
+  wireSlicer("p5-engine-slicer", engine => {
+    state.page5Engine = engine;
+    renderPage5();
+    trackEvent("engine_change", { page: "knockout_stage", engine });
+  });
   initTeamDropdown();
   initGroupSlicer();
   renderPage1();
   renderPage2();
   renderPage3();
   renderPage4();
+  renderPage5();
 }
 
 initData();

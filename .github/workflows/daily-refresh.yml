@@ -54,6 +54,7 @@ jobs:
           python3 compute_ranks.py
           python3 compute_standings.py
           python3 fetch_scorers.py
+          python3 build_knockout_bracket.py
           python3 build_live_dashboard.py
 
       - name: Copy dashboard to root (index.html)
