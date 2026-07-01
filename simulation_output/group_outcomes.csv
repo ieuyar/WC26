@@ -1,5 +1,5 @@
 group,team,confederation,elo,p_finish_1st,p_finish_2nd,p_finish_3rd,p_finish_4th,p_win_group,p_qualify_knockouts
-A,Mexico,CONCACAF,1916,1.0,0.0,0.0,0.0,1.0,1.0
+A,Mexico,CONCACAF,1947,1.0,0.0,0.0,0.0,1.0,1.0
 A,South Africa,CAF,1520,0.0,1.0,0.0,0.0,0.0,1.0
 A,South Korea,AFC,1714,0.0,0.0,1.0,0.0,0.0,0.0
 A,Czechia,UEFA,1675,0.0,0.0,0.0,1.0,0.0,0.0
@@ -17,7 +17,7 @@ D,Australia,AFC,1773,0.0,1.0,0.0,0.0,0.0,1.0
 D,Turkey,UEFA,1880,0.0,0.0,0.0,1.0,0.0,0.0
 E,Germany,UEFA,1933,1.0,0.0,0.0,0.0,1.0,1.0
 E,Cote d'Ivoire,CAF,1758,0.0,1.0,0.0,0.0,0.0,1.0
-E,Ecuador,CONMEBOL,1922,0.0,0.0,1.0,0.0,0.0,1.0
+E,Ecuador,CONMEBOL,1891,0.0,0.0,1.0,0.0,0.0,1.0
 E,Curacao,CONCACAF,1368,0.0,0.0,0.0,1.0,0.0,0.0
 F,Netherlands,UEFA,2006,1.0,0.0,0.0,0.0,1.0,1.0
 F,Japan,AFC,1906,0.0,1.0,0.0,0.0,0.0,1.0
