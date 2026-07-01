@@ -630,8 +630,8 @@ Belgium,,Maxim De Cuyper,0,DF,25,2000-12-22,Belgium,Brighton & Hove Albion,18,4,
 Belgium,,Axel Witsel,0,MF,37,1989-01-12,Belgium,Girona,137,12,1400000,0,0
 Belgium,,Kevin De Bruyne,0,MF,34,1991-06-28,Belgium,Napoli,118,36,8000000,0,0
 Belgium,,Youri Tielemans,1,MF,29,1997-05-07,Belgium,Aston Villa,84,13,30000000,0,0
-Belgium,,Romelu Lukaku,0,FW,33,1993-05-13,Belgium,Napoli,125,90,6000000,0,0
-Belgium,,Leandro Trossard,0,FW,31,1994-12-04,Belgium,Arsenal,50,11,18000000,2,0
+Belgium,,Romelu Lukaku,0,FW,33,1993-05-13,Belgium,Napoli,125,90,6000000,2,1
+Belgium,,Leandro Trossard,0,FW,31,1994-12-04,Belgium,Arsenal,50,11,18000000,2,1
 Belgium,,Jérémy Doku,0,FW,24,2002-05-27,Belgium,Manchester City,42,7,75000000,0,0
 Belgium,,Senne Lammens,0,GK,23,2002-07-07,Belgium,Manchester United,2,0,35000000,0,0
 Belgium,,Mike Penders,0,GK,20,2005-07-31,Belgium,Strasbourg,0,0,25000000,0,0
@@ -909,7 +909,7 @@ Norway,,Sondre Langås,0,DF,25,2001-02-02,Norway,Derby County,3,0,4000000,0,0
 Norway,,Henrik Falchener,0,DF,23,2003-05-08,Norway,Viking,1,0,6000000,0,0
 Norway,,Julian Ryerson,0,FW,28,1997-11-17,Norway,Borussia Dortmund,42,1,25000000,0,0
 Senegal,,Yehvann Diouf,0,GK,26,1999-11-16,Senegal,Nice,2,0,7000000,0,0
-Senegal,,Mamadou Sarr,0,DF,20,2005-08-29,Senegal,Chelsea,7,0,22000000,3,1
+Senegal,,Mamadou Sarr,0,DF,20,2005-08-29,Senegal,Chelsea,7,0,22000000,4,1
 Senegal,,Kalidou Koulibaly,1,DF,34,1991-06-20,Senegal,Al-Hilal,102,2,4500000,0,0
 Senegal,,Abdoulaye Seck,0,DF,34,1992-06-04,Senegal,Maccabi Haifa,22,4,500000,0,0
 Senegal,,Idrissa Gueye,0,MF,36,1989-09-26,Senegal,Everton,130,7,500000,2,1
@@ -924,11 +924,11 @@ Senegal,,Iliman Ndiaye,0,FW,26,2000-03-06,Senegal,Everton,39,4,55000000,0,0
 Senegal,,Ismail Jakobs,0,DF,26,1999-08-17,Senegal,Galatasaray,29,0,8000000,0,0
 Senegal,,Krépin Diatta,0,DF,27,1999-02-25,Senegal,Monaco,60,2,6000000,0,0
 Senegal,,Édouard Mendy,0,GK,34,1992-03-01,Senegal,Al-Ahli,56,0,4000000,0,0
-Senegal,,Pape Matar Sarr,0,MF,23,2002-09-14,Senegal,Tottenham Hotspur,39,4,30000000,3,1
-Senegal,,Ismaïla Sarr,0,FW,28,1998-02-25,Senegal,Crystal Palace,82,19,40000000,3,1
+Senegal,,Pape Matar Sarr,0,MF,23,2002-09-14,Senegal,Tottenham Hotspur,39,4,30000000,4,1
+Senegal,,Ismaïla Sarr,0,FW,28,1998-02-25,Senegal,Crystal Palace,82,19,40000000,4,1
 Senegal,,Moussa Niakhaté,0,DF,30,1996-03-08,Senegal,Lyon,30,0,15000000,0,0
 Senegal,,Ibrahim Mbaye,0,FW,18,2008-01-24,Senegal,Paris Saint-Germain,10,3,30000000,1,0
-Senegal,,Habib Diarra,0,MF,22,2004-01-03,Senegal,Sunderland,20,4,35000000,0,0
+Senegal,,Habib Diarra,0,MF,22,2004-01-03,Senegal,Sunderland,20,4,35000000,2,0
 Senegal,,Bara Sapoko Ndiaye,0,MF,18,2007-12-31,Senegal,Bayern Munich,1,0,4000000,0,0
 Senegal,,Mory Diaw,0,GK,32,1993-06-22,Senegal,Le Havre,5,0,900000,0,0
 Senegal,,Antoine Mendy,0,DF,22,2004-05-27,Senegal,Nice,6,0,10000000,0,0
