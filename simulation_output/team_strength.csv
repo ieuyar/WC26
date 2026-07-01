@@ -2,7 +2,7 @@ strength_rank,team,group,confederation,base_elo,squad_value_eur_millions,value_l
 1,France,I,UEFA,2148,1553.0,1.642,65.7,2213.7
 2,Spain,H,UEFA,2147,1217.0,1.45,58.0,2205.0
 3,Argentina,J,CONMEBOL,2149,799.5,1.12,44.8,2193.8
-4,England,L,UEFA,2036,1373.2,1.545,61.8,2097.8
+4,England,L,UEFA,2044,1373.2,1.545,61.8,2105.8
 5,Brazil,C,CONMEBOL,2039,909.2,1.221,48.9,2087.9
 6,Portugal,K,UEFA,2004,1006.5,1.301,52.0,2056.0
 7,Colombia,K,CONMEBOL,2006,297.6,0.344,13.8,2019.8
@@ -30,8 +30,8 @@ strength_rank,team,group,confederation,base_elo,squad_value_eur_millions,value_l
 29,Scotland,C,UEFA,1739,170.2,-0.095,-3.8,1735.2
 30,Egypt,G,CAF,1742,110.8,-0.432,-17.3,1724.7
 31,South Korea,A,AFC,1724,137.6,-0.262,-10.5,1713.5
-32,DR Congo,K,CAF,1717,144.1,-0.226,-9.0,1708.0
-33,Iran,G,AFC,1764,32.0,-1.408,-56.3,1707.7
+32,Iran,G,AFC,1764,32.0,-1.408,-56.3,1707.7
+33,DR Congo,K,CAF,1709,144.1,-0.226,-9.0,1700.0
 34,Czechia,A,UEFA,1676,188.2,-0.016,-0.6,1675.4
 35,Bosnia and Herzegovina,B,UEFA,1615,150.6,-0.191,-7.6,1607.4
 36,Panama,L,CONCACAF,1658,34.6,-1.347,-53.9,1604.1
