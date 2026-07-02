@@ -1,6 +1,6 @@
 strength_rank,team,group,confederation,base_elo,squad_value_eur_millions,value_log_z,elo_adjustment,adjusted_elo
-1,France,I,UEFA,2148,1553.0,1.642,65.7,2213.7
-2,Spain,H,UEFA,2147,1217.0,1.45,58.0,2205.0
+1,Spain,H,UEFA,2166,1217.0,1.45,58.0,2224.0
+2,France,I,UEFA,2148,1553.0,1.642,65.7,2213.7
 3,Argentina,J,CONMEBOL,2149,799.5,1.12,44.8,2193.8
 4,England,L,UEFA,2044,1373.2,1.545,61.8,2105.8
 5,Brazil,C,CONMEBOL,2039,909.2,1.221,48.9,2087.9
@@ -19,9 +19,9 @@ strength_rank,team,group,confederation,base_elo,squad_value_eur_millions,value_l
 18,Turkey,D,UEFA,1852,473.7,0.709,28.4,1880.4
 19,Senegal,I,CAF,1841,478.4,0.717,28.7,1869.7
 20,Uruguay,H,CONMEBOL,1841,392.3,0.561,22.4,1863.4
-21,Austria,J,UEFA,1835,232.2,0.149,6.0,1841.0
-22,Paraguay,D,CONMEBOL,1841,153.7,-0.175,-7.0,1834.0
-23,United States,D,CONCACAF,1808,385.6,0.547,21.9,1829.9
+21,Paraguay,D,CONMEBOL,1841,153.7,-0.175,-7.0,1834.0
+22,United States,D,CONCACAF,1808,385.6,0.547,21.9,1829.9
+23,Austria,J,UEFA,1816,232.2,0.149,6.0,1822.0
 24,Algeria,J,CAF,1773,255.8,0.225,9.0,1782.0
 25,Australia,D,AFC,1801,77.6,-0.712,-28.5,1772.5
 26,Canada,B,CONCACAF,1769,197.7,0.023,0.9,1769.9
