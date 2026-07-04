@@ -200,36 +200,51 @@
     font-weight: 600;
   }
 
-  /* PAGE 5 — bracket */
+  /* PAGE 5 — bracket. Each column has a title header + a grid of matches
+     so match centers align vertically across rounds. */
   .bracket {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 12px;
     padding: 0 8px;
     overflow-x: auto;
+    min-height: 780px;
   }
   .bracket-col {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    gap: 8px;
     min-width: 0;
   }
+  .bracket-matches {
+    display: grid;
+    flex: 1;
+    gap: 4px;
+  }
+  /* Row counts scale so pairs of R32 matches feed one R16 match center,
+     R16 pairs feed one QF center, and so on. */
+  .bracket-matches[data-round="R32"] { grid-template-rows: repeat(16, minmax(0, 1fr)); }
+  .bracket-matches[data-round="R16"] { grid-template-rows: repeat(8, minmax(0, 1fr)); }
+  .bracket-matches[data-round="QF"]  { grid-template-rows: repeat(4, minmax(0, 1fr)); }
+  .bracket-matches[data-round="SF"]  { grid-template-rows: repeat(2, minmax(0, 1fr)); }
+  .bracket-matches[data-round="F"]   { grid-template-rows: 1fr; }
   .bracket-col-title {
     font-size: 11px;
     font-weight: 700;
     color: var(--muted);
     letter-spacing: 2px;
     text-align: center;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
+    height: 16px;
   }
   .bracket-match {
     background: var(--card);
     border: 1px solid var(--border);
     border-radius: 8px;
-    padding: 8px 10px;
+    padding: 6px 10px;
     font-size: 11px;
     line-height: 1.35;
+    align-self: center;
+    width: 100%;
   }
   .bracket-match.final-match {
     border-color: var(--gold);
@@ -1126,49 +1141,40 @@ function renderPage4() {
    PAGE 5 — Knockouts bracket
    ==================================================================== */
 
-// Bracket structure for WC 2026. Each match feeds two slots ('a' and 'b').
-// The label is shown above the slot pair in the bracket card.
+// Bracket structure for WC 2026, ordered top-to-bottom so that adjacent
+// R32 matches visually feed into the R16 match that consumes their winners.
+// Derived from the tournament tree in tournament.py:
+//   SF 101 = QF 97 (R16 89, R16 90) + QF 98 (R16 93, R16 94)
+//   SF 102 = QF 99 (R16 91, R16 92) + QF 100 (R16 95, R16 96)
+//   R16 89 = R32 74, 77 | R16 90 = 73, 75 | R16 91 = 76, 78 | R16 92 = 79, 80
+//   R16 93 = R32 83, 84 | R16 94 = 81, 82 | R16 95 = 86, 88 | R16 96 = 85, 87
 const BRACKET_STRUCTURE = {
   R32: [
-    { match_no: 79, label: "Match 79" },  // W-A vs 3-A
-    { match_no: 85, label: "Match 85" },  // W-B vs 3-B
-    { match_no: 73, label: "Match 73" },  // R-A vs R-B
-    { match_no: 75, label: "Match 75" },  // W-F vs R-C
-    { match_no: 76, label: "Match 76" },  // W-C vs R-F
-    { match_no: 74, label: "Match 74" },  // W-E vs 3-E
-    { match_no: 77, label: "Match 77" },  // W-I vs 3-I
-    { match_no: 78, label: "Match 78" },  // R-E vs R-I
-    { match_no: 81, label: "Match 81" },  // W-D vs 3-D
-    { match_no: 82, label: "Match 82" },  // W-G vs 3-G
-    { match_no: 88, label: "Match 88" },  // R-D vs R-G
-    { match_no: 84, label: "Match 84" },  // W-H vs R-J
-    { match_no: 86, label: "Match 86" },  // W-J vs R-H
-    { match_no: 80, label: "Match 80" },  // W-L vs 3-L
-    { match_no: 87, label: "Match 87" },  // W-K vs 3-K
-    { match_no: 83, label: "Match 83" },  // R-K vs R-L
+    { match_no: 74 }, { match_no: 77 },   // -> R16 89
+    { match_no: 73 }, { match_no: 75 },   // -> R16 90
+    { match_no: 83 }, { match_no: 84 },   // -> R16 93
+    { match_no: 81 }, { match_no: 82 },   // -> R16 94
+    { match_no: 76 }, { match_no: 78 },   // -> R16 91
+    { match_no: 79 }, { match_no: 80 },   // -> R16 92
+    { match_no: 86 }, { match_no: 88 },   // -> R16 95
+    { match_no: 85 }, { match_no: 87 },   // -> R16 96
   ],
   R16: [
-    { match_no: 92, label: "Match 92" },  // 79 vs 80
-    { match_no: 90, label: "Match 90" },  // 73 vs 75
-    { match_no: 91, label: "Match 91" },  // 76 vs 78
-    { match_no: 89, label: "Match 89" },  // 74 vs 77
-    { match_no: 94, label: "Match 94" },  // 81 vs 82
-    { match_no: 95, label: "Match 95" },  // 86 vs 88
-    { match_no: 96, label: "Match 96" },  // 85 vs 87
-    { match_no: 93, label: "Match 93" },  // 83 vs 84
+    { match_no: 89 }, { match_no: 90 },   // -> QF 97
+    { match_no: 93 }, { match_no: 94 },   // -> QF 98
+    { match_no: 91 }, { match_no: 92 },   // -> QF 99
+    { match_no: 95 }, { match_no: 96 },   // -> QF 100
   ],
   QF: [
-    { match_no: 99, label: "Quarter-final" },
-    { match_no: 97, label: "Quarter-final" },
-    { match_no: 100, label: "Quarter-final" },
-    { match_no: 98, label: "Quarter-final" },
+    { match_no: 97 }, { match_no: 98 },   // -> SF 101
+    { match_no: 99 }, { match_no: 100 },  // -> SF 102
   ],
   SF: [
-    { match_no: 101, label: "Semi-final" },
-    { match_no: 102, label: "Semi-final" },
+    { match_no: 101 },
+    { match_no: 102 },
   ],
   F: [
-    { match_no: 104, label: "Final" },
+    { match_no: 104 },
   ],
 };
 
@@ -1239,7 +1245,7 @@ function renderPage5() {
     return `
       <div class="bracket-col">
         <div class="bracket-col-title">${title.toUpperCase()}</div>
-        ${matches}
+        <div class="bracket-matches" data-round="${key}">${matches}</div>
       </div>
     `;
   }).join("");
