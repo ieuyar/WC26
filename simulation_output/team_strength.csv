@@ -1,7 +1,7 @@
 strength_rank,team,group,confederation,base_elo,squad_value_eur_millions,value_log_z,elo_adjustment,adjusted_elo
 1,Spain,H,UEFA,2166,1217.0,1.45,58.0,2224.0
 2,France,I,UEFA,2148,1553.0,1.642,65.7,2213.7
-3,Argentina,J,CONMEBOL,2149,799.5,1.12,44.8,2193.8
+3,Argentina,J,CONMEBOL,2152,799.5,1.12,44.8,2196.8
 4,England,L,UEFA,2044,1373.2,1.545,61.8,2105.8
 5,Brazil,C,CONMEBOL,2039,909.2,1.221,48.9,2087.9
 6,Portugal,K,UEFA,2026,1006.5,1.301,52.0,2078.0
@@ -37,7 +37,7 @@ strength_rank,team,group,confederation,base_elo,squad_value_eur_millions,value_l
 36,Bosnia and Herzegovina,B,UEFA,1600,150.6,-0.191,-7.6,1592.4
 37,Uzbekistan,K,AFC,1615,83.5,-0.655,-26.2,1588.8
 38,Ghana,L,CAF,1575,237.9,0.168,6.7,1581.7
-39,Cape Verde,H,CAF,1622,51.0,-1.042,-41.7,1580.3
+39,Cape Verde,H,CAF,1619,51.0,-1.042,-41.7,1577.3
 40,Saudi Arabia,H,AFC,1587,40.7,-1.219,-48.8,1538.2
 41,Jordan,J,AFC,1627,7.7,-2.527,-100.0,1527.0
 42,South Africa,A,CAF,1566,44.2,-1.154,-46.2,1519.8
