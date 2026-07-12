@@ -18,26 +18,26 @@ Model,88,R32,1,Australia,Egypt,1.0,0.0,1.0
 Model,89,R16,1,France,Paraguay,1.0,1.0,0.0
 Model,90,R16,1,Canada,Morocco,1.0,0.0,1.0
 Model,91,R16,1,Brazil,Norway,1.0,0.0,1.0
-Model,92,R16,1,England,Mexico,1.0,0.6148,0.3852
+Model,92,R16,1,England,Mexico,1.0,0.669,0.331
 Model,93,R16,1,Portugal,Spain,1.0,0.0,1.0
 Model,94,R16,1,Belgium,United States,1.0,1.0,0.0
 Model,95,R16,1,Argentina,Egypt,1.0,1.0,0.0
 Model,96,R16,1,Colombia,Switzerland,1.0,0.0,1.0
 Model,97,QF,1,France,Morocco,1.0,1.0,0.0
 Model,98,QF,1,Belgium,Spain,1.0,0.0,1.0
-Model,99,QF,1,England,Norway,0.6148,0.6804,0.3196
-Model,99,QF,2,Mexico,Norway,0.3852,0.5883,0.4117
-Model,100,QF,1,Argentina,Switzerland,1.0,0.8389,0.1611
-Model,101,SF,1,France,Spain,1.0,0.4709,0.5291
-Model,102,SF,1,Argentina,England,0.3493,0.6942,0.3058
-Model,102,SF,2,Argentina,Norway,0.2976,0.8239,0.1761
-Model,102,SF,3,Argentina,Mexico,0.192,0.7708,0.2292
-Model,103,3rd,1,France,Norway,0.1434,0.8731,0.1269
-Model,103,3rd,2,England,France,0.1425,0.2498,0.7502
-Model,103,3rd,3,Norway,Spain,0.129,0.1209,0.8791
-Model,104,F,1,Argentina,Spain,0.3388,0.3932,0.6068
-Model,104,F,2,Argentina,France,0.2969,0.416,0.584
-Model,104,F,3,England,Spain,0.0833,0.2509,0.7491
+Model,99,QF,1,England,Norway,0.669,1.0,0.0
+Model,99,QF,2,Mexico,Norway,0.331,0.629,0.371
+Model,100,QF,1,Argentina,Switzerland,1.0,0.8345,0.1655
+Model,101,SF,1,France,Spain,1.0,0.4836,0.5164
+Model,102,SF,1,Argentina,England,0.5608,0.6432,0.3568
+Model,102,SF,2,Argentina,Mexico,0.1732,0.765,0.235
+Model,102,SF,3,England,Switzerland,0.1082,0.7366,0.2634
+Model,103,3rd,1,England,France,0.2028,0.2825,0.7175
+Model,103,3rd,2,England,Spain,0.1864,0.258,0.742
+Model,103,3rd,3,Argentina,France,0.1288,0.4146,0.5854
+Model,104,F,1,Argentina,Spain,0.3024,0.3985,0.6015
+Model,104,F,2,Argentina,France,0.2767,0.4221,0.5779
+Model,104,F,3,England,Spain,0.1415,0.2516,0.7484
 Elo,73,R32,1,Canada,South Africa,1.0,1.0,0.0
 Elo,74,R32,1,Germany,Paraguay,1.0,0.0,1.0
 Elo,75,R32,1,Morocco,Netherlands,1.0,1.0,0.0
@@ -57,26 +57,26 @@ Elo,88,R32,1,Australia,Egypt,1.0,0.0,1.0
 Elo,89,R16,1,France,Paraguay,1.0,1.0,0.0
 Elo,90,R16,1,Canada,Morocco,1.0,0.0,1.0
 Elo,91,R16,1,Brazil,Norway,1.0,0.0,1.0
-Elo,92,R16,1,England,Mexico,1.0,0.4959,0.5041
+Elo,92,R16,1,England,Mexico,1.0,0.5442,0.4558
 Elo,93,R16,1,Portugal,Spain,1.0,0.0,1.0
 Elo,94,R16,1,Belgium,United States,1.0,1.0,0.0
 Elo,95,R16,1,Argentina,Egypt,1.0,1.0,0.0
 Elo,96,R16,1,Colombia,Switzerland,1.0,0.0,1.0
 Elo,97,QF,1,France,Morocco,1.0,1.0,0.0
 Elo,98,QF,1,Belgium,Spain,1.0,0.0,1.0
-Elo,99,QF,1,Mexico,Norway,0.5041,0.6673,0.3327
-Elo,99,QF,2,England,Norway,0.4959,0.6443,0.3557
-Elo,100,QF,1,Argentina,Switzerland,1.0,0.8101,0.1899
-Elo,101,SF,1,France,Spain,1.0,0.452,0.548
-Elo,102,SF,1,Argentina,Norway,0.2766,0.8207,0.1793
-Elo,102,SF,2,Argentina,Mexico,0.2706,0.6929,0.3071
-Elo,102,SF,3,Argentina,England,0.2629,0.7204,0.2796
-Elo,103,3rd,1,France,Norway,0.1465,0.8341,0.1659
-Elo,103,3rd,2,France,Mexico,0.1182,0.742,0.258
-Elo,103,3rd,3,Norway,Spain,0.1164,0.1478,0.8522
-Elo,104,F,1,Argentina,Spain,0.3322,0.4308,0.5692
-Elo,104,F,2,Argentina,France,0.2717,0.4556,0.5444
-Elo,104,F,3,Mexico,Spain,0.0666,0.2042,0.7958
+Elo,99,QF,1,England,Norway,0.5442,1.0,0.0
+Elo,99,QF,2,Mexico,Norway,0.4558,0.7071,0.2929
+Elo,100,QF,1,Argentina,Switzerland,1.0,0.8015,0.1985
+Elo,101,SF,1,France,Spain,1.0,0.4549,0.5451
+Elo,102,SF,1,Argentina,England,0.4318,0.6686,0.3314
+Elo,102,SF,2,Argentina,Mexico,0.2635,0.7082,0.2918
+Elo,102,SF,3,England,Switzerland,0.1124,0.6726,0.3274
+Elo,103,3rd,1,England,France,0.175,0.2783,0.7217
+Elo,103,3rd,2,England,Spain,0.1505,0.2425,0.7575
+Elo,103,3rd,3,Argentina,France,0.1277,0.4667,0.5333
+Elo,104,F,1,Argentina,Spain,0.3106,0.4012,0.5988
+Elo,104,F,2,Argentina,France,0.2548,0.4686,0.5314
+Elo,104,F,3,England,Spain,0.1198,0.2679,0.7321
 Squad value,73,R32,1,Canada,South Africa,1.0,1.0,0.0
 Squad value,74,R32,1,Germany,Paraguay,1.0,0.0,1.0
 Squad value,75,R32,1,Morocco,Netherlands,1.0,1.0,0.0
@@ -96,26 +96,26 @@ Squad value,88,R32,1,Australia,Egypt,1.0,0.0,1.0
 Squad value,89,R16,1,France,Paraguay,1.0,1.0,0.0
 Squad value,90,R16,1,Canada,Morocco,1.0,0.0,1.0
 Squad value,91,R16,1,Brazil,Norway,1.0,0.0,1.0
-Squad value,92,R16,1,England,Mexico,1.0,0.8233,0.1767
+Squad value,92,R16,1,England,Mexico,1.0,0.8205,0.1795
 Squad value,93,R16,1,Portugal,Spain,1.0,0.0,1.0
 Squad value,94,R16,1,Belgium,United States,1.0,1.0,0.0
 Squad value,95,R16,1,Argentina,Egypt,1.0,1.0,0.0
 Squad value,96,R16,1,Colombia,Switzerland,1.0,0.0,1.0
 Squad value,97,QF,1,France,Morocco,1.0,1.0,0.0
 Squad value,98,QF,1,Belgium,Spain,1.0,0.0,1.0
-Squad value,99,QF,1,England,Norway,0.8233,0.7325,0.2675
-Squad value,99,QF,2,Mexico,Norway,0.1767,0.3458,0.6542
-Squad value,100,QF,1,Argentina,Switzerland,1.0,0.7427,0.2573
-Squad value,101,SF,1,France,Spain,1.0,0.5822,0.4178
-Squad value,102,SF,1,Argentina,England,0.452,0.3407,0.6593
-Squad value,102,SF,2,Argentina,Norway,0.2456,0.6091,0.3909
-Squad value,102,SF,3,England,Switzerland,0.1511,0.8564,0.1436
-Squad value,103,3rd,1,Argentina,Spain,0.2382,0.3741,0.6259
-Squad value,103,3rd,2,Argentina,France,0.167,0.318,0.682
-Squad value,103,3rd,3,Spain,Switzerland,0.1136,0.8213,0.1787
-Squad value,104,F,1,England,France,0.251,0.4622,0.5378
-Squad value,104,F,2,Argentina,France,0.1942,0.3059,0.6941
-Squad value,104,F,3,England,Spain,0.1764,0.5573,0.4427
+Squad value,99,QF,1,England,Norway,0.8205,1.0,0.0
+Squad value,99,QF,2,Mexico,Norway,0.1795,0.3554,0.6446
+Squad value,100,QF,1,Argentina,Switzerland,1.0,0.7428,0.2572
+Squad value,101,SF,1,France,Spain,1.0,0.5733,0.4267
+Squad value,102,SF,1,Argentina,England,0.6109,0.3356,0.6644
+Squad value,102,SF,2,England,Switzerland,0.2096,0.8526,0.1474
+Squad value,102,SF,3,Argentina,Norway,0.0849,0.6007,0.3993
+Squad value,103,3rd,1,Argentina,Spain,0.2601,0.3856,0.6144
+Squad value,103,3rd,2,Argentina,France,0.1933,0.3094,0.6906
+Squad value,103,3rd,3,England,Spain,0.1362,0.5565,0.4435
+Squad value,104,F,1,England,France,0.3356,0.4735,0.5265
+Squad value,104,F,2,England,Spain,0.249,0.541,0.459
+Squad value,104,F,3,Argentina,France,0.1662,0.29,0.71
 FIFA ranking,73,R32,1,Canada,South Africa,1.0,1.0,0.0
 FIFA ranking,74,R32,1,Germany,Paraguay,1.0,0.0,1.0
 FIFA ranking,75,R32,1,Morocco,Netherlands,1.0,1.0,0.0
@@ -135,23 +135,23 @@ FIFA ranking,88,R32,1,Australia,Egypt,1.0,0.0,1.0
 FIFA ranking,89,R16,1,France,Paraguay,1.0,1.0,0.0
 FIFA ranking,90,R16,1,Canada,Morocco,1.0,0.0,1.0
 FIFA ranking,91,R16,1,Brazil,Norway,1.0,0.0,1.0
-FIFA ranking,92,R16,1,England,Mexico,1.0,0.6492,0.3508
+FIFA ranking,92,R16,1,England,Mexico,1.0,0.6472,0.3528
 FIFA ranking,93,R16,1,Portugal,Spain,1.0,0.0,1.0
 FIFA ranking,94,R16,1,Belgium,United States,1.0,1.0,0.0
 FIFA ranking,95,R16,1,Argentina,Egypt,1.0,1.0,0.0
 FIFA ranking,96,R16,1,Colombia,Switzerland,1.0,0.0,1.0
 FIFA ranking,97,QF,1,France,Morocco,1.0,1.0,0.0
 FIFA ranking,98,QF,1,Belgium,Spain,1.0,0.0,1.0
-FIFA ranking,99,QF,1,England,Norway,0.6492,0.9285,0.0715
-FIFA ranking,99,QF,2,Mexico,Norway,0.3508,0.8746,0.1254
-FIFA ranking,100,QF,1,Argentina,Switzerland,1.0,0.892,0.108
-FIFA ranking,101,SF,1,France,Spain,1.0,0.4978,0.5022
-FIFA ranking,102,SF,1,Argentina,England,0.5353,0.6047,0.3953
-FIFA ranking,102,SF,2,Argentina,Mexico,0.2747,0.7368,0.2632
-FIFA ranking,102,SF,3,Argentina,Norway,0.082,0.9488,0.0512
-FIFA ranking,103,3rd,1,England,France,0.1686,0.3452,0.6548
-FIFA ranking,103,3rd,2,England,Spain,0.1647,0.3685,0.6315
-FIFA ranking,103,3rd,3,Argentina,Spain,0.1442,0.5007,0.4993
-FIFA ranking,104,F,1,Argentina,Spain,0.304,0.4908,0.5092
-FIFA ranking,104,F,2,Argentina,France,0.2999,0.4985,0.5015
-FIFA ranking,104,F,3,England,Spain,0.137,0.3635,0.6365
+FIFA ranking,99,QF,1,England,Norway,0.6472,1.0,0.0
+FIFA ranking,99,QF,2,Mexico,Norway,0.3528,0.8798,0.1202
+FIFA ranking,100,QF,1,Argentina,Switzerland,1.0,0.8944,0.1056
+FIFA ranking,101,SF,1,France,Spain,1.0,0.5016,0.4984
+FIFA ranking,102,SF,1,Argentina,England,0.5779,0.6191,0.3809
+FIFA ranking,102,SF,2,Argentina,Mexico,0.2788,0.7464,0.2536
+FIFA ranking,102,SF,3,England,Switzerland,0.0693,0.8716,0.1284
+FIFA ranking,103,3rd,1,England,Spain,0.1839,0.3687,0.6313
+FIFA ranking,103,3rd,2,England,France,0.1828,0.3616,0.6384
+FIFA ranking,103,3rd,3,Argentina,Spain,0.1474,0.4837,0.5163
+FIFA ranking,104,F,1,Argentina,Spain,0.3007,0.5058,0.4942
+FIFA ranking,104,F,2,Argentina,France,0.3004,0.5037,0.4963
+FIFA ranking,104,F,3,England,France,0.1431,0.3948,0.6052
