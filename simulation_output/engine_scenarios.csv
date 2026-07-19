@@ -27,7 +27,7 @@ Model,Belgium,G,100.0,100.0,100.0,0.0,3,1,1,1
 Model,Egypt,G,100.0,0.0,0.0,0.0,3,1,9,13
 Model,Iran,G,0.0,0.0,0.0,0.0,3,33,9,13
 Model,New Zealand,G,0.0,0.0,0.0,0.0,3,33,9,13
-Model,Spain,H,100.0,100.0,100.0,59.36,1,1,1,1
+Model,Spain,H,100.0,100.0,100.0,60.59,1,1,1,1
 Model,Cape Verde,H,100.0,0.0,0.0,0.0,3,1,9,13
 Model,Saudi Arabia,H,0.0,0.0,0.0,0.0,3,33,9,13
 Model,Uruguay,H,0.0,0.0,0.0,0.0,3,33,9,13
@@ -35,7 +35,7 @@ Model,France,I,100.0,100.0,100.0,0.0,3,1,1,1
 Model,Senegal,I,100.0,0.0,0.0,0.0,3,1,9,13
 Model,Iraq,I,0.0,0.0,0.0,0.0,3,33,9,13
 Model,Norway,I,100.0,0.0,100.0,0.0,3,1,1,13
-Model,Argentina,J,100.0,100.0,100.0,40.64,2,1,1,1
+Model,Argentina,J,100.0,100.0,100.0,39.41,2,1,1,1
 Model,Algeria,J,100.0,0.0,0.0,0.0,3,1,9,13
 Model,Austria,J,100.0,0.0,0.0,0.0,3,1,9,13
 Model,Jordan,J,0.0,0.0,0.0,0.0,3,33,9,13
@@ -75,7 +75,7 @@ Elo,Belgium,G,100.0,100.0,100.0,0.0,3,1,1,1
 Elo,Egypt,G,100.0,0.0,0.0,0.0,3,1,9,13
 Elo,Iran,G,0.0,0.0,0.0,0.0,3,33,9,13
 Elo,New Zealand,G,0.0,0.0,0.0,0.0,3,33,9,13
-Elo,Spain,H,100.0,100.0,100.0,56.45,1,1,1,1
+Elo,Spain,H,100.0,100.0,100.0,56.99,1,1,1,1
 Elo,Cape Verde,H,100.0,0.0,0.0,0.0,3,1,9,13
 Elo,Saudi Arabia,H,0.0,0.0,0.0,0.0,3,33,9,13
 Elo,Uruguay,H,0.0,0.0,0.0,0.0,3,33,9,13
@@ -83,7 +83,7 @@ Elo,France,I,100.0,100.0,100.0,0.0,3,1,1,1
 Elo,Senegal,I,100.0,0.0,0.0,0.0,3,1,9,13
 Elo,Iraq,I,0.0,0.0,0.0,0.0,3,33,9,13
 Elo,Norway,I,100.0,0.0,100.0,0.0,3,1,1,13
-Elo,Argentina,J,100.0,100.0,100.0,43.55,2,1,1,1
+Elo,Argentina,J,100.0,100.0,100.0,43.01,2,1,1,1
 Elo,Algeria,J,100.0,0.0,0.0,0.0,3,1,9,13
 Elo,Austria,J,100.0,0.0,0.0,0.0,3,1,9,13
 Elo,Jordan,J,0.0,0.0,0.0,0.0,3,33,9,13
@@ -123,7 +123,7 @@ Squad value,Belgium,G,100.0,100.0,100.0,0.0,3,1,1,1
 Squad value,Egypt,G,100.0,0.0,0.0,0.0,3,1,9,13
 Squad value,Iran,G,0.0,0.0,0.0,0.0,3,33,9,13
 Squad value,New Zealand,G,0.0,0.0,0.0,0.0,3,33,9,13
-Squad value,Spain,H,100.0,100.0,100.0,62.31,1,1,1,1
+Squad value,Spain,H,100.0,100.0,100.0,63.37,1,1,1,1
 Squad value,Cape Verde,H,100.0,0.0,0.0,0.0,3,1,9,13
 Squad value,Saudi Arabia,H,0.0,0.0,0.0,0.0,3,33,9,13
 Squad value,Uruguay,H,0.0,0.0,0.0,0.0,3,33,9,13
@@ -131,7 +131,7 @@ Squad value,France,I,100.0,100.0,100.0,0.0,3,1,1,1
 Squad value,Senegal,I,100.0,0.0,0.0,0.0,3,1,9,13
 Squad value,Iraq,I,0.0,0.0,0.0,0.0,3,33,9,13
 Squad value,Norway,I,100.0,0.0,100.0,0.0,3,1,1,13
-Squad value,Argentina,J,100.0,100.0,100.0,37.69,2,1,1,1
+Squad value,Argentina,J,100.0,100.0,100.0,36.63,2,1,1,1
 Squad value,Algeria,J,100.0,0.0,0.0,0.0,3,1,9,13
 Squad value,Austria,J,100.0,0.0,0.0,0.0,3,1,9,13
 Squad value,Jordan,J,0.0,0.0,0.0,0.0,3,33,9,13
@@ -171,7 +171,7 @@ FIFA ranking,Belgium,G,100.0,100.0,100.0,0.0,3,1,1,1
 FIFA ranking,Egypt,G,100.0,0.0,0.0,0.0,3,1,9,13
 FIFA ranking,Iran,G,0.0,0.0,0.0,0.0,3,33,9,13
 FIFA ranking,New Zealand,G,0.0,0.0,0.0,0.0,3,33,9,13
-FIFA ranking,Spain,H,100.0,100.0,100.0,49.27,2,1,1,1
+FIFA ranking,Spain,H,100.0,100.0,100.0,50.85,1,1,1,1
 FIFA ranking,Cape Verde,H,100.0,0.0,0.0,0.0,3,1,9,13
 FIFA ranking,Saudi Arabia,H,0.0,0.0,0.0,0.0,3,33,9,13
 FIFA ranking,Uruguay,H,0.0,0.0,0.0,0.0,3,33,9,13
@@ -179,7 +179,7 @@ FIFA ranking,France,I,100.0,100.0,100.0,0.0,3,1,1,1
 FIFA ranking,Senegal,I,100.0,0.0,0.0,0.0,3,1,9,13
 FIFA ranking,Iraq,I,0.0,0.0,0.0,0.0,3,33,9,13
 FIFA ranking,Norway,I,100.0,0.0,100.0,0.0,3,1,1,13
-FIFA ranking,Argentina,J,100.0,100.0,100.0,50.73,1,1,1,1
+FIFA ranking,Argentina,J,100.0,100.0,100.0,49.15,2,1,1,1
 FIFA ranking,Algeria,J,100.0,0.0,0.0,0.0,3,1,9,13
 FIFA ranking,Austria,J,100.0,0.0,0.0,0.0,3,1,9,13
 FIFA ranking,Jordan,J,0.0,0.0,0.0,0.0,3,33,9,13

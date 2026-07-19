@@ -1,6 +1,6 @@
 title_rank,team,group,confederation,elo,p_qualify,p_reach_r16,p_reach_qf,p_reach_sf,p_reach_final,p_win_title,p_third_place
-1,Spain,H,UEFA,2299,1.0,1.0,1.0,1.0,1.0,0.5936,0.0
-2,Argentina,J,CONMEBOL,2251,1.0,1.0,1.0,1.0,1.0,0.4064,0.0
+1,Spain,H,UEFA,2299,1.0,1.0,1.0,1.0,1.0,0.6059,0.0
+2,Argentina,J,CONMEBOL,2251,1.0,1.0,1.0,1.0,1.0,0.3941,0.0
 3,Mexico,A,CONCACAF,1917,1.0,1.0,0.0,0.0,0.0,0.0,0.0
 4,South Africa,A,CAF,1520,1.0,0.0,0.0,0.0,0.0,0.0,0.0
 5,South Korea,A,AFC,1714,0.0,0.0,0.0,0.0,0.0,0.0,0.0
@@ -32,7 +32,7 @@ title_rank,team,group,confederation,elo,p_qualify,p_reach_r16,p_reach_qf,p_reach
 31,Cape Verde,H,CAF,1577,1.0,0.0,0.0,0.0,0.0,0.0,0.0
 32,Saudi Arabia,H,AFC,1538,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 33,Uruguay,H,CONMEBOL,1863,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-34,France,I,UEFA,2204,1.0,1.0,1.0,1.0,0.0,0.0,0.6417
+34,France,I,UEFA,2150,1.0,1.0,1.0,1.0,0.0,0.0,0.0
 35,Senegal,I,CAF,1870,1.0,0.0,0.0,0.0,0.0,0.0,0.0
 36,Iraq,I,AFC,1473,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 37,Norway,I,UEFA,1984,1.0,1.0,1.0,0.0,0.0,0.0,0.0
@@ -43,7 +43,7 @@ title_rank,team,group,confederation,elo,p_qualify,p_reach_r16,p_reach_qf,p_reach
 42,DR Congo,K,CAF,1700,1.0,0.0,0.0,0.0,0.0,0.0,0.0
 43,Uzbekistan,K,AFC,1589,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 44,Colombia,K,CONMEBOL,1989,1.0,1.0,0.0,0.0,0.0,0.0,0.0
-45,England,L,UEFA,2135,1.0,1.0,1.0,1.0,0.0,0.0,0.3583
+45,England,L,UEFA,2188,1.0,1.0,1.0,1.0,0.0,0.0,1.0
 46,Croatia,L,UEFA,1904,1.0,0.0,0.0,0.0,0.0,0.0,0.0
 47,Ghana,L,CAF,1577,1.0,0.0,0.0,0.0,0.0,0.0,0.0
 48,Panama,L,CONCACAF,1604,0.0,0.0,0.0,0.0,0.0,0.0,0.0
